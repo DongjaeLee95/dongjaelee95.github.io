@@ -5,7 +5,7 @@ header:
 conference: Diploma Thesis
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/Straub12VisualLocalizationBasedOnBinaryFeatures.pdf
+   link: /download/Straub12VisualLocalizationBasedOnBinaryFeatures.pdf
    name: "Thesis"
  - bibtex: 
    name: "Bibtex"
@@ -13,7 +13,7 @@ links:
    link: https://github.com/jstraub/ptamRosBinaryFeatureRelocalization
    name: "Code"
 ---
-
+{% include base_path %}
 Recently, Google, Microsoft and several start-ups have started to
 launch services for indoor maps. Due to its potentially high
 localization accuracy and its independence from hardware installations,
@@ -57,7 +57,7 @@ I wrote my thesis in the [NAVVIS](http://navvis.de/) group of the [Institute for
   year = {2012},
   address = {M{"u}nchen},
   url =
-  {http://www.jstraub.de/download/straub2012diplomathesis.pdf}
+  { {{ base_path }}/download/straub2012diplomathesis.pdf}
 }
 ```
 

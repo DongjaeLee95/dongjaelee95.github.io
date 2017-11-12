@@ -1,12 +1,12 @@
 ---
 layout: single
-title: Bayesian Inference with the von-Mises-Fisher Distribution in 3D
+title: Bayesian Inference with the von-Mises-Fisher Distribution
 header:
   teaser: pub/vMF3D_teaser.png
 conference: Writeup
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2017vonMisesFisherInference.pdf
+   link: /download/straub2017vonMisesFisherInference.pdf
    name: "Writeup"
 ---
 

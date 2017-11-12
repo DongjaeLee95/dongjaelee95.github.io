@@ -5,7 +5,7 @@ header:
 conference: Bachelor Thesis
 links: 
  - paper: 
-   link: http://www.jstraub.de/bachelor-thesis-pedestrian-indoor-localization-tracking-particle-filter-combined-learning-accessibility-map/
+   link: /download/Straub10PedestrianLocalization.pdf
    name: "Thesis"
  - bibtex: 
    name: "Bibtex"

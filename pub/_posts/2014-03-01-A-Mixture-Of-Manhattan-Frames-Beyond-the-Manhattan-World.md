@@ -5,10 +5,10 @@ header:
 conference: CVPR
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2014mmf.pdf
+   link: /download/straub2014mmf.pdf
    name: "Paper"
  - supplement: 
-   link: http://www.jstraub.de/download/straub2014mmf_supplemental.pdf
+   link: /download/straub2014mmf_supplemental.pdf
    name: "Supplement"
  - bibtex: 
    name: "Bibtex"
@@ -19,7 +19,7 @@ links:
    link: http://techtalks.tv/talks/a-mixture-of-manhattan-frames-beyond-the-manhattan-world/60355/
    name: "Talk"
  - slides: 
-   link: http://www.jstraub.de/download/jstraub_2014_CVPR_slides.pdf
+   link: /download/jstraub_2014_CVPR_slides.pdf
    name: "Slides"
  - code: 
    link: /mmf-code/index.php
@@ -91,6 +91,6 @@ which can be found
   title = {A Mixture of Manhattan Frames: Beyond the Manhattan World},
   year = {2014},
   booktitle ={CVPR},
-  url ={http://www.jstraub.de/download/straub2014mmf.pdf}
+  url ={ {{ base_path }}/download/straub2014mmf.pdf}
 }
 ```

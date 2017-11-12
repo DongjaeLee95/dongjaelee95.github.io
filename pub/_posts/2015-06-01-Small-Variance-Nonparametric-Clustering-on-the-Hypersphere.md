@@ -5,13 +5,13 @@ header:
 conference: ICCV
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2015ddpvmf_web.pdf
+   link: /download/straub2015ddpvmf_web.pdf
    name: "Paper"
  - supplement: 
-   link: http://www.jstraub.de/download/straub2015ddpvmf_supp.pdf
+   link: /download/straub2015ddpvmf_supp.pdf
    name: "Supplement"
  - abstract: 
-   link: http://www.jstraub.de/download/straub2015ddpvmf_extAbst.pdf
+   link: /download/straub2015ddpvmf_extAbst.pdf
    name: "Ext. Abstract"
  - bibtex: 
    name: "Bibtex"
@@ -19,10 +19,10 @@ links:
    link: https://youtu.be/wLP18q80oAE
    name: "Video"
  - talk: 
-   link: http://www.jstraub.de/download/straub2015ddpvmf_poster.pdf
+   link: /download/straub2015ddpvmf_poster.pdf
    name: "Poster"
  - slides: 
-   link: http://www.jstraub.de/download/straub2015ddpvmf_slides.pdf
+   link: /download/straub2015ddpvmf_slides.pdf
    name: "Slides"
  - code: 
    link: https://github.com/jstraub/dpMMlowVar
@@ -123,7 +123,7 @@ across the whole run.
    title = {Small-Variance Nonparametric Clustering on the Hypersphere},
    year = {2015},
    booktitle = {CVPR},
-   url = {http://www.jstraub.de/download/straub2015ddpvmf.pdf}
+   url = { {{ base_path }}/download/straub2015ddpvmf.pdf}
 }
 ```
 
