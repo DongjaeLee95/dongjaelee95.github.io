@@ -5,7 +5,7 @@ header:
 conference: arxiv
 links: 
  - paper: 
-   link: 
+   link: https://arxiv.org/abs/1709.05774 
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
@@ -42,7 +42,8 @@ tracking efficiency at state of the art performance.
   author = {Straub, Julian and Cabezas, Randi and Leonard, John and Fisher III, John W.},
   title = {Direction-Aware Semi-Dense SLAM},
   year = {2017},
-  booktitle ={arxiv}
+  booktitle ={arxiv},
+  url={https://arxiv.org/abs/1709.05774}
 }
 ```
 

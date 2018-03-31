@@ -37,9 +37,11 @@ feature_row_robots:
     title: "Holomove"
     #excerpt: "Holomove has a holonomic drive, designed to allow movement in any direction without having to rotate."
 ---
-In fall 2012, I joined [MIT](http://www.mit.edu/) to pursue a **PhD in
-Computer Science**. Within the [CS and AI Laboratory (CSAIL)](http://www.csail.mit.edu/), I am
-working with [John W. Fisher III](http://people.csail.mit.edu/fisher/)
+I am excited to continue to develop artificial 3D perception systems at Oculus Research.
+In spring 2017, I defended my PhD thesis on [Nonparametric Directional Perception]({{ base_path }}/pub/_posts/2017-05-17-Nonparametric-Directional-Perception.md). 
+My advisers at [MIT](http://www.mit.edu/) 
+within the [CS and AI Laboratory (CSAIL)](http://www.csail.mit.edu/)
+were [John W. Fisher III](http://people.csail.mit.edu/fisher/)
 and [John Leonard](http://groups.csail.mit.edu/marine/wiki/index.php?title=Main_Page#Prof_John_J_Leonard).
 On my way to MIT, I graduated from the [Technische Universität München (TUM)](http://www.tum.de) with a Diplom and the [Georgia Institute of Technology](http://www.gatech.edu/) with a
 M.Sc. 
