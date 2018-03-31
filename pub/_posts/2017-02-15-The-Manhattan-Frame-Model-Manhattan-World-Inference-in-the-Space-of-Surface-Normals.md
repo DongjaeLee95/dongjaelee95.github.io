@@ -19,7 +19,7 @@ links:
    link: /_pages/nyu-mmf-dataset/
    name: "Dataset"
 ---
-
+{% include base_path %}
 Objects and structures within man-made environments typically exhibit a
 high degree of organization in the form of orthogonal and parallel
 planes. Traditional approaches utilize these regularities via the
@@ -65,7 +65,7 @@ which can be found
   title = {The Manhattan Frame Model---Manhattan World Inference in the Space of Surface Normals},
   year = {2017},
   booktitle ={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-  url ={http://www.jstraub.de/download/straub2017manhattan.pdf}
+  url ={ {{ base_path }}/download/straub2017manhattan.pdf}
 }
 ```
 

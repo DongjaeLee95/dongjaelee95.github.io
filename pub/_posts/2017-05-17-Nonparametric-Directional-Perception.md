@@ -5,10 +5,10 @@ header:
 conference: PhD Thesis
 links: 
  - paper: 
-   link: http://people.csail.mit.edu/jstraub/download/straub2017phdthesis.pdf
+   link: /download/straub2017phdthesis.pdf
    name: "PhD Thesis (high res.)"
  - slides: 
-   link: http://people.csail.mit.edu/jstraub/download/straub2017phdthesis_lowRes.pdf
+   link: /download/straub2017phdthesis_lowRes.pdf
    name: "PhD Thesis (low res.)"
  - bibtex: 
    name: "Bibtex"

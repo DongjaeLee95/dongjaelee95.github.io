@@ -11,7 +11,9 @@ title                    : "Julian Straub"
 title_separator          : "-"
 name                     : "Julian Straub"
 description              : "developing artificial 3D perception"
-url                      : "http://people.csail.mit.edu/jstraub" #"http://localhost:4000" #"https://jstraub.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+#url                      : "http://localhost:4000" 
+url                      : "http://people.csail.mit.edu/jstraub" 
+#url                      : "http://people.csail.mit.edu/jstraub" #"http://localhost:4000" #"https://jstraub.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -237,7 +239,7 @@ defaults:
       type: "posts"
     values:
       layout: "single"
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -248,7 +250,7 @@ defaults:
       type: "posts"
     values:
       layout: "single"
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true

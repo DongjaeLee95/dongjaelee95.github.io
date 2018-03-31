@@ -5,15 +5,15 @@ header:
 conference: AISTAS
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2015dptgmm.pdf
+   link: /download/straub2015dptgmm.pdf
    name: "Paper"
  - supplement: 
-   link: http://www.jstraub.de/download/straub2015dptgmm-supp.pdf
+   link: /download/straub2015dptgmm-supp.pdf
    name: "Supplement"
  - bibtex: 
    name: "Bibtex"
  - slides: 
-   link: http://www.jstraub.de/download/jstraub2015aistatsDPTGMM_slides.pdf
+   link: /download/jstraub2015aistatsDPTGMM_slides.pdf
    name: "Slides"
  - code: 
    link: https://github.com/jstraub/dpMM
@@ -114,7 +114,7 @@ depth data.
   title = {A Dirichlet Process Mixture Model for Spherical Data},
   year = {2015},
   booktitle = {AISTATS},
-  url = {http://www.jstraub.de/download/straub2015dptgmm.pdf}
+  url = { {{ base_path }}/download/straub2015dptgmm.pdf}
 }
 ```
 

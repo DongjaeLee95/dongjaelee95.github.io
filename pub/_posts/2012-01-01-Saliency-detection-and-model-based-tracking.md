@@ -5,7 +5,7 @@ header:
 conference: SPIE
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/roberts2012saliency.pdf
+   link: /download/roberts2012saliency.pdf
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
@@ -27,6 +27,8 @@ that make full map and trajectory smoothing possible. We demonstrate results
 with data from a small, commercially-available quad-rotor flying in a
 challenging, forested environment.
 
+{% include base_path %}
+
 ## Bibtex <a id="bibtex"></a>
 ```
 @article{roberts2012saliency,
@@ -36,7 +38,7 @@ challenging, forested environment.
   volume={8387},
   pages={83870S--1},
   year={2012},
-  url = {http://www.jstraub.de/download/roberts2012saliency.pdf}
+  url = { {{ base_path }}/download/roberts2012saliency.pdf}
 }
 ```
 

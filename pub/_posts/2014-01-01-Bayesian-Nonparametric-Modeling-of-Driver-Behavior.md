@@ -5,12 +5,12 @@ header:
 conference: IVS
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2014driver.pdf
+   link: /download/straub2014driver.pdf
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
 ---
-
+{% include base_path %}
 Modern vehicles are equipped with increasingly complex sensors. These
 sensors generate large volumes of data that provide opportunities for
 modeling and analysis. Here, we are interested in exploiting this data
@@ -37,7 +37,7 @@ as likely road conditions.
   title = {Bayesian Nonparametric Modeling of Driver Behavior},
   year = {2014},
   booktitle ={IEEE Intelligent Vehicles Symposium},
-  url ={http://www.jstraub.de/download/straub2014driver.pdf}
+  url ={ {{ base_path }}/download/straub2014driver.pdf}
 }
 ```
 

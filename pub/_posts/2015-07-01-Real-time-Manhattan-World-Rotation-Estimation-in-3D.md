@@ -5,7 +5,7 @@ header:
 conference: IROS
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2015rtmf_web.pdf
+   link: /download/straub2015rtmf_web.pdf
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
@@ -13,7 +13,7 @@ links:
    link: https://youtu.be/5pFEEquUYd8
    name: "Video"
  - slides: 
-   link: http://www.jstraub.de/download/straub2015rtmf_slides.pdf
+   link: /download/straub2015rtmf_slides.pdf
    name: "Slides"
  - code: 
    link: https://github.com/jstraub/rtmf
@@ -22,6 +22,7 @@ links:
    link: /_pages/nyu-mmf-dataset/
    name: "Dataset"
 ---
+{% include base_path %}
 We propose three novel algorithms to estimate the full 3D rotation to
 the surrounding Manhattan World (MW) in as short as 20ms using
 surface-normals derived from the depth channel of a RGB-D camera.
@@ -39,7 +40,7 @@ inertial measurement unit (IMU), and thus remove its angular drift.
   year = {2015},
   booktitle = {IROS},
   url =
-  {http://www.jstraub.de/download/straub2015rtmf.pdf}
+  { {{ base_path }}/download/straub2015rtmf.pdf}
 }
 ```
 

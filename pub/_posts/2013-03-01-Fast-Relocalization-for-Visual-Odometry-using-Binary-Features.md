@@ -5,7 +5,7 @@ header:
 conference: ICIP
 links: 
  - paper: 
-   link: http://www.jstraub.de/download/straub2013fastRelocalization.pdf
+   link: /download/straub2013fastRelocalization.pdf
    name: "Paper"
  - bibtex: 
    name: "Bibtex"
@@ -13,7 +13,7 @@ links:
    link: https://github.com/jstraub/ptamRosBinaryFeatureRelocalization
    name: "Code"
 ---
-
+{% include base_path %}
 State-of-the-art visual odometry algorithms achieve remarkable efficiency and
 accuracy. Under realistic conditions, however, tracking failures are inevitable
 and to continue tracking, a recovery strategy is required. In this paper, we
@@ -32,7 +32,7 @@ Locality Sensitive Hashing.
   month = {Sep},
   year = {2013},
   address = {Melbourne, Australia},
-  url = {http://www.jstraub.de/download/straub2013fastRelocalization.pdf}
+  url = { {{ base_path }}/download/straub2013fastRelocalization.pdf}
 }
 ```
 
