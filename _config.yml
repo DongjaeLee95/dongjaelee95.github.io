@@ -81,23 +81,23 @@ analytics:
 author:
   name             : "Julian Straub"
   avatar           : "JulianStraub_csail_S.jpg"
-  bio              : "developing artificial 3D perception"
-  location         : "MIT"
+  bio              : "developing artificial 3D perception systems"
+  location         : "Oculus Research"
   email            : "jstraub@csail.mit.edu"
   uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "130351586@N05"
-  facebook         : "jstraub6" 
+  flickr           : #"130351586@N05"
+  facebook         : #"jstraub6" 
   foursquare       :
   github           : "jstraub"
-  google_plus      : "jstraub6"
+  google_plus      : #"jstraub6"
   google_scholar   : "49_cCT8AAAAJ"
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "julian-straub-56b70029"
+  linkedin         : #"julian-straub-56b70029"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -107,7 +107,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "jstraub6"
+  youtube          : #"jstraub6"
   resume           : "JulianStraub_Resume.pdf"
   cv               : "JulianStraub_CV.pdf"
 
