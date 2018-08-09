@@ -39,19 +39,14 @@ feature_row_robots:
 ---
 {% include base_path %}
 
-I am excited to continue to **develop artificial 3D perception systems** at
-[Oculus Research](https://www.oculus.com/research/). You can find more
-information about Oculus Research and my group under Richard
-Newcombe [in this excellent blog post by Michael
-Abrash](https://www.oculus.com/blog/inventing-the-future/). A short
-excerpt from the post sums it up:
-
-*"Machine perception fuses various tracking systems, simultaneous
-localization and mapping (SLAM), machine learning, distributed
-networks, databases, and AI into systems that can build and maintain a
-dynamic model of the world, enabling personalized, contextual AI that
-can start to understand the parts of the world that matter to
-you—exactly what AR glasses will need in order to make you smarter."*
+I am excited to **develop artificial 3D perception systems** at
+[Facebook Reality Labs](https://www.oculus.com/research/). 
+Surreal, my team at Facebook Reality Labs, is growing and we have open roles for
+Research Scientists, Research Engineers and Software Engineers. We are focused
+on formulating a new generation of end-to-end real-time 3D scene understanding
+systems working across novel mobile sensor design, sensor fusion, state
+estimation, computer vision, large-scale reconstruction and localization, as
+well as large-scale machine learning, inference and optimization.
 
 In spring 2017, I defended my PhD thesis on [Nonparametric Directional Perception]({{ base_path }}/pub/Nonparametric-Directional-Perception). 
 My advisers at [MIT](http://www.mit.edu/) 
