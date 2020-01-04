@@ -5,21 +5,21 @@ header:
   overlay_image: robots/knoobot_rightBehind_S.jpg
 excerpt: "developing artificial 3D perception"
 feature_row_pub:
-  - url: /pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/
-    image_path: tumbnails/tn_MMF.png
-    alt: "MMF"
-    title: "MMF"
-    excerpt: "The Mixture of Manhattan Frames (MMF) is a versatile model to capture man-made environments."
-  - url: /pub/Small-Variance-Nonparametric-Clustering-on-the-Hypersphere/
-    image_path: /tumbnails/ddpvmf_tn.png
-    alt: "DPvMF-means"
-    title: "DPvMF-means"
-    excerpt: "Nonparametric clustering algorithms for batch and streaming directional data. GPU-enabled fast inference."
-  - url: /pub/A-Dirichlet-Process-Mixture-Model-for-Spherical-Data/
-    image_path: /tumbnails/dptgmm_tn.png
-    alt: "DP-TGMM"
-    title: "DP-TGMM"
-    excerpt: "Dirichlet process tangent space Gaussian mixture for Bayesian nonparametric inference on directional data."
+  - url: /pub/Nonparametric-Directional-Perception/
+    image_path: /tumbnails/teaserPhDThesis.png
+    alt: "Nonparmetric Directional Perception"
+    title: "PhD Thesis"
+    excerpt: "Nonparmetric Directional Perception captures and uses regularities of man-made environments revealed in their surface normal distribution."
+  - url: /pub/Direction-Aware-Semi-Dense-SLAM/
+    image_path: /tumbnails/teaserDirSLAM.png
+    alt: "Directional SLAM"
+    title: "Dir. SLAM"
+    excerpt: "Directional Stata Center World segmentation regularizes 3D surfel reconstructions and makes camera tracking more efficient."
+  - url: /pub/Efficient-Global-Point-Cloud-Alignment-using-Bayesian-Nonparametric-Mixtures/
+    image_path: https://upload.wikimedia.org/wikipedia/commons/c/c3/Schlegel_wireframe_600-cell_vertex-centered.png
+    alt: "Global Pointcloud Alignment"
+    title: "Alignment"
+    excerpt: "Efficient global pointcloud alignment via nonparametric mixtures and branch-and-bound search over rotation and translation space."
 feature_row_robots:
   - url: /blog/Kno0Bot-for-Roboking-2006/index.html
     image_path: robots/knoobot_rightBehind_S.jpg
@@ -37,9 +37,21 @@ feature_row_robots:
     title: "Holomove"
     #excerpt: "Holomove has a holonomic drive, designed to allow movement in any direction without having to rotate."
 ---
-In fall 2012, I joined [MIT](http://www.mit.edu/) to pursue a **PhD in
-Computer Science**. Within the [CS and AI Laboratory (CSAIL)](http://www.csail.mit.edu/), I am
-working with [John W. Fisher III](http://people.csail.mit.edu/fisher/)
+{% include base_path %}
+
+I am excited to **develop artificial 3D perception systems** at
+[Facebook Reality Labs](https://www.oculus.com/research/). 
+Surreal, my team at Facebook Reality Labs, is growing and we have open roles for
+Research Scientists, Research Engineers and Software Engineers. We are focused
+on formulating a new generation of end-to-end real-time 3D scene understanding
+systems working across novel mobile sensor design, sensor fusion, state
+estimation, computer vision, large-scale reconstruction and localization, as
+well as large-scale machine learning, inference and optimization.
+
+In spring 2017, I defended my PhD thesis on [Nonparametric Directional Perception]({{ base_path }}/pub/Nonparametric-Directional-Perception). 
+My advisers at [MIT](http://www.mit.edu/) 
+within the [CS and AI Laboratory (CSAIL)](http://www.csail.mit.edu/)
+were [John W. Fisher III](http://people.csail.mit.edu/fisher/)
 and [John Leonard](http://groups.csail.mit.edu/marine/wiki/index.php?title=Main_Page#Prof_John_J_Leonard).
 On my way to MIT, I graduated from the [Technische Universität München (TUM)](http://www.tum.de) with a Diplom and the [Georgia Institute of Technology](http://www.gatech.edu/) with a
 M.Sc. 
@@ -47,14 +59,14 @@ M.Sc.
 [comment]: <> (I am very grateful for the many friends, advisors and my family which support me on this journey.)
 [comment]: <> (### developing artificial 3D perception)
 
-My research interests in AI and robotics are in **3D perception** [[1], [3], [4], [8], [9], [10]], 
-**modeling** (directional data [[1], [2]] and Bayesian nonparametrics [[5], [7]]), 
-and **inference** (sampling [[1], [2], [4]], optimization [[6], [7]] 
-and low-variance asymptotics [[3]]).
+My research interests in AI and robotics are in **3D perception** [[1], [3], [4], [8], [9], [10], [11], [12], [13]], 
+**modeling** (directional data [[1], [2], [11], [13]] and Bayesian nonparametrics [[5], [7], [11], [13]]), 
+and **inference** (sampling [[1], [2], [4], [13]], optimization [[6],
+[7]], low-variance asymptotics [[3]], and global search [[11]]). 
 
 {% include feature_row id="feature_row_pub" caption="Featured Publications" %}
 
-My interest in robotics and 3D perception originates from age 15, when
+My interest in robotics and perceiving systems originates from age 15, when
 I got my first micro-processor from my father as a present. Since then
 I have built seven robots ([Plexa], [Plicro], [Roboking2005], [Ca3505],
 [Kno0Bot], [Kno2Bot], [Holomove]) from scratch and worked in multiple teams on
@@ -63,6 +75,9 @@ robotics related projects ([KUKAyouBot], [rEIzor]).
 {% include feature_row id="feature_row_robots" caption="Featured Robots" %}
 
 
+[13]: {{ base_path }}/pub/Direction-Aware-Semi-Dense-SLAM/  "Dir. SLAM"
+[12]: {{ base_path }}/pub/Nonparametric-Directional-Perception/ "PhD Thesis"
+[11]: {{ base_path }}/pub/Efficient-Global-Point-Cloud-Alignment-using-Bayesian-Nonparametric-Mixtures/  "Global Pointcloud Alignment"
 [1]: {{ base_path }}/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/ "MMF"
 [2]: {{ base_path }}/pub/A-Dirichlet-Process-Mixture-Model-for-Spherical-Data/ "DP-TGMM"
 [3]: {{ base_path }}/pub/Small-Variance-Nonparametric-Clustering-on-the-Hypersphere/ "(D)DP-vMF-means"
