@@ -5,16 +5,16 @@ header:
   overlay_image: robots/knoobot_rightBehind_S.jpg
 excerpt: "developing artificial 3D perception"
 feature_row_pub:
+  - url: /pub/DeepSDF-Learning-Continuous-Signed-Distance-Functions-For-Shape-Representation/
+    image_path: /tumbnails/teaserDeepSDF.png
+    alt: "DeepSDF"
+    title: "DeepSDF"
+    excerpt: "Latent representation for continuous signed distance functions to represent 3D shapes."
   - url: /pub/Nonparametric-Directional-Perception/
     image_path: /tumbnails/teaserPhDThesis.png
     alt: "Nonparmetric Directional Perception"
     title: "PhD Thesis"
     excerpt: "Nonparmetric Directional Perception captures and uses regularities of man-made environments revealed in their surface normal distribution."
-  - url: /pub/Direction-Aware-Semi-Dense-SLAM/
-    image_path: /tumbnails/teaserDirSLAM.png
-    alt: "Directional SLAM"
-    title: "Dir. SLAM"
-    excerpt: "Directional Stata Center World segmentation regularizes 3D surfel reconstructions and makes camera tracking more efficient."
   - url: /pub/Efficient-Global-Point-Cloud-Alignment-using-Bayesian-Nonparametric-Mixtures/
     image_path: https://upload.wikimedia.org/wikipedia/commons/c/c3/Schlegel_wireframe_600-cell_vertex-centered.png
     alt: "Global Pointcloud Alignment"
