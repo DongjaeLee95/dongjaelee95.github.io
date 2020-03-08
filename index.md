@@ -40,13 +40,10 @@ feature_row_robots:
 {% include base_path %}
 
 I am excited to **develop artificial 3D perception systems** at
-[Facebook Reality Labs](https://www.oculus.com/research/). 
-Surreal, my team at Facebook Reality Labs, is growing and we have open roles for
-Research Scientists, Research Engineers and Software Engineers. We are focused
-on formulating a new generation of end-to-end real-time 3D scene understanding
-systems working across novel mobile sensor design, sensor fusion, state
-estimation, computer vision, large-scale reconstruction and localization, as
-well as large-scale machine learning, inference and optimization.
+[Facebook Reality Labs](https://www.oculus.com/research/). We are building
+perception and AI systems to create
+[LiveMaps](https://youtu.be/JTa8zn0RNVM) a shared virtual map of spaces to
+support [the next generation of AR](https://tech.fb.com/inside-facebook-reality-labs-research-updates-and-the-future-of-social-connection/).
 
 In spring 2017, I defended my PhD thesis on [Nonparametric Directional Perception]({{ base_path }}/pub/Nonparametric-Directional-Perception). 
 My advisers at [MIT](http://www.mit.edu/) 
