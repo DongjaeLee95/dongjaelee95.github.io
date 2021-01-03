@@ -7,12 +7,12 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Julian Straub"
+title                    : "Dongjae Lee"
 title_separator          : "-"
-name                     : "Julian Straub"
-description              : "developing artificial 3D perception"
-#url                      : "http://localhost:4000" 
-url                      : "http://www.julianstraub.com" 
+name                     : "Dongjae Lee"
+description              : "developing aerial robotics"
+url                      : "http://localhost:4000"
+#url                      : "https://dongjaelee95.github.io" 
 #url                      : "http://people.csail.mit.edu/jstraub" 
 #url                      : "http://people.csail.mit.edu/jstraub" #"http://localhost:4000" #"https://jstraub.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -75,16 +75,16 @@ social:
 analytics:
   provider               : "google" #, "google-universal", "custom"
   google:
-    tracking_id          : "UA-49442816-1"
+    tracking_id          : #"UA-49442816-1"
 
 
 # Site Author
 author:
-  name             : "Julian Straub"
-  avatar           : "JulianStraub_csail_S.jpg"
-  bio              : "developing artificial 3D perception systems"
-  location         : "Facebook Reality Labs"
-  email            : "jstraub@csail.mit.edu"
+  name             : "Dongjae Lee"
+  avatar           : "DJ_gangwondo_3.jpg"
+  bio              : "Ph.D. student in Aerospace Engineering in SNU"
+  location         : "Seoul, South Korea"
+  email            : "ehdwo713@snu.ac.kr"
   uri              : 
   bitbucket        :
   codepen          :
@@ -92,9 +92,9 @@ author:
   flickr           : #"130351586@N05"
   facebook         : #"jstraub6" 
   foursquare       :
-  github           : "jstraub"
+  github           : "DongjaeLee95"
   google_plus      : #"jstraub6"
-  google_scholar   : "49_cCT8AAAAJ"
+  google_scholar   : "bybQkQEAAAAJ"
   keybase          :
   instagram        :
   lastfm           :
@@ -109,8 +109,8 @@ author:
   weibo            :
   xing             :
   youtube          : #"jstraub6"
-  resume           : "JulianStraub_Resume.pdf"
-  cv               : "JulianStraub_CV.pdf"
+  #resume           : #"JulianStraub_Resume.pdf"
+  cv               : #"JulianStraub_CV.pdf"
 
 
 # Reading Files
