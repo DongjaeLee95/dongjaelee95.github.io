@@ -29,7 +29,7 @@ feature_row_pub:
 ---
 {% include base_path %}
 
-I joined [LARR](https://larr.snu.ac.kr/) ([youtube link](https://www.youtube.com/channel/UCxLvXt8GZFaAMoBsqLFXy0Q)) (former ICSL) in Seoul National University to pursue research in **Robotics**. 
+In fall 2018, I joined [LARR](https://larr.snu.ac.kr/) ([youtube link](https://www.youtube.com/channel/UCxLvXt8GZFaAMoBsqLFXy0Q)) (former ICSL) in Seoul National University to pursue research in **Robotics**. 
 
 My research interests in robotics are in **Motion Control** and **Motion Planning** of an **aerial manipulator** [[1],[2],[3],[4]].
 
