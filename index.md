@@ -10,6 +10,11 @@ feature_row_pub:
     alt: "aerial manipulation"
     title: "aerial manipulation"
     excerpt: "Robust controller design for movable structure interaction"
+  - url: /pub/IROS2021/
+    image_path: /thumbnails/IROS2021.jpg
+    alt: "autonomous excavation"
+    title: "MPC applications"
+    excerpt: "Real-time constrained motion planning using MPC"
 #feature_row_robots:
   # - url: /blog/Kno0Bot-for-Roboking-2006/index.html
   #   image_path: robots/knoobot_rightBehind_S.jpg
@@ -31,7 +36,7 @@ feature_row_pub:
 
 In fall 2018, I joined [LARR](https://larr.snu.ac.kr/) ([youtube link](https://www.youtube.com/channel/UCxLvXt8GZFaAMoBsqLFXy0Q)) (former ICSL) in Seoul National University to pursue research in **Robotics**. 
 
-My research interests in robotics are in **Motion Control** and **Motion Planning** of an **aerial manipulator** [[1],[2],[3],[4]].
+My research interests in robotics are **Aerial Manipulation** [[1],[2],[3],[4]] and **Model Predictive Control (MPC)**-based real-time motion planning [[1],[2],[5]].
 
 {% include feature_row id="feature_row_pub" caption="Featured Publications" %}
 
@@ -41,6 +46,7 @@ My research interests in robotics are in **Motion Control** and **Motion Plannin
 [2]: {{ base_path}}/pub/ICRA2020/ "ICRA2020"
 [3]: {{ base_path}}/pub/MSThesis2020/ "MSThesis2020"
 [4]: {{ base_path}}/pub/RAL2021/ "RAL2021"
+[5]: {{ base_path}}/pub/IROS2021/ "IROS2021"
 
 <!-- [13]: {{ base_path }}/pub/Direction-Aware-Semi-Dense-SLAM/  "Dir. SLAM"
 [12]: {{ base_path }}/pub/Nonparametric-Directional-Perception/ "PhD Thesis"
