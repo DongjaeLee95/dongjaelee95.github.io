@@ -36,7 +36,7 @@ feature_row_pub:
 
 In fall 2018, I joined [LARR](https://larr.snu.ac.kr/) ([youtube link](https://www.youtube.com/channel/UCxLvXt8GZFaAMoBsqLFXy0Q)) (former ICSL) in Seoul National University to pursue research in **Robotics**. 
 
-My research interests in robotics are **Aerial Manipulation** [[1],[2],[3],[4]] and **Model Predictive Control (MPC)**-based real-time motion planning [[1],[2],[5]].
+My research interests in robotics are **Aerial Manipulation** [[1],[2],[3],[4],[6]] and **Model Predictive Control (MPC)**-based real-time motion planning [[1],[2],[5]].
 
 {% include feature_row id="feature_row_pub" caption="Featured Publications" %}
 
@@ -47,6 +47,7 @@ My research interests in robotics are **Aerial Manipulation** [[1],[2],[3],[4]] 
 [3]: {{ base_path}}/pub/MSThesis2020/ "MSThesis2020"
 [4]: {{ base_path}}/pub/RAL2021/ "RAL2021"
 [5]: {{ base_path}}/pub/IROS2021/ "IROS2021"
+[6]: {{ base_path}}/pub/LCSS2022/ "LCSS2022"
 
 <!-- [13]: {{ base_path }}/pub/Direction-Aware-Semi-Dense-SLAM/  "Dir. SLAM"
 [12]: {{ base_path }}/pub/Nonparametric-Directional-Perception/ "PhD Thesis"
