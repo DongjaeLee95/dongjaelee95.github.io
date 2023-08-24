@@ -3,18 +3,24 @@ layout: single
 author_profile: true
 header:
   overlay_image: DJ_gangwondo_2.jpg
-excerpt: "developing aerial robotics"
+  overlay_filter: 0.3
+excerpt: "developing robotics"
 feature_row_pub:
-  - url: /pub/RAL2021/
-    image_path: /thumbnails/RAL2021.png
-    alt: "aerial manipulation"
-    title: "aerial manipulation"
-    excerpt: "Robust controller design for movable structure interaction"
-  - url: /pub/IROS2021/
-    image_path: /thumbnails/IROS2021.jpg
-    alt: "autonomous excavation"
-    title: "MPC applications"
-    excerpt: "Real-time constrained motion planning using MPC"
+  # - url: /pub/RAL2021/
+  #   image_path: /thumbnails/RAL2021.png
+  #   alt: "aerial manipulation"
+  #   title: "ICRA2021 best paper award"
+  #   excerpt: "Robust controller design for movable structure interaction"
+  - url: /pub/IROS2023/
+    alt: "IROS2023"
+    title: "IROS2023 accepted"
+    excerpt: "Minimally actuated tiltrotor for perching and normal force exertion"
+    image_path: /thumbnails/IROS2023.png
+  - url: /pub/CDC2023/
+    alt: "CDC2023"
+    title: "CDC2023 accepted"
+    excerpt: "Safety-Critical Control under Multiple State and Input Constraints"
+    image_path: /thumbnails/CDC2023.png
 #feature_row_robots:
   # - url: /blog/Kno0Bot-for-Roboking-2006/index.html
   #   image_path: robots/knoobot_rightBehind_S.jpg
@@ -36,7 +42,8 @@ feature_row_pub:
 
 In fall 2018, I joined [LARR](https://larr.snu.ac.kr/) ([youtube link](https://www.youtube.com/channel/UCxLvXt8GZFaAMoBsqLFXy0Q)) (former ICSL) in Seoul National University to pursue research in **Robotics**. 
 
-My research interests in robotics are **Aerial Manipulation** [[1],[2],[3],[4],[6]] and **Model Predictive Control (MPC)**-based real-time motion planning [[1],[2],[5]].
+<!-- My research interests in robotics are **Aerial Manipulation** [[1],[2],[3],[4],[6],[7]] and **Model Predictive Control (MPC)**-based real-time motion planning [[1],[2],[5],[8]]. -->
+My research interests in robotics are **Aerial Manipulation**, **Robot-Environment Interaction**, **Robust Control**, **Model Predictive Control**, and **Safety-Critical Control**.
 
 {% include feature_row id="feature_row_pub" caption="Featured Publications" %}
 
@@ -48,6 +55,8 @@ My research interests in robotics are **Aerial Manipulation** [[1],[2],[3],[4],[
 [4]: {{ base_path}}/pub/RAL2021/ "RAL2021"
 [5]: {{ base_path}}/pub/IROS2021/ "IROS2021"
 [6]: {{ base_path}}/pub/LCSS2022/ "LCSS2022"
+[7]: {{ base_path}}/pub/IROS2023/ "IROS2023"
+[8]: {{ base_path}}/pub/CDC2023/ "CDC2023"
 
 <!-- [13]: {{ base_path }}/pub/Direction-Aware-Semi-Dense-SLAM/  "Dir. SLAM"
 [12]: {{ base_path }}/pub/Nonparametric-Directional-Perception/ "PhD Thesis"

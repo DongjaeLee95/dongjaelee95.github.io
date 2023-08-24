@@ -79,8 +79,8 @@ analytics:
 # Site Author
 author:
   name             : "Dongjae Lee"
-  avatar           : "DJ_gangwondo_3.jpg"
-  bio              : "Ph.D. student in Aerospace Engineering in SNU"
+  avatar           : "dongjae.jpg" #"DJ_gangwondo_3.jpg"
+  bio              : "Ph.D. student / Aerospace Engineering / Seoul National Univ."
   location         : "Seoul, South Korea"
   email            : "ehdwo713@snu.ac.kr"
   uri              : 
@@ -96,7 +96,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : #"julian-straub-56b70029"
+  linkedin         : "dongjae-lee-a25484224" #"julian-straub-56b70029"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
@@ -106,7 +106,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : #"jstraub6"
+  youtube          : "@DongjaeLee95"
   #resume           : #"JulianStraub_Resume.pdf"
   cv               : "dongjaelee_cv.pdf"
 
@@ -245,7 +245,7 @@ defaults:
       related: true
   - 
     scope:
-      path: "blog"
+      path: "news"
       type: "posts"
     values:
       layout: "single"

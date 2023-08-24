@@ -2,7 +2,8 @@
 main:
   - title: "Publications"
     url: /_pages/pub/index.html
-
+  # - title: "News"
+  #   url: /_pages/news/index.html
 #  - title: "Portfolio"
 #    url: /_pages/portfolio/index.html
   # - title: "Blog"
