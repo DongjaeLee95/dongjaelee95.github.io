@@ -1,0 +1,348 @@
+- title: Manuscripts under review / in preparation
+  classname: m
+  publications:
+
+    - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
+      authors:
+        - S. Hwang*
+        - D. Lee*
+        - C. Kim
+        - H. J. Kim
+      default:
+        remark: submitted to T-ASE
+
+    - title: Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
+      authors:
+        - D. Lee
+        - J. Byun
+        - H. J. Kim
+      default:
+        remark: submitted to T-RO
+
+    - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
+      authors:
+        - I. Jang*
+        - J. Kim*
+        - D. Lee*
+        - C. Kim*
+        - C. Oh
+        - Y. Kim
+        - S. Woo
+        - H. Sung
+        - H. J. Kim
+      default:
+        remark: submitted to RA-M
+
+    - title: Saturated RISE control for considering rotor thrust saturation of fully actuated multirotor
+      authors:
+        - D. Lee
+        - H. J. Kim
+      default:
+        remark: submitted to ICUAS2024
+
+    - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
+      authors:
+        - G. Park
+        - H. Park
+        - W. Park
+        - D. Lee
+        - S. J. Lee
+      default:
+        remark: submitted to RA-L
+
+    - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
+      authors:
+        - D. Lee
+        - B. Kim 
+        - H. J. Kim
+      default:
+        remark: in preparation
+
+- title: Journal Articles
+  classname: j
+  publications:
+
+    - title: Image‑Based Time‑Varying Contact Force Control of Aerial Manipulator using Robust Impedance Filter
+      authors:
+        - J. Byun
+        - J. Kim
+        - D. Eom
+        - D. Lee
+        - C. Kim
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RA-L
+        date: 2024
+        remark: in press
+      post:
+      # links:
+      #   - name: Paper
+      #     link: https://doi.org/10.1109/LRA.2024.3349917
+      #   - name: Video
+      #     link: https://www.youtube.com/watch?v=Mbw-RfjVwBg
+
+    - title: Design, Modeling and Control of a Top‑loading Fully‑Actuated Cargo Transportation Multirotor
+      authors:
+        - W. Park
+        - X. Wu
+        - D. Lee
+        - S. J. Lee
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RA-L
+        vol: 8
+        issue: 9
+        pages: 5807-5814
+        date: July 2023
+      post:
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/10197535
+        - name: Video
+          link: https://www.youtube.com/watch?v=g5yMb22a8Jo
+
+    - title: A hybrid controller enhancing transient performance for an aerial manipulator extracting a wedged object
+      authors:
+        - J. Byun
+        - I. Jang
+        - D. Lee
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Automation Science and Engineering
+        abrv: T-ASE
+        date: 2023
+        remark: in press
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TASE.2023.3277508
+        - name: Video
+          link: https://www.youtube.com/watch?v=VAhxPIsFpnk
+
+    - title: RISE‑based trajectory tracking control of an aerial manipulator under uncertainty
+      authors:
+        - D. Lee
+        - J. Byun
+        - H. J. Kim
+      journal:
+        name: IEEE Control Systems Letters
+        abrv: L-CSS
+        date: June 2022
+        pages: 3379-3384
+      post:
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/9802632
+        - name: Video
+          link: https://www.youtube.com/watch?v=WlClXe3B6fs
+
+    - title: Aerial manipulator pushing a movable structure using a DOB-based robust controller
+      authors:
+        - D. Lee
+        - H. Seo
+        - I. Jang
+        - S. J. Lee
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RA-L
+        date: April 2021
+        vol: 6
+        issue: 2
+        pages: 723-730
+      award: ICRA 2021 Best Paper Award on Unmanned Aerial Vehicles
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/LRA.2020.3047779
+        - name: Video
+          link: https://www.youtube.com/watch?v=htWzBzq9BIs
+
+    - title: Fully actuated autonomous flight of thruster-tilting multirotor
+      authors:
+        - S. J. Lee
+        - D. Lee
+        - J. Kim
+        - D. Kim
+        - I. Jang
+        - H. J. Kim
+      journal:
+        name: IEEE/ASME Transactions on Mechatronics
+        abrv: T-MECH
+        date: April 2021
+        vol: 26
+        issue: 2
+        pages: 765-776
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TMECH.2020.2999586
+        - name: Video
+          link: https://www.youtube.com/watch?v=-1MihNBS7Zw
+
+- title: Peer-Reviewed Conference Papers
+  classname: c
+  publications:
+
+    - title: Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller
+      authors:
+        - D. Lee
+        - S. Hwang
+        - J. Byun
+        - S. J. Lee
+        - H. J. Kim
+      conference:
+        name: 2024 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+        remark: accepted
+      links:
+        - name: Paper
+          link: /files/ICRA2024.pdf
+        - name: Video
+          link: https://www.youtube.com/watch?v=rZFHxuegoT8
+
+    - title: Safety‑Critical Control under Multiple State and Input Constraints and Application to Fixed‑Wing UAV
+      authors:
+        - D. D. Oh*
+        - D. Lee*
+        - H. J. Kim
+      conference:
+        name: 2023 IEEE Conference on Decision and Control
+        abrv: CDC
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/10383422
+          
+    - title: Minimally actuated tiltrotor for perching and normal force exertion
+      authors:
+        - D. Lee
+        - S. Hwang
+        - C. Kim
+        - S. J. Lee
+        - H. J. Kim
+      conference:
+        name: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+        abrv: IROS
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/10341910
+        - name: Video
+          link: https://www.youtube.com/watch?v=hT7qpPF2z9w
+
+    - title: Globally Defined Dynamic Modelling and Geometric Tracking Controller Design for Aerial Manipulator
+      authors:
+        - B. Kim
+        - D. Lee
+        - J. Byun
+        - H. J. Kim
+      conference:
+        name: 2023 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/10160860
+        - name: Video
+          link: https://www.youtube.com/watch?v=kfn2C5LIa4M
+
+    - title: Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control
+      authors:
+        - D. Lee*
+        - I. Jang*
+        - J. Byun
+        - H. Seo
+        - H. J. Kim
+      conference:
+        name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+        abrv: IROS
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/IROS51168.2021.9635965
+        - name: Video
+          link: https://www.youtube.com/watch?v=HAFVdU7jCl8
+
+    - title: Robust and recursively feasible real-time trajectory planning in unknown environments
+      authors:
+        - I. Jang
+        - D. Lee
+        - S. Lee
+        - H. J. Kim
+      conference:
+        name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+        abrv: IROS
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/IROS51168.2021.9636048
+        - name: Video
+          link: https://www.youtube.com/watch?v=pqe6jSrH1_w
+
+    - title: Stability and robustness analysis of plug-pulling using an aerial manipulator
+      authors:
+        - J. Byun
+        - D. Lee
+        - H. Seo
+        - I. Jang
+        - J. Choi
+        - H. J. Kim
+      conference:
+        name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+        abrv: IROS
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/IROS51168.2021.9636356
+        - name: Video
+          link: https://www.youtube.com/watch?v=eQZ1ae-tb7U
+
+    - title: Provably safe real-time receding horizon trajectory planning for linear time-invariant systems
+      authors:
+        - I. Jang
+        - D. Lee
+        - H. J. Kim
+      conference:
+        name: 2020 20th International Conference on Control, Automation and Systems
+        abrv: ICCAS
+      award: ICCAS 2020 Outstanding Paper Award
+      links:
+        - name: Paper
+          link: https://doi.org/10.23919/ICCAS50221.2020.9268425
+
+    - title: Aerial manipulation using model predictive control for opening a hinged door
+      authors:
+        - D. Lee
+        - H. Seo
+        - D. Kim
+        - H. J. Kim
+      conference:
+        name: 2020 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/9197524
+        - name: Video
+          link: https://www.youtube.com/watch?v=FepvYNqMWNE
+
+    - title: Trajectory planning with safety guaranty for a multirotor based on the forward and backward reachability analysis
+      authors:
+        - H. Seo
+        - C. Y. Son
+        - D. Lee
+        - H. J. Kim
+      conference:
+        name: 2020 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/9196760
+        - name: Video
+          link: https://www.youtube.com/watch?v=smFMBvwlM7w
+
+    - title: Cargo transportation strategy using T 3‑Multirotor UAV
+      authors:
+        - S. J. Lee
+        - D. Lee
+        - H. J. Kim
+      conference:
+        name: 2019 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      links:
+        - name: Paper
+          link: https://ieeexplore.ieee.org/document/8794203
