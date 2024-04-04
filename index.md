@@ -14,34 +14,60 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
 - Cooperative Manipulation
 
 ---
-## Research Highlights
-<div style="display: flex; justify-content: center;">
-    <!-- <figure style="margin-right: 20px; text-align: center;"> -->
-    <figure style="text-align: center;">
-        <img src="/img/icra2024.png" alt="test" height="300">
+## Selected Research
+<!-- <div style="display: flex; justify-content: center;">
+    <figure style="margin-left: 20px; text-align: center;">
+        <img src="/img/icra2024.png" alt="icra2024" height="200">
         <figcaption style="text-align: center;"> <b>[ICRA2024]</b> Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller 
         <a href="https://www.youtube.com/watch?v=rZFHxuegoT8">Video</a> |
         <a href="/files/ICRA2024.pdf">Paper</a>
         </figcaption>
     </figure>
-    <figure style="text-align: center;">
-        <img src="/img/iros2023.png" alt="test" height="300">
+    <figure style="margin-right: 20px; text-align: center;">
+        <img src="/img/iros2023.png" alt="iros2023" height="200">
+        <figcaption style="text-align: center;"> <b>[IROS2023]</b> Minimally actuated tiltrotor for perching and normal force exertion 
+        <a href="https://www.youtube.com/watch?v=hT7qpPF2z9w">Video</a> |
+        <a href="https://ieeexplore.ieee.org/document/10341910">Paper</a>
+        </figcaption>
+    </figure>    
+</div> -->
+<div style="display: flex; justify-content: center;">
+    <figure style="margin-right: 20px; text-align: center;">
+        <img src="/img/icra2024.png" alt="ICRA2024" height="250">
+        <figcaption style="text-align: center;"> <b>[ICRA2024]</b> Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller 
+        <a href="https://www.youtube.com/watch?v=rZFHxuegoT8">Video</a> |
+        <a href="/files/ICRA2024.pdf">Paper</a>
+        </figcaption>
+    </figure>
+    <figure style="margin-right: 20px; text-align: center;">
+        <img src="/img/iros2023.png" alt="IROS2023" height="250">
         <figcaption style="text-align: center;"> <b>[IROS2023]</b> Minimally actuated tiltrotor for perching and normal force exertion 
         <a href="https://www.youtube.com/watch?v=hT7qpPF2z9w">Video</a> |
         <a href="https://ieeexplore.ieee.org/document/10341910">Paper</a>
         </figcaption>
     </figure>    
 </div>
-
 <div style="display: flex; justify-content: center;">
-    <figure style="text-align: center;">
-        <img src="/img/tro_hybrid.png" alt="test" height="300">
+    <figure style="margin-right: 20px; text-align: center;">
+        <img src="/img/tro_hybrid.png" alt="tro_hybrid" height="250">
         <figcaption style="text-align: center;"> <b>[Under review]</b> Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
         </figcaption>
     </figure>
-    <figure style="text-align: center;">
-        <img src="/img/tro_omni.png" alt="test" height="300">
+    <figure style="margin-right: 20px; text-align: center;">
+        <img src="/img/tro_omni.png" alt="tro_omni" height="250">
+        <figcaption style="text-align: center;"> <b>[In preparation]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
+        </figcaption>
+    </figure>    
+</div>
+<!-- <div style="display: flex; justify-content: center;">
+    <figure style="margin-left: 20px; text-align: center;">
+        <img src="/img/tro_hybrid.png" alt="tro_hybrid" height="200">
+        <figcaption style="text-align: center;"> <b>[Under review]</b> Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
+        </figcaption>
+    </figure>
+    <figure style="margin-right: 20px; text-align: center;">
+        <img src="/img/tro_omni.png" alt="tro_omni" height="200">
         <figcaption style="text-align: center;"> <b>[In preparation]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
         </figcaption>
     </figure>
-</div>
+</div> -->
