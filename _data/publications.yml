@@ -4,6 +4,7 @@
 
     - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
       image: "img/tase_sub.png"
+      is_first_author: true
       authors:
         - S. Hwang*
         - D. Lee*
@@ -14,6 +15,7 @@
 
     - title: Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
       image: "img/tro_hybrid_sub.png"
+      is_first_author: true
       authors:
         - D. Lee
         - J. Byun
@@ -23,6 +25,7 @@
 
     - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
       image: "img/ram_sub.png"
+      is_first_author: true
       authors:
         - I. Jang*
         - J. Kim*
@@ -38,6 +41,7 @@
 
     - title: Saturated RISE control for considering rotor thrust saturation of fully actuated multirotor
       image: "img/icuas2024.png"
+      is_first_author: true
       authors:
         - D. Lee
         - H. J. Kim
@@ -57,6 +61,7 @@
 
     - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
       image: "img/tro_omni_sub.png"
+      is_first_author: true
       authors:
         - D. Lee*
         - B. Kim* 
@@ -130,6 +135,7 @@
           link: https://www.youtube.com/watch?v=VAhxPIsFpnk
 
     - title: RISE‑based trajectory tracking control of an aerial manipulator under uncertainty
+      is_first_author: true
       image: "img/lcss2022.jpg"
       authors:
         - D. Lee
@@ -148,6 +154,7 @@
           link: https://www.youtube.com/watch?v=WlClXe3B6fs
 
     - title: Aerial manipulator pushing a movable structure using a DOB-based robust controller
+      is_first_author: true
       image: "img/ral2021.png"
       authors:
         - D. Lee
@@ -196,6 +203,7 @@
   classname: c
   publications:
     - title: Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller
+      is_first_author: true
       image: "img/icra2024.png"
       authors:
         - D. Lee
@@ -214,6 +222,7 @@
           link: https://www.youtube.com/watch?v=rZFHxuegoT8
 
     - title: Safety‑Critical Control under Multiple State and Input Constraints and Application to Fixed‑Wing UAV
+      is_first_author: true
       image: "img/cdc2023_4x.gif"
       authors:
         - D. D. Oh*
@@ -227,6 +236,7 @@
           link: https://ieeexplore.ieee.org/document/10383422
           
     - title: Minimally actuated tiltrotor for perching and normal force exertion
+      is_first_author: true
       image: "img/iros2023.png"
       authors:
         - D. Lee
@@ -260,6 +270,7 @@
           link: https://www.youtube.com/watch?v=kfn2C5LIa4M
 
     - title: Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control
+      is_first_author: true
       image: "img/iros2021.png"
       authors:
         - D. Lee*
@@ -325,6 +336,7 @@
           link: https://doi.org/10.23919/ICCAS50221.2020.9268425
 
     - title: Aerial manipulation using model predictive control for opening a hinged door
+      is_first_author: true
       image: "img/icra2020.png"
       authors:
         - D. Lee

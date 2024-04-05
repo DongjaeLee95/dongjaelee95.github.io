@@ -1,7 +1,7 @@
 url: "https://dongjaelee95.github.io" #"https://dongjaelee95.github.io" # "http://localhost:4000"
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Dongjae Lee" # the name of your site, e.g. ACME Corp.
-last-updated: April 03, 2024
+last-updated: April 05, 2024
 
 include:
   - _posts

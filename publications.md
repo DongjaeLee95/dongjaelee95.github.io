@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-## Publications <small>* equal contribution</small>
+## Publications <small>* equal contribution / highlight 1st-authored papers </small>
 
 
 {% for publist in site.data.publications %}
@@ -11,13 +11,13 @@ title: Publications
 <ol class="pub {{ publist.classname }}">
 {% for pub in publist.publications %}
     <li>
-        <div style="overflow: hidden; max-width: 700px;">
+        <div style="overflow: hidden; max-width: 700px; display: flex;">
             {% if pub.image %}
-                <div style="float: left; margin-right: 10px;">
+                <div id="imageWrapper" style="float: left; margin-right: 10px;">
                     <img src="{{ pub.image }}" alt="{{ pub.title }}" style="width: 150px;" onclick="openModal(this.src)">
                 </div>
-            {% endif %}
-            <div>
+            {% endif %}     
+            <div id="textWrapper" style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 700px;">
                 {% if pub.post %}
                     <a href="{{ pub.post }}">{{ pub.title }}</a>
                 {% else %}
@@ -94,3 +94,17 @@ title: Publications
 {% endfor %}
 </ol>
 {% endfor %}
+
+
+<script>
+    var imageWrapper = document.getElementById("imageWrapper");
+    var textWrapper = document.getElementById("textWrapper");
+
+    var imageHeight = document.getElementById("pubImage").height;
+    var textHeight = textWrapper.offsetHeight;
+
+    var maxHeight = Math.max(imageHeight, textHeight);
+
+    imageWrapper.style.height = maxHeight + "px";
+    textWrapper.style.height = maxHeight + "px";
+</script>
