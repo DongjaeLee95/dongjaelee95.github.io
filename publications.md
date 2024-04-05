@@ -13,11 +13,11 @@ title: Publications
     <li>
         <div style="overflow: hidden; max-width: 700px; display: flex;">
             {% if pub.image %}
-                <div id="imageWrapper" style="float: left; margin-right: 10px;">
-                    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="width: 150px;" onclick="openModal(this.src)">
+                <div id="imageWrapper" style="float: left; width: 30%; margin-right: 10px;">
+                    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
                 </div>
             {% endif %}     
-            <div id="textWrapper" style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 700px;">
+            <div id="textWrapper" style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 70%;">
                 {% if pub.post %}
                     <a href="{{ pub.post }}">{{ pub.title }}</a>
                 {% else %}
