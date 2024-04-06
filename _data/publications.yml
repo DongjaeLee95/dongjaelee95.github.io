@@ -39,15 +39,6 @@
       default:
         remark: submitted to RA-M
 
-    - title: Saturated RISE control for considering rotor thrust saturation of fully actuated multirotor
-      image: "img/icuas2024.png"
-      is_first_author: true
-      authors:
-        - D. Lee
-        - H. J. Kim
-      default:
-        remark: submitted to ICUAS2024
-
     - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
       image: "img/ral_sub.png"
       authors:
@@ -202,6 +193,20 @@
 - title: Peer-Reviewed Conference Papers
   classname: c
   publications:
+    - title: Saturated RISE control for considering rotor thrust saturation of fully actuated multirotor
+      is_first_author: true
+      image: "img/icuas2024.png"
+      authors:
+        - D. Lee
+        - H. J. Kim
+      conference:
+        name: 2024 International Conference On Unmanned Aricraft Systems
+        abrv: ICUAS
+        remark: accepted
+      links:
+        - name: Paper
+          link: /files/ICUAS2024.pdf
+
     - title: Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller
       is_first_author: true
       image: "img/icra2024.png"
