@@ -21,23 +21,7 @@
         - J. Byun
         - H. J. Kim
       default:
-        remark: submitted to T-RO
-
-    - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
-      image: "img/ram_sub.png"
-      is_first_author: true
-      authors:
-        - I. Jang*
-        - J. Kim*
-        - D. Lee*
-        - C. Kim*
-        - C. Oh
-        - Y. Kim
-        - S. Woo
-        - H. Sung
-        - H. J. Kim
-      default:
-        remark: submitted to RA-M
+        remark: submitted to T-RO    
 
     - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
       image: "img/ral_sub.png"
@@ -63,6 +47,30 @@
 - title: Journal Articles
   classname: j
   publications:
+    - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
+      image: "img/ram_sub.png"
+      is_first_author: true
+      authors:
+        - I. Jang*
+        - J. Kim*
+        - D. Lee*
+        - C. Kim*
+        - C. Oh
+        - Y. Kim
+        - S. Woo
+        - H. Sung
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Magazine
+        abrv: RA-M
+        date: 2024
+        remark: accepted
+      post:
+      links:
+        # - name: Paper
+        #   link: https://ieeexplore.ieee.org/document/10483266
+        - name: Video
+          link: https://www.youtube.com/watch?v=E4emCP-wNF4
 
     - title: Image‑Based Time‑Varying Contact Force Control of Aerial Manipulator using Robust Impedance Filter
       image: "img/ral2024.png"
@@ -76,14 +84,16 @@
       journal:
         name: IEEE Robotics and Automation Letters
         abrv: RA-L
-        date: 2024
-        remark: in press
+        vol: 9
+        issue: 5
+        pages: 4854-4861
+        date: April 2024
       post:
       links:
         - name: Paper
           link: https://ieeexplore.ieee.org/document/10483266
-        # - name: Video
-        #   link: https://www.youtube.com/watch?v=Mbw-RfjVwBg
+        - name: Video
+          link: https://www.youtube.com/watch?v=_GPVPd-0jUc
 
     - title: Design, Modeling and Control of a Top‑loading Fully‑Actuated Cargo Transportation Multirotor
       image: "img/ral2023.png"
