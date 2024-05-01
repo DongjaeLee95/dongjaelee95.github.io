@@ -42,7 +42,7 @@
         - B. Kim* 
         - H. J. Kim
       default:
-        remark: in preparation
+        remark: submitted to T-RO
 
 - title: Journal Articles
   classname: j
@@ -62,7 +62,7 @@
         - H. J. Kim
       journal:
         name: IEEE Robotics and Automation Magazine
-        abrv: RA-M
+        abrv: RAM
         date: 2024
         remark: accepted
       post:

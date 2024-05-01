@@ -32,6 +32,17 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
     <li>
         <div style="overflow: hidden; max-width: 700px; display: flex;">
             <div style="float: left; width: 30%; margin-right: 10px;">
+                <img src="/img/ram_sub.png" alt="selected_5" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
+            </div>
+            <div style="width: 70%;">
+                <b>[RAM2024]</b> Autonomous excavator for precise earthcutting and onboard landscape inspection 
+                <a href="https://www.youtube.com/watch?v=E4emCP-wNF4">Video</a>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div style="overflow: hidden; max-width: 700px; display: flex;">
+            <div style="float: left; width: 30%; margin-right: 10px;">
                 <img src="/img/tro_hybrid_sub.png" alt="selected_3" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
             </div>
             <div style="width: 70%;">
@@ -45,7 +56,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
                 <img src="/img/tro_omni_sub.png" alt="selected_4" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
             </div>
             <div style="width: 70%;">
-                <b>[In preparation]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
+                <b>[Under review]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
             </div>
         </div>
     </li>
