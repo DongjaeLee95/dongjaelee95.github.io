@@ -8,11 +8,11 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
 
 ---
 ## Research Interests
-- Robot-Environment Interaction
 - Aerial Manipulation
+- Robot-Environment Interaction
 - Robust/Adaptive Control
-- Cooperative Manipulation
 - Model Predictive Control
+- Multi-agent Control
 
 ---
 ## Selected Research

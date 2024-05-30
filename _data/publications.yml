@@ -2,17 +2,6 @@
   classname: m
   publications:
 
-    - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
-      image: "img/tase_sub.png"
-      is_first_author: true
-      authors:
-        - S. Hwang*
-        - D. Lee*
-        - C. Kim
-        - H. J. Kim
-      default:
-        remark: submitted to T-ASE
-
     - title: Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
       image: "img/tro_hybrid_sub.png"
       is_first_author: true
@@ -47,6 +36,26 @@
 - title: Journal Articles
   classname: j
   publications:
+    - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
+      image: "img/tase_sub.png"
+      is_first_author: true
+      authors:
+        - S. Hwang*
+        - D. Lee*
+        - C. Kim
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Automation Science and Engineering
+        abrv: T-ASE
+        date: 2024
+        remark: accepted
+      post:
+      links:
+        # - name: Paper
+        #   link: https://ieeexplore.ieee.org/document/10483266
+        - name: Video
+          link: https://www.youtube.com/watch?v=DW7YzORGIg8
+
     - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
       image: "img/ram_sub.png"
       is_first_author: true
