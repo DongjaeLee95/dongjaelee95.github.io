@@ -12,17 +12,6 @@
       default:
         remark: submitted to T-RO    
 
-    - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
-      image: "img/ral_sub.png"
-      authors:
-        - G. Park
-        - H. Park
-        - W. Park
-        - D. Lee
-        - S. J. Lee
-      default:
-        remark: submitted to RA-L
-
     - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
       image: "img/tro_omni_sub.png"
       is_first_author: true
@@ -36,6 +25,27 @@
 - title: Journal Articles
   classname: j
   publications:
+    - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
+      image: "img/ral_sub.png"
+      authors:
+        - G. Park
+        - H. Park
+        - W. Park
+        - D. Lee
+        - M. Kim
+        - S. J. Lee
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: R-AL
+        date: 2024
+        remark: accepted
+      post:
+      links:
+        # - name: Paper
+        #   link: https://ieeexplore.ieee.org/document/10483266
+        - name: Video
+          link: https://www.youtube.com/watch?v=9hvRhZIhFR4
+
     - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
       image: "img/tase_sub.png"
       is_first_author: true
