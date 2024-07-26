@@ -6,6 +6,9 @@ sudo vim ~/.bashrc
 	export PATH=$HOME/gems/bin:$PATH
 source ~/.bashrc
 
+# rvm download for ruby version upgrade
+https://github.com/rvm/ubuntu_rvm
+
 # jekyll을 설치하기 위해 gem 사용
 gem install jekyll bundler
 

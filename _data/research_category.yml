@@ -1,0 +1,29 @@
+- title: "Aerial Manipulation"
+  description: "Blabla?"
+  image: "img/ral2021.png"
+  slug: dynamic_aerial_physical_interaction
+
+- title: "Autonomous Excavation"
+  description: "Blabla?"
+  image: "img/ram_sub.png"
+  slug: machine_learning
+
+- title: "Aerial Cargo Transportation"
+  description: "Blabla?"
+  image: "img/ral2024_sj.png"
+  slug: dextrous_manipulation
+
+- title: "Robust/Adaptive Control"
+  description: "Blabla?"
+  image: "img/lcss2022.jpg"
+  slug: certifying_reduced_order_models
+
+- title: "Optimization-Based Planning/Control"
+  description: "Blabla?"
+  image: "img/tro_omni_sub.png"
+  slug: temporal_logic_planning
+
+- title: "Safety-Critical Control/Planning"
+  description: "Blabla?"
+  image: "img/cdc2023_4x.gif"
+  slug: legged_locomotion
