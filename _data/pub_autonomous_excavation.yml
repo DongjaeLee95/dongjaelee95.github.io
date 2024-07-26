@@ -1,0 +1,45 @@
+- publications:
+  - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
+    image: "/img/ram_sub.png"
+    is_first_author: true
+    authors:
+      - I. Jang*
+      - J. Kim*
+      - D. Lee*
+      - C. Kim*
+      - C. Oh
+      - Y. Kim
+      - S. Woo
+      - H. Sung
+      - H. J. Kim
+    journal:
+      name: IEEE Robotics and Automation Magazine
+      abrv: RAM
+      date: 2024
+      remark: accepted
+    post:
+    links:
+      # - name: Paper
+      #   link: https://ieeexplore.ieee.org/document/10483266
+      - name: Video
+        link: https://www.youtube.com/watch?v=E4emCP-wNF4
+    year: "2024"
+
+  - title: Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control
+    is_first_author: true
+    image: "/img/iros2021.png"
+    authors:
+      - D. Lee*
+      - I. Jang*
+      - J. Byun
+      - H. Seo
+      - H. J. Kim
+    conference:
+      name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+      abrv: IROS
+    links:
+      - name: Paper
+        link: https://doi.org/10.1109/IROS51168.2021.9635965
+      - name: Video
+        link: https://www.youtube.com/watch?v=HAFVdU7jCl8
+    year: "2021"

@@ -1,29 +1,39 @@
 - title: "Aerial Manipulation"
-  description: "Blabla?"
-  image: "img/ral2021.png"
-  slug: dynamic_aerial_physical_interaction
+  description: "TODO"
+  image: "img/tro_hybrid_sub.png"
+  slug: aerial_manipulation
+
+- title: "New Aerial Platform"
+  description: "TODO"
+  image: "img/icra2024.png"
+  slug: new_aerial_platform
 
 - title: "Autonomous Excavation"
-  description: "Blabla?"
+  description: "TODO"
   image: "img/ram_sub.png"
-  slug: machine_learning
-
-- title: "Aerial Cargo Transportation"
-  description: "Blabla?"
-  image: "img/ral2024_sj.png"
-  slug: dextrous_manipulation
+  slug: autonomous_excavation
 
 - title: "Robust/Adaptive Control"
-  description: "Blabla?"
+  description: "TODO"
   image: "img/lcss2022.jpg"
-  slug: certifying_reduced_order_models
+  slug: robust_adaptive_control
 
-- title: "Optimization-Based Planning/Control"
-  description: "Blabla?"
+- title: "Optimization-Based Control/Planning"
+  description: "TODO"
   image: "img/tro_omni_sub.png"
-  slug: temporal_logic_planning
+  slug: optimization_based_control_planning
 
 - title: "Safety-Critical Control/Planning"
-  description: "Blabla?"
+  description: "TODO"
   image: "img/cdc2023_4x.gif"
-  slug: legged_locomotion
+  slug: safety_critical_control_planning
+
+- title: "Multi-Agent Control"
+  description: "TODO"
+  image: "img/kth_simul_video.gif"
+  slug: multi_agent_control
+
+# - title: "Aerial Cargo Transportation"
+#   description: "TODO"
+#   image: "img/ral2024_sj.png"
+#   slug: aerial_cargo_transportation

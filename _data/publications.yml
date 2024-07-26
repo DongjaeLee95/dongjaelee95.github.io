@@ -3,7 +3,7 @@
   publications:
 
     - title: Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
-      image: "img/tro_hybrid_sub.png"
+      image: "/img/tro_hybrid_sub.png"
       is_first_author: true
       authors:
         - D. Lee
@@ -13,7 +13,7 @@
         remark: submitted to T-RO    
 
     - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
-      image: "img/tro_omni_sub.png"
+      image: "/img/tro_omni_sub.png"
       is_first_author: true
       authors:
         - D. Lee*
@@ -26,7 +26,7 @@
   classname: j
   publications:
     - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
-      image: "img/ral2024_sj.png"
+      image: "/img/ral2024_sj.png"
       authors:
         - G. Park
         - H. Park
@@ -47,7 +47,7 @@
           link: https://www.youtube.com/watch?v=9hvRhZIhFR4
 
     - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
-      image: "img/tase_sub.png"
+      image: "/img/tase_sub.png"
       is_first_author: true
       authors:
         - S. Hwang*
@@ -67,7 +67,7 @@
           link: https://www.youtube.com/watch?v=DW7YzORGIg8
 
     - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
-      image: "img/ram_sub.png"
+      image: "/img/ram_sub.png"
       is_first_author: true
       authors:
         - I. Jang*
@@ -92,7 +92,7 @@
           link: https://www.youtube.com/watch?v=E4emCP-wNF4
 
     - title: Image‑Based Time‑Varying Contact Force Control of Aerial Manipulator using Robust Impedance Filter
-      image: "img/ral2024.png"
+      image: "/img/ral2024.png"
       authors:
         - J. Byun
         - J. Kim
@@ -115,7 +115,7 @@
           link: https://www.youtube.com/watch?v=_GPVPd-0jUc
 
     - title: Design, Modeling and Control of a Top‑loading Fully‑Actuated Cargo Transportation Multirotor
-      image: "img/ral2023.png"
+      image: "/img/ral2023.png"
       authors:
         - W. Park
         - X. Wu
@@ -136,7 +136,7 @@
           link: https://www.youtube.com/watch?v=g5yMb22a8Jo
 
     - title: A hybrid controller enhancing transient performance for an aerial manipulator extracting a wedged object
-      image: "img/tase2023.png"
+      image: "/img/tase2023.png"
       authors:
         - J. Byun
         - I. Jang
@@ -156,7 +156,7 @@
 
     - title: RISE‑based trajectory tracking control of an aerial manipulator under uncertainty
       is_first_author: true
-      image: "img/lcss2022.jpg"
+      image: "/img/lcss2022.jpg"
       authors:
         - D. Lee
         - J. Byun
@@ -175,7 +175,7 @@
 
     - title: Aerial manipulator pushing a movable structure using a DOB-based robust controller
       is_first_author: true
-      image: "img/ral2021.png"
+      image: "/img/ral2021.png"
       authors:
         - D. Lee
         - H. Seo
@@ -198,7 +198,7 @@
           link: https://www.youtube.com/watch?v=htWzBzq9BIs
 
     - title: Fully actuated autonomous flight of thruster-tilting multirotor
-      image: "img/tmech2021.png"
+      image: "/img/tmech2021.png"
       authors:
         - S. J. Lee
         - D. Lee
@@ -224,7 +224,7 @@
   publications:
     - title: Saturated RISE control for considering rotor thrust saturation of fully actuated multirotor
       is_first_author: true
-      image: "img/icuas2024.png"
+      image: "/img/icuas2024.png"
       authors:
         - D. Lee
         - H. J. Kim
@@ -238,7 +238,7 @@
 
     - title: Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller
       is_first_author: true
-      image: "img/icra2024.png"
+      image: "/img/icra2024.png"
       authors:
         - D. Lee
         - S. Hwang
@@ -257,7 +257,7 @@
 
     - title: Safety‑Critical Control under Multiple State and Input Constraints and Application to Fixed‑Wing UAV
       is_first_author: true
-      image: "img/cdc2023_4x.gif"
+      image: "/img/cdc2023_4x.gif"
       authors:
         - D. D. Oh*
         - D. Lee*
@@ -271,7 +271,7 @@
           
     - title: Minimally actuated tiltrotor for perching and normal force exertion
       is_first_author: true
-      image: "img/iros2023.png"
+      image: "/img/iros2023.png"
       authors:
         - D. Lee
         - S. Hwang
@@ -288,7 +288,7 @@
           link: https://www.youtube.com/watch?v=hT7qpPF2z9w
 
     - title: Globally Defined Dynamic Modelling and Geometric Tracking Controller Design for Aerial Manipulator
-      image: "img/icra2022.png"
+      image: "/img/icra2022.png"
       authors:
         - B. Kim
         - D. Lee
@@ -305,7 +305,7 @@
 
     - title: Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control
       is_first_author: true
-      image: "img/iros2021.png"
+      image: "/img/iros2021.png"
       authors:
         - D. Lee*
         - I. Jang*
@@ -322,7 +322,7 @@
           link: https://www.youtube.com/watch?v=HAFVdU7jCl8
 
     - title: Robust and recursively feasible real-time trajectory planning in unknown environments
-      image: "img/iros2021_jang.png"
+      image: "/img/iros2021_jang.png"
       authors:
         - I. Jang
         - D. Lee
@@ -338,7 +338,7 @@
           link: https://www.youtube.com/watch?v=pqe6jSrH1_w
 
     - title: Stability and robustness analysis of plug-pulling using an aerial manipulator
-      image: "img/iros2021_byun.png"
+      image: "/img/iros2021_byun.png"
       authors:
         - J. Byun
         - D. Lee
@@ -356,7 +356,7 @@
           link: https://www.youtube.com/watch?v=eQZ1ae-tb7U
 
     - title: Provably safe real-time receding horizon trajectory planning for linear time-invariant systems
-      image: "img/iccas2020.png"
+      image: "/img/iccas2020.png"
       authors:
         - I. Jang
         - D. Lee
@@ -371,7 +371,7 @@
 
     - title: Aerial manipulation using model predictive control for opening a hinged door
       is_first_author: true
-      image: "img/icra2020.png"
+      image: "/img/icra2020.png"
       authors:
         - D. Lee
         - H. Seo
@@ -387,7 +387,7 @@
           link: https://www.youtube.com/watch?v=FepvYNqMWNE
 
     - title: Trajectory planning with safety guaranty for a multirotor based on the forward and backward reachability analysis
-      image: "img/icra2020_seo.png"
+      image: "/img/icra2020_seo.png"
       authors:
         - H. Seo
         - C. Y. Son
@@ -403,7 +403,7 @@
           link: https://www.youtube.com/watch?v=smFMBvwlM7w
 
     - title: Cargo transportation strategy using T 3‑Multirotor UAV
-      image: "img/icra2019.png"
+      image: "/img/icra2019.png"
       authors:
         - S. J. Lee
         - D. Lee

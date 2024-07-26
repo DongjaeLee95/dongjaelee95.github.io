@@ -1,25 +1,17 @@
----
-layout: default
-title: Publications
----
-
-## Publications <small>* equal contribution / highlight 1st-authored papers </small>
-
-{% assign publications = site.data.publications %}
-{% include publication-list.html %}
-<!-- 
-{% for publist in site.data.publications %}
-### {{ publist.title }}
+<!-- publication-list.html -->
+{% for publist in publications %}
+<h3>{{ publist.title }}</h3>
 <ol class="pub {{ publist.classname }}">
+<!-- <ul style="margin-bottom: 10px;">   -->
 {% for pub in publist.publications %}
     <li>
         <div style="overflow: hidden; max-width: 700px; display: flex;">
             {% if pub.image %}
-                <div id="imageWrapper" style="float: left; width: 30%; margin-right: 10px;">
+                <div style="float: left; width: 30%; margin-right: 10px;">
                     <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
                 </div>
             {% endif %}     
-            <div id="textWrapper" style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 70%;">
+            <div style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 70%;">
                 {% if pub.post %}
                     <a href="{{ pub.post }}">{{ pub.title }}</a>
                 {% else %}
@@ -97,7 +89,6 @@ title: Publications
 </ol>
 {% endfor %}
 
-
 <script>
     var imageWrapper = document.getElementById("imageWrapper");
     var textWrapper = document.getElementById("textWrapper");
@@ -109,4 +100,4 @@ title: Publications
 
     imageWrapper.style.height = maxHeight + "px";
     textWrapper.style.height = maxHeight + "px";
-</script> -->
+</script>

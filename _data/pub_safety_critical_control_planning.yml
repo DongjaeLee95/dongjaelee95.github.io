@@ -1,0 +1,60 @@
+- publications:
+  - title: Safety‑Critical Control under Multiple State and Input Constraints and Application to Fixed‑Wing UAV
+    is_first_author: true
+    image: "/img/cdc2023_4x.gif"
+    authors:
+      - D. D. Oh*
+      - D. Lee*
+      - H. J. Kim
+    conference:
+      name: 2023 IEEE Conference on Decision and Control
+      abrv: CDC
+    links:
+      - name: Paper
+        link: https://ieeexplore.ieee.org/document/10383422
+
+  - title: Robust and recursively feasible real-time trajectory planning in unknown environments
+    image: "/img/iros2021_jang.png"
+    authors:
+      - I. Jang
+      - D. Lee
+      - S. Lee
+      - H. J. Kim
+    conference:
+      name: 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems
+      abrv: IROS
+    links:
+      - name: Paper
+        link: https://doi.org/10.1109/IROS51168.2021.9636048
+      - name: Video
+        link: https://www.youtube.com/watch?v=pqe6jSrH1_w
+
+  - title: Provably safe real-time receding horizon trajectory planning for linear time-invariant systems
+    image: "/img/iccas2020.png"
+    authors:
+      - I. Jang
+      - D. Lee
+      - H. J. Kim
+    conference:
+      name: 2020 20th International Conference on Control, Automation and Systems
+      abrv: ICCAS
+    award: ICCAS 2020 Outstanding Paper Award
+    links:
+      - name: Paper
+        link: https://doi.org/10.23919/ICCAS50221.2020.9268425
+
+  - title: Trajectory planning with safety guaranty for a multirotor based on the forward and backward reachability analysis
+    image: "/img/icra2020_seo.png"
+    authors:
+      - H. Seo
+      - C. Y. Son
+      - D. Lee
+      - H. J. Kim
+    conference:
+      name: 2020 IEEE International Conference on Robotics and Automation
+      abrv: ICRA
+    links:
+      - name: Paper
+        link: https://ieeexplore.ieee.org/document/9196760
+      - name: Video
+        link: https://www.youtube.com/watch?v=smFMBvwlM7w

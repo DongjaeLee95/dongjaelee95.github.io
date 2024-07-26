@@ -11,7 +11,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
 - Aerial Manipulation
 - Robot-Environment Interaction
 - Robust/Adaptive Control
-- Model Predictive Control
+- Optimization-Based Control/Planning
 - Multi-agent Control
 
 ---

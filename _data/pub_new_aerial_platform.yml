@@ -1,0 +1,144 @@
+- publications:
+  - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
+    image: "/img/tro_omni_sub.png"
+    is_first_author: true
+    authors:
+      - D. Lee*
+      - B. Kim* 
+      - H. J. Kim
+    default:
+      remark: submitted to T-RO
+
+  - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
+    image: "/img/tase_sub.png"
+    is_first_author: true
+    authors:
+      - S. Hwang*
+      - D. Lee*
+      - C. Kim
+      - H. J. Kim
+    journal:
+      name: IEEE Transactions on Automation Science and Engineering
+      abrv: T-ASE
+      date: 2024
+      remark: accepted
+    post:
+    links:
+      - name: Paper
+        link: https://ieeexplore.ieee.org/document/10552772
+      - name: Video
+        link: https://www.youtube.com/watch?v=DW7YzORGIg8
+
+  - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
+    image: "/img/ral2024_sj.png"
+    authors:
+      - G. Park
+      - H. Park
+      - W. Park
+      - D. Lee
+      - M. Kim
+      - S. J. Lee
+    journal:
+      name: IEEE Robotics and Automation Letters
+      abrv: R-AL
+      date: 2024
+      remark: accepted
+    post:
+    links:
+      # - name: Paper
+      #   link: https://ieeexplore.ieee.org/document/10483266
+      - name: Video
+        link: https://www.youtube.com/watch?v=9hvRhZIhFR4
+
+  - title: Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller
+    is_first_author: true
+    image: "/img/icra2024.png"
+    authors:
+      - D. Lee
+      - S. Hwang
+      - J. Byun
+      - S. J. Lee
+      - H. J. Kim
+    conference:
+      name: 2024 IEEE International Conference on Robotics and Automation
+      abrv: ICRA
+      remark: accepted
+    links:
+      - name: Paper
+        link: /files/ICRA2024.pdf
+      - name: Video
+        link: https://www.youtube.com/watch?v=rZFHxuegoT8
+
+  - title: Design, Modeling and Control of a Top‑loading Fully‑Actuated Cargo Transportation Multirotor
+    image: "/img/ral2023.png"
+    authors:
+      - W. Park
+      - X. Wu
+      - D. Lee
+      - S. J. Lee
+    journal:
+      name: IEEE Robotics and Automation Letters
+      abrv: RA-L
+      vol: 8
+      issue: 9
+      pages: 5807-5814
+      date: July 2023
+    post:
+    links:
+      - name: Paper
+        link: https://ieeexplore.ieee.org/document/10197535
+      - name: Video
+        link: https://www.youtube.com/watch?v=g5yMb22a8Jo
+
+  - title: Minimally actuated tiltrotor for perching and normal force exertion
+    is_first_author: true
+    image: "/img/iros2023.png"
+    authors:
+      - D. Lee
+      - S. Hwang
+      - C. Kim
+      - S. J. Lee
+      - H. J. Kim
+    conference:
+      name: 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems
+      abrv: IROS
+    links:
+      - name: Paper
+        link: https://ieeexplore.ieee.org/document/10341910
+      - name: Video
+        link: https://www.youtube.com/watch?v=hT7qpPF2z9w
+
+  - title: Fully actuated autonomous flight of thruster-tilting multirotor
+    image: "/img/tmech2021.png"
+    authors:
+      - S. J. Lee
+      - D. Lee
+      - J. Kim
+      - D. Kim
+      - I. Jang
+      - H. J. Kim
+    journal:
+      name: IEEE/ASME Transactions on Mechatronics
+      abrv: T-MECH
+      date: April 2021
+      vol: 26
+      issue: 2
+      pages: 765-776
+    links:
+      - name: Paper
+        link: https://doi.org/10.1109/TMECH.2020.2999586
+      - name: Video
+        link: https://www.youtube.com/watch?v=-1MihNBS7Zw
+
+  - title: Cargo transportation strategy using T 3‑Multirotor UAV
+    image: "/img/icra2019.png"
+    authors:
+      - S. J. Lee
+      - D. Lee
+      - H. J. Kim
+    conference:
+      name: 2019 IEEE International Conference on Robotics and Automation
+      abrv: ICRA
+    links:
+      - name: Paper
+        link: https://ieeexplore.ieee.org/document/8794203
