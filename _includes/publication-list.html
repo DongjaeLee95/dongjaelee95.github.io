@@ -1,7 +1,8 @@
 <!-- publication-list.html -->
 {% for publist in publications %}
 <h3>{{ publist.title }}</h3>
-<ol class="pub {{ publist.classname }}">
+{% assign total_count = publist.publications | size %}
+<ol class="pub {{ publist.classname }}" reversed start="{{ total_count }}">
 <!-- <ul style="margin-bottom: 10px;">   -->
 {% for pub in publist.publications %}
     <li>
