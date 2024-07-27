@@ -7,12 +7,7 @@ title: Research
 A brief overview of research topics I've worked on.
 
 <div class="research-container">
-    {% assign counter = 0 %}
     {% for category in site.data.research_category %}
-        {% if counter == 0 %}
-        <div class="row">
-        {% endif %}
-
         <div class="research-item">
             <a href="/research/{{ category.slug }}">
                 <div class="image-container">
@@ -24,30 +19,14 @@ A brief overview of research topics I've worked on.
                 </div>
             </a>
         </div>
-
-        {% assign counter = counter | plus: 1 %}
-        {% if counter == 3 %}
-        </div>
-        {% assign counter = 0 %}
-        {% endif %}
     {% endfor %}
-    {% if counter != 0 %}
-    </div>
-    {% endif %}
 </div>
 
 <style>
 .research-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.row {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    gap: 20px; /* gap between items */
 }
 
 .research-item {
@@ -56,9 +35,9 @@ A brief overview of research topics I've worked on.
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 5px;
     box-sizing: border-box;
-    margin-bottom: 20px;
     text-decoration: none;
-    width: calc(33.33% - 20px); /* Default: 3 items per row */
+    flex: 1 1 calc(33.33% - 20px); /* Default: 3 items per row */
+    max-width: calc(33.33% - 20px); /* Ensures items don't exceed 3 per row */
 }
 
 .image-container img {
@@ -70,7 +49,7 @@ A brief overview of research topics I've worked on.
     margin-top: 10px;
     color: inherit;
     word-wrap: break-word;
-    /* word-break: break-all; */
+    word-break: break-word;
 }
 
 .text-container h3 {
@@ -86,18 +65,35 @@ A brief overview of research topics I've worked on.
     color: inherit;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
+/* Media query for medium screens */
+@media (max-width: 992px) {
     .research-item {
-        width: calc(50% - 20px); /* 2 items per row */
+        flex: 1 1 calc(50% - 20px); /* 2 items per row */
+        max-width: calc(50% - 20px);
+    }
+
+    .text-container h3 {
+        font-size: 2vw;
+    }
+
+    .text-container p {
+        font-size: 1.5vw;
     }
 }
 
-/* Media query for very small screens */
-@media (max-width: 480px) {
+/* Media query for small screens */
+@media (max-width: 600px) {
     .research-item {
-        width: 100%; /* 1 item per row */
-        margin-bottom: 10px;
+        flex: 1 1 100%; /* 1 item per row */
+        max-width: 100%;
+    }
+
+    .text-container h3 {
+        font-size: 4vw;
+    }
+
+    .text-container p {
+        font-size: 3vw;
     }
 }
 </style>
