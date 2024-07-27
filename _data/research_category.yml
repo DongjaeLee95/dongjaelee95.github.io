@@ -1,20 +1,20 @@
 - title: "Aerial Manipulation"
-  description: "TODO"
+  description: "Towards dexterous aerial manipulation with guranteed stability/performance"
   image: "img/tro_hybrid_sub.png"
   slug: aerial_manipulation
 
 - title: "New Aerial Platform"
-  description: "TODO"
+  description: "Multirotors with additional DoFs for enhancing dexterity and applicability"
   image: "img/icra2024.png"
   slug: new_aerial_platform
 
 - title: "Autonomous Excavation"
-  description: "TODO"
+  description: "Perception, planning and hardware experiments for excavator automation"
   image: "img/ram_sub.png"
   slug: autonomous_excavation
 
 - title: "Robust/Adaptive Control"
-  description: "TODO"
+  description: "How to make a robot be robust/adaptive to disturbance and unceratinty"
   image: "img/lcss2022.jpg"
   slug: robust_adaptive_control
 
@@ -24,7 +24,7 @@
 #   slug: optimization_based_control_planning
 
 - title: "Safety-Critical Control/Planning"
-  description: "Ensuring safety in the presence of disturbance or multiple constraints"
+  description: "How to ensure safety in the presence of disturbance or multiple constraints"
   image: "img/cdc2023_4x.gif"
   slug: safety_critical_control_planning
 
