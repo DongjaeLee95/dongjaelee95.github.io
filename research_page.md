@@ -51,7 +51,6 @@ A brief overview of research topics I've worked on.
 }
 
 .research-item {
-    width: 30%;
     background: #f8f9fa;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -59,6 +58,7 @@ A brief overview of research topics I've worked on.
     box-sizing: border-box;
     margin-bottom: 20px;
     text-decoration: none;
+    width: calc(33.33% - 20px); /* Default: 3 items per row */
 }
 
 .image-container img {
@@ -69,10 +69,35 @@ A brief overview of research topics I've worked on.
 .text-container {
     margin-top: 10px;
     color: inherit;
+    word-wrap: break-word;
+    /* word-break: break-all; */
+}
+
+.text-container h3 {
+    /* font-size: 2vw; */
+}
+
+.text-container p {
+    /* font-size: 1.5vw; */
 }
 
 .research-item a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .research-item {
+        width: calc(50% - 20px); /* 2 items per row */
+    }
+}
+
+/* Media query for very small screens */
+@media (max-width: 480px) {
+    .research-item {
+        width: 100%; /* 1 item per row */
+        margin-bottom: 10px;
+    }
 }
 </style>

@@ -18,18 +18,18 @@
   image: "img/lcss2022.jpg"
   slug: robust_adaptive_control
 
-- title: "Optimization-Based Control/Planning"
-  description: "TODO"
-  image: "img/tro_omni_sub.png"
-  slug: optimization_based_control_planning
+# - title: "Optimization-Based Control/Planning"
+#   description: "TODO"
+#   image: "img/tro_omni_sub.png"
+#   slug: optimization_based_control_planning
 
 - title: "Safety-Critical Control/Planning"
-  description: "TODO"
+  description: "Ensuring safety in the presence of disturbance or multiple constraints"
   image: "img/cdc2023_4x.gif"
   slug: safety_critical_control_planning
 
 - title: "Multi-Agent Control"
-  description: "TODO"
+  description: "Ongoing research: plug-and-play collaborative object transportation"
   image: "img/kth_simul_video.gif"
   slug: multi_agent_control
 
