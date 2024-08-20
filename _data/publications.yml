@@ -20,7 +20,17 @@
         - B. Kim* 
         - H. J. Kim
       default:
-        remark: submitted to T-RO
+        remark: in preparation
+
+    - title: Switching Law and Control for a class of Nonlinear Input-Affine Multi-Channel Systems with Partial Controllability
+      image: "/img/kth_simul_video.gif"
+      is_first_author: true
+      authors:
+        - D. Lee
+        - D. V. Dimarogonas
+        - H. J. Kim
+      default:
+        remark: in preparation
 
 - title: Journal Articles
   classname: j

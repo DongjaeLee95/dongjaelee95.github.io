@@ -5,7 +5,7 @@ title: safety-critical control/planning
 
 ## Safety-Critical Control/Planning
 
-TODO -- INTRO and some youtube, and images
+INTRO
 
 ---
 

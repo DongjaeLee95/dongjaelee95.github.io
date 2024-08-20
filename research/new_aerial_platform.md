@@ -5,7 +5,7 @@ title: new aerial platform
 
 ## New Aerial Platform
 
-TODO -- INTRO and some youtube, and images
+INTRO
 
 ---
 

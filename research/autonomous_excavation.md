@@ -5,7 +5,7 @@ title: autonomous excavation
 
 ## Autonomous Excavation
 
-TODO -- INTRO and some youtube, and images
+INTRO
 
 ---
 

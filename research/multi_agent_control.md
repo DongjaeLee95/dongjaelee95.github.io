@@ -1,14 +1,14 @@
 ---
 layout: default
-title: robust/adaptive control
+title: multi-agent control
 ---
 
-## Robust/Adaptive Control
+## Multi-Agent Control
 
 INTRO
 
 ---
 
 ## Related Publications <small>* equal contribution / highlight 1st-authored papers </small>
-{% assign publications = site.data.pub_robust_adaptive_control %}
+{% assign publications = site.data.pub_multi_agent_control %}
 {% include publication-list.html %}

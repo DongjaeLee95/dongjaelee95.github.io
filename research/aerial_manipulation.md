@@ -5,7 +5,7 @@ title: aerial manipulation
 
 ## Aerial Manipulation
 
-TODO -- INTRO and some youtube, and images
+INTRO
 
 ---
 
