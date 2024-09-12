@@ -10,7 +10,7 @@
         - J. Byun
         - H. J. Kim
       default:
-        remark: submitted to T-RO    
+        remark: under review (journal submission)
 
     - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
       image: "/img/tro_omni_sub.png"
@@ -20,7 +20,7 @@
         - B. Kim* 
         - H. J. Kim
       default:
-        remark: in preparation
+        remark: under review (journal submission)
 
     - title: Switching Law and Control for a class of Nonlinear Input-Affine Multi-Channel Systems with Partial Controllability
       image: "/img/kth_simul_video.gif"
