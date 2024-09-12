@@ -10,7 +10,7 @@
       remark: submitted to T-RO
 
   - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
-    image: "/img/tase_sub.png"
+    image: "/img/2024tase.png"
     is_first_author: true
     authors:
       - S. Hwang*
@@ -25,12 +25,12 @@
     post:
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/10552772
+        link: /files//2024TASE.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=DW7YzORGIg8
 
   - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
-    image: "/img/ral2024_sj.png"
+    image: "/img/2024ral_sj.png"
     authors:
       - G. Park
       - H. Park
@@ -45,14 +45,14 @@
       remark: accepted
     post:
     links:
-      # - name: Paper
-      #   link: https://ieeexplore.ieee.org/document/10483266
+      - name: Paper
+        link: /files//2024RAL_sj.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=9hvRhZIhFR4
 
   - title: Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller
     is_first_author: true
-    image: "/img/icra2024.png"
+    image: "/img/2024icra.png"
     authors:
       - D. Lee
       - S. Hwang
@@ -65,12 +65,12 @@
       remark: accepted
     links:
       - name: Paper
-        link: /files/ICRA2024.pdf
+        link: /files//2024ICRA.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=rZFHxuegoT8
 
   - title: Design, Modeling and Control of a Top‑loading Fully‑Actuated Cargo Transportation Multirotor
-    image: "/img/ral2023.png"
+    image: "/img/2023ral.png"
     authors:
       - W. Park
       - X. Wu
@@ -86,13 +86,13 @@
     post:
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/10197535
+        link: /files//2023RAL.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=g5yMb22a8Jo
 
   - title: Minimally actuated tiltrotor for perching and normal force exertion
     is_first_author: true
-    image: "/img/iros2023.png"
+    image: "/img/2023iros.png"
     authors:
       - D. Lee
       - S. Hwang
@@ -104,12 +104,12 @@
       abrv: IROS
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/10341910
+        link: /files//2023IROS.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=hT7qpPF2z9w
 
   - title: Fully actuated autonomous flight of thruster-tilting multirotor
-    image: "/img/tmech2021.png"
+    image: "/img/2021tmech.png"
     authors:
       - S. J. Lee
       - D. Lee
@@ -131,7 +131,7 @@
         link: https://www.youtube.com/watch?v=-1MihNBS7Zw
 
   - title: Cargo transportation strategy using T 3‑Multirotor UAV
-    image: "/img/icra2019.png"
+    image: "/img/2019icra.png"
     authors:
       - S. J. Lee
       - D. Lee

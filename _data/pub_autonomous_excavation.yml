@@ -1,6 +1,6 @@
 - publications:
   - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
-    image: "/img/ram_sub.png"
+    image: "/img/2024ram.png"
     is_first_author: true
     authors:
       - I. Jang*
@@ -19,15 +19,15 @@
       remark: accepted
     post:
     links:
-      # - name: Paper
-      #   link: https://ieeexplore.ieee.org/document/10483266
+      - name: Paper
+        link: /files//2024RAM.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=E4emCP-wNF4
     year: "2024"
 
   - title: Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control
     is_first_author: true
-    image: "/img/iros2021.png"
+    image: "/img/2021iros.png"
     authors:
       - D. Lee*
       - I. Jang*
@@ -39,7 +39,7 @@
       abrv: IROS
     links:
       - name: Paper
-        link: https://doi.org/10.1109/IROS51168.2021.9635965
+        link: /files//2021IROS.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=HAFVdU7jCl8
     year: "2021"

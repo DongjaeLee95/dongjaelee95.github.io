@@ -1,7 +1,7 @@
 - publications:
   - title: Safety‑Critical Control under Multiple State and Input Constraints and Application to Fixed‑Wing UAV
     is_first_author: true
-    image: "/img/cdc2023_4x.gif"
+    image: "/img/2023cdc_4x.gif"
     authors:
       - D. D. Oh*
       - D. Lee*
@@ -11,10 +11,10 @@
       abrv: CDC
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/10383422
+        link: /files//2023CDC.pdf
 
   - title: Robust and recursively feasible real-time trajectory planning in unknown environments
-    image: "/img/iros2021_jang.png"
+    image: "/img/2021iros_jang.png"
     authors:
       - I. Jang
       - D. Lee
@@ -25,12 +25,12 @@
       abrv: IROS
     links:
       - name: Paper
-        link: https://doi.org/10.1109/IROS51168.2021.9636048
+        link: /files//2021IROS_ik.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=pqe6jSrH1_w
 
   - title: Provably safe real-time receding horizon trajectory planning for linear time-invariant systems
-    image: "/img/iccas2020.png"
+    image: "/img/2020iccas.png"
     authors:
       - I. Jang
       - D. Lee
@@ -41,10 +41,10 @@
     award: ICCAS 2020 Outstanding Paper Award
     links:
       - name: Paper
-        link: https://doi.org/10.23919/ICCAS50221.2020.9268425
+        link: /files//2020ICCAS_ik.pdf
 
   - title: Trajectory planning with safety guaranty for a multirotor based on the forward and backward reachability analysis
-    image: "/img/icra2020_seo.png"
+    image: "/img/2020icra_seo.png"
     authors:
       - H. Seo
       - C. Y. Son

@@ -20,7 +20,7 @@
       remark: submitted to T-RO 
 
   - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
-    image: "/img/tase_sub.png"
+    image: "/img/2024tase.png"
     is_first_author: true
     authors:
       - S. Hwang*
@@ -35,12 +35,12 @@
     post:
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/10552772
+        link: /files//2024TASE.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=DW7YzORGIg8
 
   - title: Image‑Based Time‑Varying Contact Force Control of Aerial Manipulator using Robust Impedance Filter
-    image: "/img/ral2024.png"
+    image: "/img/2024ral.png"
     authors:
       - J. Byun
       - J. Kim
@@ -58,12 +58,12 @@
     post:
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/10483266
+        link: /files//2024RAL_jh.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=_GPVPd-0jUc
 
   - title: A hybrid controller enhancing transient performance for an aerial manipulator extracting a wedged object
-    image: "/img/tase2023.png"
+    image: "/img/2023tase.png"
     authors:
       - J. Byun
       - I. Jang
@@ -82,7 +82,7 @@
         link: https://www.youtube.com/watch?v=VAhxPIsFpnk
 
   - title: Globally Defined Dynamic Modelling and Geometric Tracking Controller Design for Aerial Manipulator
-    image: "/img/icra2022.png"
+    image: "/img/2022icra.png"
     authors:
       - B. Kim
       - D. Lee
@@ -93,12 +93,12 @@
       abrv: ICRA
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/10160860
+        link: /files//2022ICRA.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=kfn2C5LIa4M
 
   - title: Stability and robustness analysis of plug-pulling using an aerial manipulator
-    image: "/img/iros2021_byun.png"
+    image: "/img/2021iros_byun.png"
     authors:
       - J. Byun
       - D. Lee
@@ -111,13 +111,13 @@
       abrv: IROS
     links:
       - name: Paper
-        link: https://doi.org/10.1109/IROS51168.2021.9636356
+        link: /files//2021IROS_jh.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=eQZ1ae-tb7U
 
   - title: Aerial manipulator pushing a movable structure using a DOB-based robust controller
     is_first_author: true
-    image: "/img/ral2021.png"
+    image: "/img/2021ral.png"
     authors:
       - D. Lee
       - H. Seo
@@ -135,13 +135,13 @@
     post:
     links:
       - name: Paper
-        link: https://doi.org/10.1109/LRA.2020.3047779
+        link: /files//2021RAL.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=htWzBzq9BIs
 
   - title: Aerial manipulation using model predictive control for opening a hinged door
     is_first_author: true
-    image: "/img/icra2020.png"
+    image: "/img/2020icra.png"
     authors:
       - D. Lee
       - H. Seo
@@ -152,6 +152,6 @@
       abrv: ICRA
     links:
       - name: Paper
-        link: https://ieeexplore.ieee.org/document/9197524
+        link: /files//2020ICRA.pdf
       - name: Video
         link: https://www.youtube.com/watch?v=FepvYNqMWNE
