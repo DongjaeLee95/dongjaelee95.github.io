@@ -8,6 +8,11 @@
       - H. J. Kim
     default:
       remark: under review (journal submission)
+    links:
+        # - name: Paper
+        #   link: files/2024RAL_sj.pdf
+        - name: Video
+          link: https://youtu.be/VNJkj_3rb4g
   
   - title: Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
     image: "/img/tro_hybrid_sub.png"
@@ -18,6 +23,11 @@
       - H. J. Kim
     default:
       remark: under review (journal submission) 
+    links:
+        # - name: Paper
+        #   link: files/2024RAL_sj.pdf
+        - name: Video
+          link: https://youtu.be/t0-__4vfCNQ
 
   - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
     image: "/img/2024tase.png"

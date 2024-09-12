@@ -48,6 +48,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
             </div>
             <div style="width: 70%;">
                 <b>[Under review]</b> Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
+                <a href="https://youtu.be/t0-__4vfCNQ">Video</a>
             </div>
         </div>
     </li>
@@ -58,6 +59,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
             </div>
             <div style="width: 70%;">
                 <b>[Under review]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
+                <a href="https://youtu.be/VNJkj_3rb4g">Video</a>
             </div>
         </div>
     </li>

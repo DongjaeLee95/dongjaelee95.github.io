@@ -8,6 +8,11 @@
       - H. J. Kim
     default:
       remark: under review (journal submission)
+    links:
+        # - name: Paper
+        #   link: files/2024RAL_sj.pdf
+        - name: Video
+          link: https://youtu.be/VNJkj_3rb4g
 
   - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
     image: "/img/2024tase.png"
