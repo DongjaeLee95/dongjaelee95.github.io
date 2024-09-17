@@ -42,6 +42,16 @@
       default:
         remark: in preparation
 
+    - title: Safety-Critical Control for Aerial Physical Interaction in Uncertain Environment
+      image: "/img/2025icra.png"
+      authors:
+        - J. Byun
+        - Y. Kim
+        - D. Lee
+        - H. J. Kim
+      default:
+        remark: under review (conference submission)
+
 - title: Journal Articles
   classname: j
   publications:

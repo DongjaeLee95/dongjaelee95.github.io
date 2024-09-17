@@ -23,7 +23,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
                 <img src="/img/2024tase.png" alt="selected_1" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
             </div>
             <div style="width: 70%;">
-                <b>[T-ASE2024]</b> Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor 
+                <b>[T-ASE2024]</b> Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor <br />
                 <a href="https://www.youtube.com/watch?v=DW7YzORGIg8">Video</a> |
                 <a href="/files/2024TASE.pdf">Paper</a>
             </div>
@@ -35,7 +35,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
                 <img src="/img/2024ram.png" alt="selected_5" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
             </div>
             <div style="width: 70%;">
-                <b>[RAM2024]</b> Autonomous excavator for precise earthcutting and onboard landscape inspection 
+                <b>[RAM2024]</b> Autonomous excavator for precise earthcutting and onboard landscape inspection <br />
                 <a href="https://www.youtube.com/watch?v=E4emCP-wNF4">Video</a> |
                 <a href="/files/2024RAM.pdf">Paper</a>
             </div>
@@ -47,7 +47,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
                 <img src="/img/tro_hybrid_sub.png" alt="selected_3" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
             </div>
             <div style="width: 70%;">
-                <b>[Under review]</b> Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss
+                <b>[Under review]</b> Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss <br />
                 <a href="https://youtu.be/t0-__4vfCNQ">Video</a>
             </div>
         </div>
@@ -58,7 +58,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
                 <img src="/img/tro_omni_sub.png" alt="selected_4" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
             </div>
             <div style="width: 70%;">
-                <b>[Under review]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
+                <b>[Under review]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace <br />
                 <a href="https://youtu.be/VNJkj_3rb4g">Video</a>
             </div>
         </div>

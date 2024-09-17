@@ -1,4 +1,14 @@
 - publications:
+  - title: Safety-Critical Control for Aerial Physical Interaction in Uncertain Environment
+    image: "/img/2025icra.png"
+    authors:
+      - J. Byun
+      - Y. Kim
+      - D. Lee
+      - H. J. Kim
+    default:
+      remark: under review (conference submission)
+
   - title: Safety‑Critical Control under Multiple State and Input Constraints and Application to Fixed‑Wing UAV
     is_first_author: true
     image: "/img/2023cdc_4x.gif"
