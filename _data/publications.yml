@@ -12,8 +12,8 @@
       default:
         remark: under review (journal submission)
       links:
-        # - name: Paper
-        #   link: files/2024RAL_sj.pdf
+        - name: Paper
+          link: files/2024TROrevision.pdf
         - name: Video
           link: https://youtu.be/t0-__4vfCNQ
 
@@ -27,12 +27,12 @@
       default:
         remark: under review (journal submission)
       links:
-        # - name: Paper
-        #   link: files/2024RAL_sj.pdf
+        - name: Paper
+          link: files/2024IJRRsubmission.pdf
         - name: Video
           link: https://youtu.be/VNJkj_3rb4g
 
-    - title: Switching Law and Control for a class of Nonlinear Input-Affine Multi-Channel Systems with Partial Controllability
+    - title: Event-Triggered Switching Control for Multi-Agent Pushing Manipulation with Contact Changes
       image: "/img/kth_simul_video.gif"
       is_first_author: true
       authors:
