@@ -60,8 +60,8 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
             </div>
             <div style="width: 70%;">
                 <b>[Under review]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace <br />
-                <a href="https://youtu.be/VNJkj_3rb4g">Video</a> |
-                <a href="/files/2024IJRRsubmission.pdf">Paper</a>
+                <a href="https://youtu.be/VNJkj_3rb4g">Video</a>
+                <!-- <a href="/files/2024IJRRsubmission.pdf">Paper</a> -->
             </div>
         </div>
     </li>

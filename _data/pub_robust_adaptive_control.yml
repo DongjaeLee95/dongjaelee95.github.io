@@ -24,8 +24,8 @@
     default:
       remark: under review (journal submission)
     links:
-        - name: Paper
-          link: /files/2024IJRRsubmission.pdf
+        # - name: Paper
+        #   link: /files/2024IJRRsubmission.pdf
         - name: Video
           link: https://youtu.be/VNJkj_3rb4g
 
