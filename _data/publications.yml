@@ -17,8 +17,8 @@
         - name: Video
           link: https://youtu.be/t0-__4vfCNQ
 
-    - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
-      image: "/img/tro_omni_sub.png"
+    - title: Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning
+      image: "/img/omni_sub.png"
       is_first_author: true
       authors:
         - D. Lee*
@@ -27,10 +27,10 @@
       default:
         remark: under review (journal submission)
       links:
-        # - name: Paper
+        # - name: Paper 
         #   link: files/2024IJRRsubmission.pdf
         - name: Video
-          link: https://youtu.be/VNJkj_3rb4g
+          link: https://youtu.be/ZKdBBr1UoJA
 
     - title: Event-Triggered Switching Control for Multi-Agent Pushing Manipulation with Contact Changes
       image: "/img/kth_simul_video.gif"

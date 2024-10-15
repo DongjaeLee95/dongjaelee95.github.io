@@ -1,6 +1,6 @@
 - publications:
-  - title: Robust Omnidirectional Aerial Manipulation with Enlarged Workspace
-    image: "/img/tro_omni_sub.png"
+  - title: Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning
+    image: "/img/omni_sub.png"
     is_first_author: true
     authors:
       - D. Lee*
@@ -12,7 +12,7 @@
         # - name: Paper
         #   link: /files/2024IJRRsubmission.pdf
         - name: Video
-          link: https://youtu.be/VNJkj_3rb4g
+          link: https://youtu.be/ZKdBBr1UoJA
 
   - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
     image: "/img/2024tase.png"

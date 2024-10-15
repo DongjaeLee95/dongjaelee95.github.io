@@ -56,11 +56,11 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
     <li>
         <div style="overflow: hidden; max-width: 700px; display: flex;">
             <div style="float: left; width: 30%; margin-right: 10px;">
-                <img src="/img/tro_omni_sub.png" alt="selected_4" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
+                <img src="/img/omni_sub.png" alt="selected_4" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
             </div>
             <div style="width: 70%;">
-                <b>[Under review]</b> Robust Omnidirectional Aerial Manipulation with Enlarged Workspace <br />
-                <a href="https://youtu.be/VNJkj_3rb4g">Video</a>
+                <b>[Under review]</b> Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning <br />
+                <a href="https://youtu.be/ZKdBBr1UoJA">Video</a>
                 <!-- <a href="/files/2024IJRRsubmission.pdf">Paper</a> -->
             </div>
         </div>
