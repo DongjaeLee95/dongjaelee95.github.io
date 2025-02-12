@@ -24,6 +24,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
 - <u>[Jul. 2024]</u> Invited to present at <a href="https://www.dlr.de/en/rm/about-us/institute">Institute of Robotics and Mechatronics, DLR</a>.
 - <u>[Jun. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10563997">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.
 - <u>[May 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10552772">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856">IEEE T-ASE</a>.
+- <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10483266">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.
 - <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10697977">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=100">IEEE RAM</a>.
 - <u>[Mar. 2024]</u> Began research visit at <a href="https://people.kth.se/~dimos/">Distributed Hybrid Systems Group, KTH</a>.
 
