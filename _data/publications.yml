@@ -42,16 +42,6 @@
       default:
         remark: in preparation
 
-    - title: Safety-Critical Control for Aerial Physical Interaction in Uncertain Environment
-      image: "/img/2025icra.png"
-      authors:
-        - J. Byun
-        - Y. Kim
-        - D. Lee
-        - H. J. Kim
-      default:
-        remark: under review (conference submission)
-
 - title: Journal Articles
   classname: j
   publications:
@@ -249,9 +239,26 @@
         - name: Video
           link: https://www.youtube.com/watch?v=-1MihNBS7Zw
 
-- title: Peer-Reviewed Conference Papers
+- title: Conference Papers
   classname: c
   publications:
+    - title: Safety-Critical Control for Aerial Physical Interaction in Uncertain Environment
+      is_first_author: false
+      image: "/img/2025icra.png"
+      authors:
+        - J. Byun
+        - Y. Kim
+        - D. Lee
+        - H. J. Kim
+      conference:
+        name: 2025 IEEE International Conference on Robotics and Automation
+        abrv: ICRA
+      links:
+        - name: Paper
+          link: https://arxiv.org/abs/2501.16719
+        - name: Video
+          link: https://youtu.be/Qu9e0iQafRA?si=BCEbs7zpvZAAI8XI
+
     - title: Saturated RISE control for considering rotor thrust saturation of fully actuated multirotor
       is_first_author: true
       image: "/img/2024icuas.png"
@@ -261,7 +268,6 @@
       conference:
         name: 2024 International Conference On Unmanned Aricraft Systems
         abrv: ICUAS
-        remark: accepted
       links:
         - name: Paper
           link: /files/2024ICUAS.pdf
@@ -278,7 +284,6 @@
       conference:
         name: 2024 IEEE International Conference on Robotics and Automation
         abrv: ICRA
-        remark: accepted
       links:
         - name: Paper
           link: /files/2024ICRA.pdf

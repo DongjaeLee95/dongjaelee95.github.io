@@ -4,7 +4,7 @@ title: Home
 ---
 
 ## Bio
-Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engineering in 2018 and 2020, respectively, from Seoul National University, Seoul, South Korea, where he is currently working toward the Ph.D. degree in aerospace engineering. His research interests include planning and control for robotic systems.
+Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engineering in 2018 and 2020, respectively, and the Ph.D. degree in aerospace engineering in 2025, from Seoul National University, Seoul, South Korea. His research interests include planning and control for robotic systems.
 
 ---
 ## Research Interests
@@ -15,8 +15,19 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
 - Multi-agent Control
 
 ---
-## Selected Research
-<ul>
+## Recent News
+- <u>[Feb. 2025]</u> Received Outstanding Doctoral Dissertation Award from <a href="https://aerospace.snu.ac.kr/en">Aerospace Engineering, SNU</a>.
+- <u>[Jan. 2025]</u> One <a href="https://arxiv.org/abs/2501.16719">paper</a> accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.
+- <u>[Dec. 2024]</u> Successfully completed Ph.D. defense at <a href="https://en.snu.ac.kr/index.html">SNU</a>. 
+- <u>[Nov. 2024]</u> Invited to present at <a href="https://msd.seoultech.ac.kr/en">Mechanical System Design Engineering, SeoulTech</a>.
+- <u>[Sep. 2024]</u> Our <a href="https://ieeexplore.ieee.org/abstract/document/10563997">paper</a> was highlighted in <a href="https://spectrum.ieee.org/cargo-drone-2669117300">IEEE Spectrum</a>.
+- <u>[Jul. 2024]</u> Invited to present at <a href="https://www.dlr.de/en/rm/about-us/institute">Institute of Robotics and Mechatronics, DLR</a>.
+- <u>[Jun. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10563997">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.
+- <u>[May 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10552772">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856">IEEE T-ASE</a>.
+- <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10697977">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=100">IEEE RAM</a>.
+- <u>[Mar. 2024]</u> Began research visit at <a href="https://people.kth.se/~dimos/">Distributed Hybrid Systems Group, KTH</a>.
+
+<!-- <ul>
     <li>
         <div style="overflow: hidden; max-width: 700px; display: flex;">
             <div style="float: left; width: 30%; margin-right: 10px;">
@@ -61,8 +72,7 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
             <div style="width: 70%;">
                 <b>[Under review]</b> Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning <br />
                 <a href="https://youtu.be/ZKdBBr1UoJA">Video</a>
-                <!-- <a href="/files/2024IJRRsubmission.pdf">Paper</a> -->
             </div>
         </div>
     </li>
-</ul>
+</ul> -->

@@ -5,7 +5,7 @@ title: autonomous excavation
 
 ## Autonomous Excavation
 
-INTRO
+<!-- INTRO -->
 
 ---
 

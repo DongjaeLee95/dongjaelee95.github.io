@@ -5,7 +5,7 @@ title: new aerial platform
 
 ## New Aerial Platform
 
-INTRO
+<!-- INTRO -->
 
 ---
 

@@ -5,7 +5,7 @@ title: multi-agent control
 
 ## Multi-Agent Control
 
-INTRO
+<!-- INTRO -->
 
 ---
 

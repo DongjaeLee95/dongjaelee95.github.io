@@ -5,7 +5,7 @@ title: aerial manipulation
 
 ## Aerial Manipulation
 
-INTRO
+<!-- INTRO -->
 
 ---
 

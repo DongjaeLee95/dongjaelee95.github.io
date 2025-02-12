@@ -5,7 +5,7 @@ title: robust/adaptive control
 
 ## Robust/Adaptive Control
 
-INTRO
+<!-- INTRO -->
 
 ---
 
