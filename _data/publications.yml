@@ -41,6 +41,11 @@
         - H. J. Kim
       default:
         remark: in preparation
+      links:
+        # - name: Paper 
+        #   link: 
+        - name: Video
+          link: https://youtu.be/UIv5V7vYpFw?si=V9u56Y7lhy3x_XqU
 
 - title: Journal Articles
   classname: j
