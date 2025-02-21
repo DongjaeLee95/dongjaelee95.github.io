@@ -1,6 +1,8 @@
 ---
 layout: default
 title: multi-agent control
+selected_papers:   
+  - "Event-Triggered Switching Control for Multi-Agent Pushing Manipulation with Contact Changes"
 ---
 
 ## Multi-Agent Control
@@ -10,5 +12,5 @@ title: multi-agent control
 ---
 
 ## Related Publications <small>* equal contribution / highlight 1st-authored papers </small>
-{% assign publications = site.data.pub_multi_agent_control %}
-{% include publication-list.html %}
+{% assign publications = site.data.publications %}
+{% include publication-list.html selected_papers=page.selected_papers %}

@@ -18,7 +18,7 @@
           link: https://youtu.be/t0-__4vfCNQ
 
     - title: Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning
-      image: "/img/omni_sub.png"
+      image: "/gif/2024IJRR_omnimani_4X_cprsed.gif"
       is_first_author: true
       authors:
         - D. Lee*
@@ -33,7 +33,7 @@
           link: https://youtu.be/ZKdBBr1UoJA
 
     - title: Event-Triggered Switching Control for Multi-Agent Pushing Manipulation with Contact Changes
-      image: "/img/kth_simul_video.gif"
+      image: "/gif/2025KTH_switching.gif"
       is_first_author: true
       authors:
         - D. Lee
@@ -51,7 +51,7 @@
   classname: j
   publications:
     - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
-      image: "/img/2024ral_sj.png"
+      image: "/gif/2024RAL_palletrone_4X_cprsed.gif"
       authors:
         - G. Park
         - H. Park
@@ -72,7 +72,7 @@
           link: https://www.youtube.com/watch?v=9hvRhZIhFR4
 
     - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
-      image: "/img/2024tase.png"
+      image: "/gif/2024TASE_coaxial_4X_cprsed.gif"
       is_first_author: true
       authors:
         - S. Hwang*
@@ -92,7 +92,7 @@
           link: https://www.youtube.com/watch?v=DW7YzORGIg8
 
     - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
-      image: "/img/2024ram.png"
+      image: "/gif/2024RAM_excavator_32X_cprsed.gif"
       is_first_author: true
       authors:
         - I. Jang*
@@ -200,7 +200,7 @@
 
     - title: Aerial manipulator pushing a movable structure using a DOB-based robust controller
       is_first_author: true
-      image: "/img/2021ral.png"
+      image: "/gif/2021RAL_pushing_2X_cprsed.gif"
       authors:
         - D. Lee
         - H. Seo
@@ -279,7 +279,7 @@
 
     - title: Autonomous aerial perching and unperching using omnidirectional tiltrotor and switching controller
       is_first_author: true
-      image: "/img/2024icra.png"
+      image: "/gif/2024ICRA_unperching_4X_cprsed.gif"
       authors:
         - D. Lee
         - S. Hwang
@@ -311,7 +311,7 @@
           
     - title: Minimally actuated tiltrotor for perching and normal force exertion
       is_first_author: true
-      image: "/img/2023iros.png"
+      image: "/gif/2023IROS_perching_2X_cprsed.gif"
       authors:
         - D. Lee
         - S. Hwang

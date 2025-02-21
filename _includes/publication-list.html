@@ -1,15 +1,27 @@
-<!-- publication-list.html -->
+{% assign selected_papers = include.selected_papers %}
+
 {% for publist in publications %}
-<h3>{{ publist.title }}</h3>
-{% assign total_count = publist.publications | size %}
-<ol class="pub {{ publist.classname }}" reversed start="{{ total_count }}">
-<!-- <ul style="margin-bottom: 10px;">   -->
+{% assign filtered_publications = "" | split: "," %}
 {% for pub in publist.publications %}
+{% if selected_papers.size == 0 %}
+    {% assign filtered_publications = filtered_publications | push: pub %}
+{% else %}
+    {% if selected_papers contains pub.title %}
+        {% assign filtered_publications = filtered_publications | push: pub %}
+    {% endif %}
+{% endif %}
+{% endfor %}
+
+{% if filtered_publications.size > 0 %}
+<h3>{{ publist.title }}</h3>
+{% assign total_count = filtered_publications | size %}
+<ol class="pub {{ publist.classname }}" reversed start="{{ total_count }}">
+{% for pub in filtered_publications %}
     <li>
         <div style="overflow: hidden; max-width: 700px; display: flex;">
             {% if pub.image %}
-                <div style="float: left; width: 30%; margin-right: 10px;">
-                    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%; height: auto;" onclick="openModal(this.src)">
+                <div style="float: left; width: 45%; margin-right: 10px;">
+                    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%; height: auto; border-radius: 5px;" onclick="openModal(this.src)">
                 </div>
             {% endif %}     
             <div style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 70%;">
@@ -51,13 +63,8 @@
                         ({{ pub.conference.remark }})
                     {% endif %}
                 {% endif %}
-                {% if pub.default %}
-                    <br>{% if pub.default.remark %}
-                        <i>{{ pub.default.remark }}</i>
-                    {% endif %}
-                {% endif %}
                 {% if pub.journal %}
-                    <br><i>{{ pub.journal.name }} (<b>{{ pub.journal.abrv }}</b>)</i>,
+                    <br><i>{{ pub.journal.name }} (<b>{{ pub.journal.abrv }}</b>)</i>
                     {% if pub.journal.vol %}
                         vol. {{ pub.journal.vol }},
                     {% endif %}
@@ -88,7 +95,9 @@
     </li>
 {% endfor %}
 </ol>
+{% endif %}
 {% endfor %}
+
 
 <script>
     var imageWrapper = document.getElementById("imageWrapper");
