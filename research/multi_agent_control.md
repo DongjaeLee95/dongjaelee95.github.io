@@ -2,7 +2,7 @@
 layout: default
 title: multi-agent control
 selected_papers:   
-  - "Event-Triggered Switching Control for Multi-Agent Pushing Manipulation with Contact Changes"
+  - "Switching control of underactuated multi-channel systems with input constraints for cooperative manipulation"
 ---
 
 ## Multi-Agent Control

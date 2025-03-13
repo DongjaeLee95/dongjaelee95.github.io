@@ -32,7 +32,7 @@
         - name: Video
           link: https://youtu.be/ZKdBBr1UoJA
 
-    - title: Event-Triggered Switching Control for Multi-Agent Pushing Manipulation with Contact Changes
+    - title: Switching control of underactuated multi-channel systems with input constraints for cooperative manipulation
       image: "/gif/2025KTH_switching.gif"
       is_first_author: true
       authors:
@@ -40,7 +40,7 @@
         - D. V. Dimarogonas
         - H. J. Kim
       default:
-        remark: in preparation
+        remark: under review (journal submission)
       links:
         # - name: Paper 
         #   link: 
