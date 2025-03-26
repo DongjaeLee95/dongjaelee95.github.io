@@ -2,7 +2,7 @@
 layout: default
 title: autonomous excavation
 selected_papers:
-  - "Autonomous excavator for precise earthcutting and onboard landscape inspection"
+  - "Towards Fully Integrated Autonomous Excavation: Autonomous Excavator for Precise Earth Cutting and Onboard Landscape Inspection"
   - "Real-time motion planning of a hydraulic excavator using trajectory optimization and model predictive control"
 ---
 

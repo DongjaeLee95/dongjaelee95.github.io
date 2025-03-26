@@ -91,7 +91,7 @@
         - name: Video
           link: https://www.youtube.com/watch?v=DW7YzORGIg8
 
-    - title: Autonomous excavator for precise earthcutting and onboard landscape inspection
+    - title: "Towards Fully Integrated Autonomous Excavation: Autonomous Excavator for Precise Earth Cutting and Onboard Landscape Inspection"
       image: "/gif/2024RAM_excavator_32X_cprsed.gif"
       is_first_author: true
       authors:
