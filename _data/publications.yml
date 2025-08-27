@@ -17,21 +17,6 @@
         - name: Video
           link: https://youtu.be/t0-__4vfCNQ
 
-    - title: Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning
-      image: "/gif/2024IJRR_omnimani_4X_cprsed.gif"
-      is_first_author: true
-      authors:
-        - D. Lee*
-        - B. Kim* 
-        - H. J. Kim
-      default:
-        remark: under review (journal submission)
-      links:
-        # - name: Paper 
-        #   link: files/2024IJRRsubmission.pdf
-        - name: Video
-          link: https://youtu.be/ZKdBBr1UoJA
-
     - title: Switching control of underactuated multi-channel systems with input constraints for cooperative manipulation
       image: "/gif/2025KTH_switching.gif"
       is_first_author: true
@@ -50,6 +35,24 @@
 - title: Journal Articles
   classname: j
   publications:
+    - title: Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning
+      image: "/gif/2024IJRR_omnimani_4X_cprsed.gif"
+      is_first_author: true
+      authors:
+        - D. Lee*
+        - B. Kim* 
+        - H. J. Kim
+      journal:
+        name: The International Journal of Robotics Research
+        abrv: IJRR
+        date: 2025
+        remark: accepted
+      links:
+        - name: Paper 
+          link: files/2025IJRR.pdf
+        - name: Video
+          link: https://youtu.be/ZKdBBr1UoJA
+
     - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
       image: "/gif/2024RAL_palletrone_4X_cprsed.gif"
       authors:

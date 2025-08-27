@@ -69,6 +69,8 @@ Dongjae Lee received the B.S. and M.S. degrees in mechanical and aerospace engin
 
 ---
 ## Recent News
+- <u>[Aug. 2025]</u> One <a href="files/2025IJRR.pdf">paper</a> accepted to <a href="https://journals.sagepub.com/home/ijr">IJRR</a>.
+- <u>[May. 2025]</u> Awarded the <a href="https://eng.nrf.re.kr/page/5301bb32-ad33-4031-8de1-a8b3275956a2?bizNo=1&uprBizNos=198,195,1">NRF Postdoctoral Fellowship for Overseas Training</a>.
 - <u>[Feb. 2025]</u> Invited to present at <a href="https://www.kias.re.kr/kias/main/main.do?&lang=en">2025 KIAS mini workshop on AI and Robotics, KIAS</a>.
 - <u>[Feb. 2025]</u> Received Outstanding Doctoral Dissertation Award from <a href="https://aerospace.snu.ac.kr/en">Aerospace Engineering, SNU</a>.
 - <u>[Jan. 2025]</u> One <a href="https://arxiv.org/abs/2501.16719">paper</a> accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.
