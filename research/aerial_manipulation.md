@@ -2,6 +2,7 @@
 layout: default
 title: aerial manipulation
 selected_papers:
+  - "UMI-on-Air: Embodiment-Aware Guidance for Embodiment-Agnostic Visuomotor Policies"
   - "Safety-Critical Control for Aerial Physical Interaction in Uncertain Environment"
   - "Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning"
   - "Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss"

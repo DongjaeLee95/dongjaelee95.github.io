@@ -2,6 +2,7 @@
 layout: default
 title: new aerial platform
 selected_papers:
+  - Geometric Backstepping Control of Omnidirectional Tiltrotors Incorporating Servo–Rotor Dynamics for Robustness against Sudden Disturbances
   - "Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning"
   - "Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor"
   - "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
