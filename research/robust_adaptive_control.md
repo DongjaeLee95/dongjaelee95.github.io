@@ -2,7 +2,7 @@
 layout: default
 title: robust/adaptive control
 selected_papers:
-  - "Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss"
+  # - "Aerial physical interaction with robust stability guarantee against sudden collision and contact‑loss"
   - "Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning"
   - "Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor"
   - "Saturated RISE control for considering rotor thrust saturation of fully actuated multirotor"

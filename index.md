@@ -6,13 +6,13 @@ title: Home
 ## Bio
 Dongjae Lee is a visiting postdoctoral researcher at the Robotics Institute, Carnegie Mellon University, coadvised by Prof. Guanya Shi and Prof. Sebastian Scherer. He received the B.S. and M.S. degrees in Mechanical and Aerospace Engineering in 2018 and 2020, respectively, and the Ph.D. degree in Aerospace Engineering in 2025, all from Seoul National University, where he was advised by Prof. H. Jin Kim. In 2024, he was a visiting Ph.D. student in the Division of Decision and Control Systems at KTH Royal Institute of Technology, advised by Prof. Dimos V. Dimarogonas. His research interests include planning and control for robotic systems.
 
----
+<!-- ---
 ## Research Interests
 - Aerial Manipulation
 - Robot-Environment Interaction
 - Robust/Adaptive Control
 - Trajectory Optimization
-- Cooperative Control
+- Cooperative Control -->
 
 ---
 ## Research Highlight
@@ -21,7 +21,7 @@ Dongjae Lee is a visiting postdoctoral researcher at the Robotics Institute, Car
         <img src="gif/2024IJRR_omnimani_4X_cprsed.gif" onclick="window.location.href='https://youtu.be/ZKdBBr1UoJA';">
     </div>
     <div class="gif-item">
-        <img src="gif/2025KTH_switching.gif" onclick="window.location.href='https://youtu.be/UIv5V7vYpFw?si=V9u56Y7lhy3x_XqU';">
+        <img src="gif/2025KTH_switching.gif" onclick="window.location.href='https://youtu.be/V-vnKdy3tG0';">
     </div>
     <div class="gif-item">
         <img src="gif/2024RAL_palletrone_4X_cprsed.gif" onclick="window.location.href='https://www.youtube.com/watch?v=9hvRhZIhFR4';">

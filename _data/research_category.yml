@@ -1,12 +1,22 @@
 - title: "Aerial Manipulation"
   description: "Towards dexterous aerial manipulation with guranteed stability/performance"
-  image: "img/tro_hybrid_sub.png"
+  image: "gif/2024IJRR_omnimani_4X_cprsed.gif"
   slug: aerial_manipulation
 
 - title: "New Aerial Platform"
   description: "Multirotors with additional DoFs for enhancing dexterity and applicability"
   image: "img/2024icra.png"
   slug: new_aerial_platform
+
+- title: "Embodiment-Aware Robot Learning"
+  description: "Embodiment-aware learning for robot control"
+  image: "gif/2026icra_umionair_8X.gif"
+  slug: embodiment_aware_robot_learning
+
+- title: "Multi-Agent Control"
+  description: "Cooperative control for multi-robot system"
+  image: "img/kth_simul_video_v2.gif"
+  slug: multi_agent_control
 
 - title: "Autonomous Excavation"
   description: "Perception, planning and hardware experiments for excavator automation"
@@ -27,11 +37,6 @@
   description: "How to ensure safety in the presence of disturbance or multiple constraints"
   image: "img/2023cdc_4x.gif"
   slug: safety_critical_control_planning
-
-- title: "Multi-Agent Control"
-  description: "Ongoing research: plug-and-play collaborative object transportation"
-  image: "img/kth_simul_video.gif"
-  slug: multi_agent_control
 
 # - title: "Aerial Cargo Transportation"
 #   description: "TODO"

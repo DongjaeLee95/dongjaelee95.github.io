@@ -4,7 +4,7 @@ title: Research
 ---
 
 ## Research
-A brief overview of research topics I've worked on.
+<!-- A brief overview of research topics I've worked on. -->
 
 <div class="research-container">
     {% for category in site.data.research_category %}

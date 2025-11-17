@@ -30,7 +30,7 @@
         # - name: Paper 
         #   link: 
         - name: Video
-          link: https://youtu.be/UIv5V7vYpFw?si=V9u56Y7lhy3x_XqU
+          link: https://youtu.be/V-vnKdy3tG0
 
     - title: "UMI-on-Air: Embodiment-Aware Guidance for Embodiment-Agnostic Visuomotor Policies"
       image: "/gif/2026icra_umionair_8X.gif"
@@ -93,27 +93,6 @@
         - name: Video
           link: https://youtu.be/ZKdBBr1UoJA
 
-    - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
-      image: "/gif/2024RAL_palletrone_4X_cprsed.gif"
-      authors:
-        - G. Park
-        - H. Park
-        - W. Park
-        - D. Lee
-        - M. Kim
-        - S. J. Lee
-      journal:
-        name: IEEE Robotics and Automation Letters
-        abrv: R-AL
-        date: 2024
-        remark: accepted
-      post:
-      links:
-        - name: Paper
-          link: files/2024RAL_sj.pdf
-        - name: Video
-          link: https://www.youtube.com/watch?v=9hvRhZIhFR4
-
     - title: Autonomous Heavy Object Pushing Using a Coaxial Tiltrotor
       image: "/gif/2024TASE_coaxial_4X_cprsed.gif"
       is_first_author: true
@@ -125,8 +104,9 @@
       journal:
         name: IEEE Transactions on Automation Science and Engineering
         abrv: T-ASE
-        date: 2024
-        remark: accepted
+        date: 2025
+        vol: 22
+        pages: 4243-4256
       post:
       links:
         - name: Paper
@@ -150,14 +130,59 @@
       journal:
         name: IEEE Robotics and Automation Magazine
         abrv: RAM
-        date: 2024
-        remark: accepted
+        vol: 32
+        issue: 3
+        date: September 2025
+        pages: 88-102
       post:
       links:
         - name: Paper
           link: /files/2024RAM.pdf
         - name: Video
           link: https://www.youtube.com/watch?v=E4emCP-wNF4
+
+    - title: "The Palletrone Cart: Human-Robot Interaction-Based Aerial Cargo Transportation"
+      image: "/gif/2024RAL_palletrone_4X_cprsed.gif"
+      authors:
+        - G. Park
+        - H. Park
+        - W. Park
+        - D. Lee
+        - M. Kim
+        - S. J. Lee
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RAL
+        vol: 9
+        issue: 8
+        date: August 2024
+        pages: 6999-7006
+      post:
+      links:
+        - name: Paper
+          link: files/2024RAL_sj.pdf
+        - name: Video
+          link: https://www.youtube.com/watch?v=9hvRhZIhFR4
+
+    - title: A hybrid controller enhancing transient performance for an aerial manipulator extracting a wedged object
+      image: "/img/2023tase.png"
+      authors:
+        - J. Byun
+        - I. Jang
+        - D. Lee
+        - H. J. Kim
+      journal:
+        name: IEEE Transactions on Automation Science and Engineering
+        abrv: T-ASE
+        vol: 21
+        issue: 3
+        date: July 2024
+      post:
+      links:
+        - name: Paper
+          link: https://doi.org/10.1109/TASE.2023.3277508
+        - name: Video
+          link: https://www.youtube.com/watch?v=VAhxPIsFpnk
 
     - title: Image‑Based Time‑Varying Contact Force Control of Aerial Manipulator using Robust Impedance Filter
       image: "/img/2024ral.png"
@@ -170,7 +195,7 @@
         - H. J. Kim
       journal:
         name: IEEE Robotics and Automation Letters
-        abrv: RA-L
+        abrv: RAL
         vol: 9
         issue: 5
         pages: 4854-4861
@@ -191,7 +216,7 @@
         - S. J. Lee
       journal:
         name: IEEE Robotics and Automation Letters
-        abrv: RA-L
+        abrv: RAL
         vol: 8
         issue: 9
         pages: 5807-5814
@@ -203,25 +228,6 @@
         - name: Video
           link: https://www.youtube.com/watch?v=g5yMb22a8Jo
 
-    - title: A hybrid controller enhancing transient performance for an aerial manipulator extracting a wedged object
-      image: "/img/2023tase.png"
-      authors:
-        - J. Byun
-        - I. Jang
-        - D. Lee
-        - H. J. Kim
-      journal:
-        name: IEEE Transactions on Automation Science and Engineering
-        abrv: T-ASE
-        date: 2023
-        remark: in press
-      post:
-      links:
-        - name: Paper
-          link: https://doi.org/10.1109/TASE.2023.3277508
-        - name: Video
-          link: https://www.youtube.com/watch?v=VAhxPIsFpnk
-
     - title: RISE‑based trajectory tracking control of an aerial manipulator under uncertainty
       is_first_author: true
       image: "/img/2022lcss.jpg"
@@ -232,6 +238,7 @@
       journal:
         name: IEEE Control Systems Letters
         abrv: L-CSS
+        vol: 6
         date: June 2022
         pages: 3379-3384
       post:
@@ -252,7 +259,7 @@
         - H. J. Kim
       journal:
         name: IEEE Robotics and Automation Letters
-        abrv: RA-L
+        abrv: RAL
         date: April 2021
         vol: 6
         issue: 2
