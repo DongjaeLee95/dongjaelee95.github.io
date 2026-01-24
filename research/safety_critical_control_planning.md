@@ -2,6 +2,7 @@
 layout: default
 title: safety-critical control/planning
 selected_papers:
+  - "Safe Multimodal Replanning via Projection-based Trajectory Clustering in Crowded Environments"
   - "Safety-Critical Control for Aerial Physical Interaction in Uncertain Environment"
   - "Safety‑Critical Control under Multiple State and Input Constraints and Application to Fixed‑Wing UAV"
   - "Robust and recursively feasible real-time trajectory planning in unknown environments"

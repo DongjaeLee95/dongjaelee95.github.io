@@ -35,7 +35,7 @@
 
 - title: "Safety-Critical Control/Planning"
   description: "How to ensure safety in the presence of disturbance or multiple constraints"
-  image: "img/2023cdc_4x.gif"
+  image: "img/2026ral_lim.png"
   slug: safety_critical_control_planning
 
 # - title: "Aerial Cargo Transportation"

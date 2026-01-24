@@ -75,6 +75,23 @@
 - title: Journal Articles
   classname: j
   publications:
+    - title: Safe Multimodal Replanning via Projection-based Trajectory Clustering in Crowded Environments
+      image: "/img/2026ral_lim.png"
+      authors:
+        - Y. Lim
+        - S. Jung
+        - D. Kim
+        - D. Lee 
+        - H. J. Kim
+      journal:
+        name: IEEE Robotics and Automation Letters
+        abrv: RAL
+        date: 2026
+        remark: accepted
+      links:
+        - name: Paper 
+          link: https://ieeexplore.ieee.org/document/11359671
+
     - title: Autonomous Aerial Manipulation at Arbitrary Pose in SE(3) with Robust Control and Whole-body Planning
       image: "/gif/2024IJRR_omnimani_4X_cprsed.gif"
       is_first_author: true
