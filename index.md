@@ -18,6 +18,9 @@ Dongjae Lee is a visiting postdoctoral researcher at the Robotics Institute, Car
 ## Research Highlight
 <div class="gif-container">
     <div class="gif-item">
+        <img src="gif/2026icra_umionair_HL_8X.gif" onclick="window.location.href='https://umi-on-air.github.io';">
+    </div>
+    <div class="gif-item">
         <img src="gif/2024IJRR_omnimani_4X_cprsed.gif" onclick="window.location.href='https://youtu.be/ZKdBBr1UoJA';">
     </div>
     <div class="gif-item">
