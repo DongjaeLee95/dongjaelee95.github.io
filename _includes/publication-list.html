@@ -14,11 +14,29 @@
 
 {% if filtered_publications.size > 0 %}
 <h3>{{ publist.title }}</h3>
-{% assign total_count = filtered_publications | size %}
-<ol class="pub {{ publist.classname }}" reversed start="{{ total_count }}">
+<div class="publications-container" data-classname="{{ publist.classname }}">
 {% for pub in filtered_publications %}
-    <li>
-        <div style="overflow: hidden; max-width: 700px; display: flex;">
+    <div class="publication-item" style="display: none;">
+        {% comment %} Data attributes for year extraction {% endcomment %}
+        {% assign pub_year = "" %}
+        {% if pub.journal.date %}
+            {% assign date_parts = pub.journal.date | split: " " %}
+            {% for part in date_parts %}
+                {% assign part_num = part | plus: 0 %}
+                {% if part_num > 1900 and part_num < 2100 %}
+                    {% assign pub_year = part %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+        {% elsif pub.conference.name %}
+            {% assign conf_parts = pub.conference.name | split: " " %}
+            {% assign first_part = conf_parts[0] %}
+            {% assign first_part_num = first_part | plus: 0 %}
+            {% if first_part_num > 1900 and first_part_num < 2100 %}
+                {% assign pub_year = first_part %}
+            {% endif %}
+        {% endif %}
+        <div data-year="{{ pub_year }}" data-title="{{ pub.title }}">
             {% if pub.image %}
                 <div style="float: left; width: 45%; margin-right: 10px;">
                     <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%; height: auto; border-radius: 5px;" onclick="openModal(this.src)">
@@ -92,22 +110,181 @@
                 {% endif %}
             </div>
         </div>
-    </li>
+    </div>
 {% endfor %}
-</ol>
+</div>
 {% endif %}
 {% endfor %}
 
 
 <script>
-    var imageWrapper = document.getElementById("imageWrapper");
-    var textWrapper = document.getElementById("textWrapper");
-
-    var imageHeight = document.getElementById("pubImage").height;
-    var textHeight = textWrapper.offsetHeight;
-
-    var maxHeight = Math.max(imageHeight, textHeight);
-
-    imageWrapper.style.height = maxHeight + "px";
-    textWrapper.style.height = maxHeight + "px";
+(function() {
+    function processPublications() {
+        // Process all publications-container elements
+        document.querySelectorAll('.publications-container').forEach(function(container) {
+            var classname = container.getAttribute('data-classname');
+            var publications = [];
+            var publicationItems = container.querySelectorAll('.publication-item');
+            
+            // Collect all publications in original order
+            var allPublications = [];
+            publicationItems.forEach(function(item, index) {
+                var pubDiv = item.querySelector('[data-year]');
+                if (pubDiv) {
+                    var year = pubDiv.getAttribute('data-year') || '';
+                    var title = pubDiv.getAttribute('data-title') || '';
+                    allPublications.push({
+                        year: year,
+                        element: item,
+                        title: title,
+                        originalIndex: index
+                    });
+                }
+            });
+            
+            // Group publications by year
+            var publicationsByYear = {};
+            var noYearPublications = [];
+            
+            allPublications.forEach(function(pub) {
+                if (pub.year && pub.year !== '') {
+                    if (!publicationsByYear[pub.year]) {
+                        publicationsByYear[pub.year] = [];
+                    }
+                    publicationsByYear[pub.year].push(pub);
+                } else {
+                    noYearPublications.push(pub);
+                }
+            });
+            
+            // Sort years in descending order (newest first)
+            var sortedYears = Object.keys(publicationsByYear).sort(function(a, b) {
+                return parseInt(b) - parseInt(a);
+            });
+            
+            // Sort publications within each year by original index (maintain original order)
+            sortedYears.forEach(function(year) {
+                publicationsByYear[year].sort(function(a, b) {
+                    return a.originalIndex - b.originalIndex;
+                });
+            });
+            noYearPublications.sort(function(a, b) {
+                return a.originalIndex - b.originalIndex;
+            });
+            
+            // Build flat list of all publications in correct order (newest first, maintaining order within years)
+            var orderedPublications = [];
+            sortedYears.forEach(function(year) {
+                orderedPublications = orderedPublications.concat(publicationsByYear[year]);
+            });
+            orderedPublications = orderedPublications.concat(noYearPublications);
+            
+            // Calculate total publication count
+            var totalCount = orderedPublications.length;
+            var publicationNumber = totalCount;
+            
+            // Clear existing content
+            container.innerHTML = '';
+            
+            // Track current year to show year header
+            var currentYear = null;
+            var yearContainer = null;
+            var listContainer = null;
+            var ol = null;
+            var yearStartNumber = null;
+            
+            // Display publications maintaining order
+            orderedPublications.forEach(function(pub, index) {
+                // If year changed, create new year section
+                if (pub.year !== currentYear) {
+                    // Close previous year section if exists
+                    if (yearContainer && ol) {
+                        listContainer.appendChild(ol);
+                        yearContainer.appendChild(listContainer);
+                        container.appendChild(yearContainer);
+                    }
+                    
+                    currentYear = pub.year;
+                    // Start number for this year group (first publication in group gets this number)
+                    yearStartNumber = publicationNumber;
+                    
+                    if (pub.year && pub.year !== '') {
+                        // Create new year container with increased width
+                        yearContainer = document.createElement('div');
+                        yearContainer.style.position = 'relative';
+                        yearContainer.style.marginTop = '20px';
+                        yearContainer.style.marginBottom = '10px';
+                        yearContainer.style.maxWidth = '800px';
+                        yearContainer.style.width = '100%';
+                        yearContainer.style.marginLeft = '60px'; // Space for year header on the left
+                        
+                        // Year header - positioned to the left of the content
+                        var yearHeader = document.createElement('h4');
+                        yearHeader.textContent = pub.year;
+                        yearHeader.style.position = 'absolute';
+                        yearHeader.style.top = '0';
+                        yearHeader.style.left = '-60px';
+                        yearHeader.style.margin = '0';
+                        yearHeader.style.fontSize = '1.2em';
+                        yearHeader.style.fontWeight = 'bold';
+                        yearHeader.style.color = '#333';
+                        yearHeader.style.whiteSpace = 'nowrap';
+                        
+                        // Publication list container - starts from left (no margin)
+                        listContainer = document.createElement('div');
+                        listContainer.style.marginLeft = '0';
+                        listContainer.style.maxWidth = '700px';
+                        
+                        ol = document.createElement('ol');
+                        ol.className = 'pub ' + classname;
+                        ol.setAttribute('reversed', '');
+                        ol.setAttribute('start', yearStartNumber);
+                        
+                        yearContainer.appendChild(yearHeader);
+                    } else {
+                        // No year - create simple container
+                        yearContainer = document.createElement('div');
+                        yearContainer.style.maxWidth = '700px';
+                        listContainer = document.createElement('div');
+                        ol = document.createElement('ol');
+                        ol.className = 'pub ' + classname;
+                        ol.setAttribute('reversed', '');
+                        ol.setAttribute('start', yearStartNumber);
+                    }
+                }
+                
+                // Add publication to current list
+                var li = document.createElement('li');
+                var pubContent = pub.element.querySelector('[data-year]').cloneNode(true);
+                pubContent.removeAttribute('data-year');
+                pubContent.removeAttribute('data-title');
+                // Ensure publication content maintains proper width
+                var contentDiv = pubContent.querySelector('div[style*="width"]');
+                if (contentDiv && !contentDiv.style.maxWidth) {
+                    pubContent.style.maxWidth = '700px';
+                    pubContent.style.overflow = 'hidden';
+                    pubContent.style.display = 'flex';
+                }
+                li.appendChild(pubContent);
+                ol.appendChild(li);
+                
+                publicationNumber--;
+            });
+            
+            // Close last year section
+            if (yearContainer && ol) {
+                listContainer.appendChild(ol);
+                yearContainer.appendChild(listContainer);
+                container.appendChild(yearContainer);
+            }
+        });
+    }
+    
+    // Execute after DOM is loaded
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', processPublications);
+    } else {
+        processPublications();
+    }
+})();
 </script>

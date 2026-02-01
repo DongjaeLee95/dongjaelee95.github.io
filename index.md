@@ -45,11 +45,11 @@ Dongjae Lee is a visiting postdoctoral researcher at the Robotics Institute, Car
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px; /* 간격 조정 */
+    gap: 10px; /* spacing adjustment */
 }
 
 .gif-item {
-    flex: 1 1 calc(50% - 10px); /* 기본적으로 한 줄에 3개 */
+    flex: 1 1 calc(50% - 10px); /* 2 items per row by default */
     max-width: calc(50% - 10px);
     text-align: center;
 }
@@ -63,7 +63,7 @@ Dongjae Lee is a visiting postdoctoral researcher at the Robotics Institute, Car
 
 @media (max-width: 600px) {
     .gif-item {
-        flex: 1 1 100%; /* 한 줄에 1개 */
+        flex: 1 1 100%; /* 1 item per row */
         max-width: 100%;
     }
 }
@@ -72,20 +72,60 @@ Dongjae Lee is a visiting postdoctoral researcher at the Robotics Institute, Car
 
 ---
 ## Recent News
-- <u>[Jan. 2026]</u> One <a href="https://ieeexplore.ieee.org/document/11359671">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.
-- <u>[Aug. 2025]</u> Began postdoctoral research at <a href="https://lecar-lab.github.io/">LeCAR Lab</a> and <a href="https://theairlab.org/">AirLab</a>, <a href="https://www.ri.cmu.edu/">CMU Robotics Institute</a>.
-- <u>[Aug. 2025]</u> One <a href="files/2025IJRR.pdf">paper</a> accepted to <a href="https://journals.sagepub.com/home/ijr">IJRR</a>.
-- <u>[May. 2025]</u> Awarded the <a href="https://eng.nrf.re.kr/page/5301bb32-ad33-4031-8de1-a8b3275956a2?bizNo=1&uprBizNos=198,195,1">NRF Postdoctoral Fellowship for Overseas Training</a>.
-- <u>[Mar. 2025]</u> Began postdoctoral research at <a href="https://larr.snu.ac.kr/">LARR, SNU</a>.
-- <u>[Feb. 2025]</u> Invited to present at <a href="https://www.kias.re.kr/kias/main/main.do?&lang=en">2025 KIAS mini workshop on AI and Robotics, KIAS</a>.
-- <u>[Feb. 2025]</u> Received Outstanding Doctoral Dissertation Award from <a href="https://aerospace.snu.ac.kr/en">Aerospace Engineering, SNU</a>.
-- <u>[Jan. 2025]</u> One <a href="https://arxiv.org/abs/2501.16719">paper</a> accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.
-- <u>[Dec. 2024]</u> Successfully completed Ph.D. defense at <a href="https://en.snu.ac.kr/index.html">SNU</a>. 
-- <u>[Nov. 2024]</u> Invited to present at <a href="https://msd.seoultech.ac.kr/en">Mechanical System Design Engineering, SeoulTech</a>.
-- <u>[Sep. 2024]</u> Our <a href="https://ieeexplore.ieee.org/abstract/document/10563997">paper</a> was highlighted in <a href="https://spectrum.ieee.org/cargo-drone-2669117300">IEEE Spectrum</a>.
-- <u>[Jul. 2024]</u> Invited to present at <a href="https://www.dlr.de/en/rm/about-us/institute">Institute of Robotics and Mechatronics, DLR</a>.
-- <u>[Jun. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10563997">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.
-- <u>[May 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10552772">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856">IEEE T-ASE</a>.
-- <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10483266">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.
-- <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10697977">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=100">IEEE RAM</a>.
-- <u>[Mar. 2024]</u> Began research visit at <a href="https://people.kth.se/~dimos/">Distributed Hybrid Systems Group, KTH</a>.
+<ul id="news-container">
+<li> <u>[Jan. 2026]</u> Two papers (<a href="https://arxiv.org/abs/2510.01675">paper1</a>, <a href="https://arxiv.org/abs/2510.02614">paper2</a>) accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.</li>
+<li> <u>[Jan. 2026]</u> One <a href="https://ieeexplore.ieee.org/document/11359671">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.</li>
+<li> <u>[Aug. 2025]</u> Began postdoctoral research at <a href="https://lecar-lab.github.io/">LeCAR Lab</a> and <a href="https://theairlab.org/">AirLab</a>, <a href="https://www.ri.cmu.edu/">CMU Robotics Institute</a>.</li>
+<li> <u>[Aug. 2025]</u> One <a href="files/2025IJRR.pdf">paper</a> accepted to <a href="https://journals.sagepub.com/home/ijr">IJRR</a>.</li>
+<li> <u>[May. 2025]</u> Awarded the <a href="https://eng.nrf.re.kr/page/5301bb32-ad33-4031-8de1-a8b3275956a2?bizNo=1&uprBizNos=198,195,1">NRF Postdoctoral Fellowship for Overseas Training</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Mar. 2025]</u> Began postdoctoral research at <a href="https://larr.snu.ac.kr/">LARR, SNU</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Feb. 2025]</u> Invited to present at <a href="https://www.kias.re.kr/kias/main/main.do?&lang=en">2025 KIAS mini workshop on AI and Robotics, KIAS</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Feb. 2025]</u> Received Outstanding Doctoral Dissertation Award from <a href="https://aerospace.snu.ac.kr/en">Aerospace Engineering, SNU</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Jan. 2025]</u> One <a href="https://arxiv.org/abs/2501.16719">paper</a> accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Dec. 2024]</u> Successfully completed Ph.D. defense at <a href="https://en.snu.ac.kr/index.html">SNU</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Nov. 2024]</u> Invited to present at <a href="https://msd.seoultech.ac.kr/en">Mechanical System Design Engineering, SeoulTech</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Sep. 2024]</u> Our <a href="https://ieeexplore.ieee.org/abstract/document/10563997">paper</a> was highlighted in <a href="https://spectrum.ieee.org/cargo-drone-2669117300">IEEE Spectrum</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Jul. 2024]</u> Invited to present at <a href="https://www.dlr.de/en/rm/about-us/institute">Institute of Robotics and Mechatronics, DLR</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Jun. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10563997">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[May 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10552772">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856">IEEE T-ASE</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10483266">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10697977">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=100">IEEE RAM</a>.</li>
+<li class="news-hidden" style="display: none;"> <u>[Mar. 2024]</u> Began research visit at <a href="https://people.kth.se/~dimos/">Distributed Hybrid Systems Group, KTH</a>.</li>
+</ul>
+<div id="news-toggle" style="cursor: pointer; margin-top: 10px; color: #0066cc; user-select: none;">
+    <span id="toggle-text">Show more ▼</span>
+</div>
+
+<style>
+#news-toggle:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+</style>
+
+<script>
+(function() {
+    var hiddenNewsItems = document.querySelectorAll('.news-hidden');
+    var toggleButton = document.getElementById('news-toggle');
+    var toggleText = document.getElementById('toggle-text');
+    var isExpanded = false;
+    
+    if (hiddenNewsItems.length > 0 && toggleButton) {
+        toggleButton.addEventListener('click', function() {
+            if (isExpanded) {
+                hiddenNewsItems.forEach(function(item) {
+                    item.style.display = 'none';
+                });
+                toggleText.textContent = 'Show more ▼';
+                isExpanded = false;
+            } else {
+                hiddenNewsItems.forEach(function(item) {
+                    item.style.display = 'list-item';
+                });
+                toggleText.textContent = 'Collapse ▲';
+                isExpanded = true;
+            }
+        });
+    }
+})();
+</script>
