@@ -53,11 +53,14 @@ title: Research
 }
 
 .text-container h3 {
-    /* font-size: 2vw; */
+    font-size: 1.3em;
+    margin: 0 0 8px 0;
 }
 
 .text-container p {
-    /* font-size: 1.5vw; */
+    font-size: 1em;
+    margin: 0;
+    line-height: 1.4;
 }
 
 .research-item a {
@@ -73,11 +76,11 @@ title: Research
     }
 
     .text-container h3 {
-        font-size: 2vw;
+        font-size: 1.4em;
     }
 
     .text-container p {
-        font-size: 1.5vw;
+        font-size: 1.05em;
     }
 }
 
@@ -86,14 +89,17 @@ title: Research
     .research-item {
         flex: 1 1 100%; /* 1 item per row */
         max-width: 100%;
+        padding: 20px; /* Increase padding for better readability */
     }
 
     .text-container h3 {
-        font-size: 4vw;
+        font-size: 1.5em;
+        margin-bottom: 10px;
     }
 
     .text-container p {
-        font-size: 3vw;
+        font-size: 1.1em;
+        line-height: 1.5;
     }
 }
 </style>

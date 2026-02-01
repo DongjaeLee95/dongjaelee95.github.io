@@ -209,31 +209,22 @@
                     yearStartNumber = publicationNumber;
                     
                     if (pub.year && pub.year !== '') {
-                        // Create new year container with increased width
+                        // Create new year container
                         yearContainer = document.createElement('div');
-                        yearContainer.style.position = 'relative';
                         yearContainer.style.marginTop = '20px';
                         yearContainer.style.marginBottom = '10px';
-                        yearContainer.style.maxWidth = '800px';
-                        yearContainer.style.width = '100%';
-                        yearContainer.style.marginLeft = '60px'; // Space for year header on the left
+                        yearContainer.style.maxWidth = '700px';
                         
-                        // Year header - positioned to the left of the content
+                        // Year header - displayed above publications
                         var yearHeader = document.createElement('h4');
                         yearHeader.textContent = pub.year;
-                        yearHeader.style.position = 'absolute';
-                        yearHeader.style.top = '0';
-                        yearHeader.style.left = '-60px';
-                        yearHeader.style.margin = '0';
+                        yearHeader.style.margin = '0 0 10px 0';
                         yearHeader.style.fontSize = '1.2em';
                         yearHeader.style.fontWeight = 'bold';
                         yearHeader.style.color = '#333';
-                        yearHeader.style.whiteSpace = 'nowrap';
                         
-                        // Publication list container - starts from left (no margin)
+                        // Publication list container
                         listContainer = document.createElement('div');
-                        listContainer.style.marginLeft = '0';
-                        listContainer.style.maxWidth = '700px';
                         
                         ol = document.createElement('ol');
                         ol.className = 'pub ' + classname;
@@ -259,8 +250,7 @@
                 pubContent.removeAttribute('data-year');
                 pubContent.removeAttribute('data-title');
                 // Ensure publication content maintains proper width
-                var contentDiv = pubContent.querySelector('div[style*="width"]');
-                if (contentDiv && !contentDiv.style.maxWidth) {
+                if (!pubContent.style.maxWidth) {
                     pubContent.style.maxWidth = '700px';
                     pubContent.style.overflow = 'hidden';
                     pubContent.style.display = 'flex';
