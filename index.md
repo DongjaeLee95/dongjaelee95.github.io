@@ -73,6 +73,7 @@ Dongjae Lee is a visiting postdoctoral researcher at the Robotics Institute, Car
 ---
 ## Recent News
 <ul id="news-container">
+<li> <u>[Feb. 2026]</u> One <a href="https://arxiv.org/abs/2511.22810">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87">IEEE TCST</a>.</li>
 <li> <u>[Jan. 2026]</u> Two papers (<a href="https://arxiv.org/abs/2510.01675">paper1</a>, <a href="https://arxiv.org/abs/2510.02614">paper2</a>) accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.</li>
 <li> <u>[Jan. 2026]</u> One <a href="https://ieeexplore.ieee.org/document/11359671">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.</li>
 <li> <u>[Aug. 2025]</u> Began postdoctoral research at <a href="https://lecar-lab.github.io/">LeCAR Lab</a> and <a href="https://theairlab.org/">AirLab</a>, <a href="https://www.ri.cmu.edu/">CMU Robotics Institute</a>.</li>

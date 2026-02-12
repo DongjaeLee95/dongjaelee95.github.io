@@ -17,6 +17,9 @@
         - name: Video
           link: https://youtu.be/t0-__4vfCNQ
 
+- title: Journal Articles
+  classname: j
+  publications:
     - title: Switching control of underactuated multi-channel systems with input constraints for cooperative manipulation
       image: "/gif/2025KTH_switching.gif"
       is_first_author: true
@@ -24,17 +27,17 @@
         - D. Lee
         - D. V. Dimarogonas
         - H. J. Kim
-      default:
-        remark: under review (journal submission)
+      journal:
+        name: IEEE Transactions on Control Systems Technology
+        abrv: TCST
+        date: 2026
+        remark: accepted
       links:
         - name: Paper 
           link: https://arxiv.org/abs/2511.22810
         - name: Video
           link: https://youtu.be/V-vnKdy3tG0
 
-- title: Journal Articles
-  classname: j
-  publications:
     - title: Safe Multimodal Replanning via Projection-based Trajectory Clustering in Crowded Environments
       image: "/img/2026ral_lim.png"
       authors:
