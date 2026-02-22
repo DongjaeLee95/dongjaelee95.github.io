@@ -213,7 +213,7 @@
                         yearContainer = document.createElement('div');
                         yearContainer.style.marginTop = '20px';
                         yearContainer.style.marginBottom = '10px';
-                        yearContainer.style.maxWidth = '700px';
+                        yearContainer.style.maxWidth = '850px';
                         
                         // Year header - displayed above publications
                         var yearHeader = document.createElement('h4');
@@ -235,7 +235,7 @@
                     } else {
                         // No year - create simple container
                         yearContainer = document.createElement('div');
-                        yearContainer.style.maxWidth = '700px';
+                        yearContainer.style.maxWidth = '850px';
                         listContainer = document.createElement('div');
                         ol = document.createElement('ol');
                         ol.className = 'pub ' + classname;
@@ -251,7 +251,7 @@
                 pubContent.removeAttribute('data-title');
                 // Ensure publication content maintains proper width
                 if (!pubContent.style.maxWidth) {
-                    pubContent.style.maxWidth = '700px';
+                    pubContent.style.maxWidth = '850px';
                     pubContent.style.overflow = 'hidden';
                     pubContent.style.display = 'flex';
                 }
