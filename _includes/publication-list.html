@@ -36,17 +36,17 @@
                 {% assign pub_year = first_part %}
             {% endif %}
         {% endif %}
-        <div data-year="{{ pub_year }}" data-title="{{ pub.title }}">
+        <div data-year="{{ pub_year }}" data-title="{{ pub.title }}" style="overflow: visible;">
             {% if pub.image %}
-                <div style="float: left; width: 45%; margin-right: 10px;">
-                    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="max-width: 100%; height: auto; border-radius: 5px;" onclick="openModal(this.src)">
+                <div style="float: left; width: 55%; margin-right: 10px; min-width: 0; overflow: visible; display: block;">
+                    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="width: 100%; height: auto; border-radius: 5px; display: block;" onclick="openModal(this.src)">
                 </div>
             {% endif %}     
-            <div style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 70%;">
+            <div style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 70%; overflow: visible;">
                 {% if pub.post %}
-                    <a href="{{ pub.post }}">{{ pub.title }}</a>
+                    <a href="{{ pub.post }}"><b>{{ pub.title }}</b></a>
                 {% else %}
-                    {{ pub.title }}
+                    <b>{{ pub.title }}</b>
                 {% endif %}
                 <br>
                 {% for author in pub.authors %}
@@ -268,6 +268,29 @@
                 container.appendChild(yearContainer);
             }
         });
+        
+        // 컨테이너 너비에 따라 폰트 크기 조정
+        adjustFontSizeByContainer(container);
+    }
+    
+    // 컨테이너 너비에 따라 폰트 크기 동적 조정
+    function adjustFontSizeByContainer(container) {
+        var containerWidth = container.offsetWidth;
+        var maxWidth = 850; // 기준 최대 너비
+        var baseFontSize = 0.95; // 기준 폰트 크기 (em)
+        
+        // 컨테이너 너비에 비례하여 폰트 크기 조정
+        // 컨테이너가 작아질수록 폰트도 작아지도록
+        var scaleFactor = Math.min(containerWidth / maxWidth, 1);
+        var adjustedFontSize = baseFontSize * scaleFactor;
+        
+        // 최소값과 최대값 제한
+        adjustedFontSize = Math.max(0.4, Math.min(adjustedFontSize, 0.95));
+        
+        var pubLists = container.querySelectorAll('ol.pub');
+        pubLists.forEach(function(ol) {
+            ol.style.fontSize = adjustedFontSize + 'em';
+        });
     }
     
     // Execute after DOM is loaded
@@ -276,5 +299,16 @@
     } else {
         processPublications();
     }
+    
+    // 리사이즈 이벤트 리스너 - 모든 컨테이너에 대해 폰트 크기 재조정
+    var resizeTimer;
+    window.addEventListener('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+            document.querySelectorAll('.publications-container').forEach(function(container) {
+                adjustFontSizeByContainer(container);
+            });
+        }, 100);
+    });
 })();
 </script>

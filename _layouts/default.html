@@ -14,6 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal homepage of Dongjae Lee">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         ul li {
             margin-bottom: 3px;
@@ -71,12 +74,13 @@
         }
 
         body {
-            /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #ffffff;
             font-size: 15px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
         header, footer {
@@ -232,27 +236,51 @@
         }
 
         ol.pub {
-            font-size: 0.9em;
+            font-size: clamp(0.5em, 1.5vw, 0.95em);
             line-height: 1.3em;
         }
+        
+        /* 반응형: 작은 화면에서 이미지와 텍스트 비율 유지 */
+        @media (max-width: 1200px) {
+            ol.pub {
+                font-size: clamp(0.5em, 1.8vw, 0.95em);
+            }
+        }
+        
+        @media (max-width: 850px) {
+            ol.pub {
+                font-size: clamp(0.45em, 2.5vw, 0.95em);
+            }
+        }
+        
+        @media (max-width: 600px) {
+            ol.pub {
+                font-size: clamp(0.4em, 3vw, 0.95em);
+            }
+        }
+        
+        @media (max-width: 400px) {
+            ol.pub {
+                font-size: clamp(0.35em, 3.5vw, 0.95em);
+            }
+        }
+        ol.pub {
+            list-style: none;
+            counter-reset: item;
+            padding-left: 0;
+        }
         ol.pub>li {
-            padding-left: 1em;
+            padding-left: 0;
             padding-bottom: 1em;
+            counter-increment: item;
         }
-        ol.u>li::marker {
-            content: "[U" counter(list-item) "]";
-        }
-        ol.m>li::marker {
-            content: "[M" counter(list-item) "]";
-        }
-        ol.j>li::marker {
-            content: "[J" counter(list-item) "]";
-        }
-        ol.c>li::marker {
-            content: "[C" counter(list-item) "]";
-        }
+        /* 마커 제거 - 이미지와 텍스트 비율 보존을 위해 */
+        ol.u>li::marker,
+        ol.m>li::marker,
+        ol.j>li::marker,
+        ol.c>li::marker,
         ol.h>li::marker {
-            content: "[H" counter(list-item) "]";
+            content: "";
         }
     </style>
 </head>
