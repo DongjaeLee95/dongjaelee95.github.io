@@ -4,7 +4,7 @@ title: Home
 ---
 
 ## Bio
-Dongjae Lee is an incoming Assistant Professor in the Department of Mechanical Engineering at Kyung Hee University. He is currently a Visiting Postdoctoral Researcher at the Robotics Institute, Carnegie Mellon University, co-advised by Prof. Guanya Shi and Prof. Sebastian Scherer. He received the B.S. and M.S. degrees in Mechanical and Aerospace Engineering in 2018 and 2020, respectively, and the Ph.D. degree in Aerospace Engineering in 2025, all from Seoul National University, where he was advised by Prof. H. Jin Kim. In 2024, he was a visiting Ph.D. student in the Division of Decision and Control Systems at KTH Royal Institute of Technology, advised by Prof. Dimos V. Dimarogonas. His research interests include planning and control for robotic systems.
+Dongjae Lee is an Assistant Professor in the School of Mechanical Engineering at Kyung Hee University. Before joining Kyung Hee University, he was a Visiting Postdoctoral Researcher at the Robotics Institute, Carnegie Mellon University, co-advised by Prof. Guanya Shi and Prof. Sebastian Scherer. He received the B.S. and M.S. degrees in Mechanical and Aerospace Engineering in 2018 and 2020, respectively, and the Ph.D. degree in Aerospace Engineering in 2025, all from Seoul National University, where he was advised by Prof. H. Jin Kim. In 2024, he was a visiting Ph.D. student in the Division of Decision and Control Systems at KTH Royal Institute of Technology, advised by Prof. Dimos V. Dimarogonas. His research interests include planning and control for robotic systems.
 
 <!-- ---
 ## Research Interests
@@ -73,6 +73,7 @@ Dongjae Lee is an incoming Assistant Professor in the Department of Mechanical E
 ---
 ## Recent News
 <ul id="news-container">
+<li> <u>[Mar. 2026]</u> Appointed as Assistant Professor at <a href="https://me.khu.ac.kr/me/user/main/view.do">Mechanical Engineering, Kyung Hee University</a>.</li>
 <li> <u>[Feb. 2026]</u> One <a href="https://arxiv.org/abs/2511.22810">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87">IEEE TCST</a>.</li>
 <li> <u>[Jan. 2026]</u> Two papers (<a href="https://arxiv.org/abs/2510.01675">paper1</a>, <a href="https://arxiv.org/abs/2510.02614">paper2</a>) accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.</li>
 <li> <u>[Jan. 2026]</u> One <a href="https://ieeexplore.ieee.org/document/11359671">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369">IEEE RA-L</a>.</li>
