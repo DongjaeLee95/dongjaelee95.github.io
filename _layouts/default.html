@@ -10,18 +10,177 @@
         gtag('config', 'G-STJWD73E3Y');
     </script>
     <meta charset="UTF-8">
-    <meta name="title" content="{{ page.tile }} - {{ site.title }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal homepage of Dongjae Lee">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{{ site.title }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
-        ul li {
-            margin-bottom: 3px;
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: 'Lato', Verdana, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #222;
+            font-size: 15px;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
+        a { color: #1772d0; text-decoration: none; }
+        a:hover, a:focus { color: #f09228; text-decoration: none; cursor: pointer; }
+
+        .page {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 48px 20px 60px;
+        }
+
+        /* ---------- Profile header ---------- */
+        .profile {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            align-items: stretch;
+            justify-content: center;
+            gap: 28px;
+            text-align: center;
+        }
+
+        .profile-photo {
+            flex: 0 0 auto;
+        }
+
+        .profile-photo img {
+            width: 150px;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .profile-text { flex: 1 1 380px; }
+
+        .profile-text h1 {
+            font-size: 2.2em;
+            margin: 0 0 6px 0;
+        }
+
+        .profile-text .position {
+            margin: 0 0 14px 0;
+            color: #444;
+        }
+
+        .profile-links {
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px 18px;
+        }
+
+        .profile-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .link-icon {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+        }
+
+        /* ---------- Bio ---------- */
+        .bio {
+            text-align: left;
+            margin-top: 32px;
+        }
+
+        .bio p { margin: 0 0 1em 0; }
+
+        /* ---------- Section headings ---------- */
+        section.block {
+            margin-top: 36px;
+            padding-top: 28px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        section.block h2 {
+            text-align: left;
+            font-size: 1.4em;
+            margin: 0 0 14px 0;
+        }
+
+        section.block > p.subnote {
+            margin: -8px 0 14px 0;
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        /* ---------- News ---------- */
+        #news-container {
+            list-style-position: outside;
+            margin: 0;
+            padding-left: 1.25em;
+        }
+
+        #news-container li { margin-bottom: 8px; }
+
+        #news-toggle {
+            cursor: pointer;
+            margin-top: 12px;
+            color: #1772d0;
+            user-select: none;
+            font-size: 0.95em;
+        }
+
+        #news-toggle:hover { color: #f09228; text-decoration: underline; }
+
+        /* ---------- Publications ---------- */
+        .pub-list { margin-top: 4px; }
+
+        .pub-item {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            padding: 16px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .pub-item:last-child { border-bottom: none; }
+
+        .pub-thumb {
+            flex: 0 0 260px;
+            max-width: 260px;
+        }
+
+        .pub-thumb img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            cursor: pointer;
+            display: block;
+        }
+
+        .pub-text { flex: 1 1 auto; min-width: 0; }
+
+        .pub-text.pub-featured { background-color: #fff7dc; border-radius: 6px; padding: 10px 12px; margin: -10px -12px; }
+
+        .pub-title { font-weight: 700; margin: 0 0 6px 0; }
+        .pub-authors { margin: 0 0 4px 0; }
+        .pub-venue { margin: 0 0 4px 0; color: #333; }
+        .pub-award { margin: 0 0 4px 0; }
+        .pub-links { margin: 4px 0 0 0; }
+
+        @media (max-width: 560px) {
+            .pub-item { flex-direction: column; }
+            .pub-thumb { max-width: 100%; }
+        }
+
+        /* ---------- Image modal ---------- */
         .modal {
             display: none;
             position: fixed;
@@ -32,320 +191,62 @@
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgb(0,0,0);
             background-color: rgba(0,0,0,0.9);
         }
-        
+
         .modal-content {
             margin: auto;
             display: block;
             width: 80%;
             max-width: 700px;
         }
-        
-        .modal-content img {
-            width: 100%;
-            height: auto;
-        }
-        
+
+        .modal-content img { width: 100%; height: auto; }
+
         .close {
             color: #aaaaaa;
             float: right;
             font-size: 28px;
             font-weight: bold;
         }
-        
-        .close:hover,
-        .close:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
 
-        figure {
-            position: relative;
-        }
+        .close:hover, .close:focus { color: #fff; cursor: pointer; }
 
-        figcaption {
-            position: relative;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            font-size: 15px;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        header, footer {
-            align-items: center;
-            background-color: #fdf6e3;
-            border-color: #000000;
-            padding: 0em;
-        }
-
-        div.footer {
-            text-align: right;
-            max-width: 850px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+        footer {
+            text-align: center;
             padding: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            word-break: keep-all;
-        }
-
-        footer p {
-            font-size: 0.7em;
-            line-height: 0%;
-        }
-
-        div.navigation {
-            display: flex;
-            max-width: 850px;
-            align-items: center;
-            padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 0px;
-            padding-bottom: 0px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        div.namecard {
-            display: flex;
-            flex-wrap: wrap-reverse;
-            align-items: center;
-            justify-content: space-between;
-            max-width: 850px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            padding: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            word-break: keep-all;
-        }
-
-        div.namecard div.text {
-            display: block;
-            align-items: center;
-            max-width: 70%;
-            padding: 0px;
-            margin: 0px;
-            min-width: 300px;
-        }
-
-        div.namecard img {
-            width: 150px;
-            border-radius: 30%;
-        }
-
-        div.full-block>div.left {
-            text-align: left;
-            max-width: 70%;
-        }
-        div.full-block>div.right {
-            max-width: 30%;
-            text-align: right;
-        }
-
-        /* img {
-            max-height: 200px;
-        } */
-
-        section {
-            max-width: 850px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        table {
-            width: 100%;
-        }
-
-        a {
-            text-decoration: none;
-            color: #005090;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            cursor: pointer;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
-        }
-
-        small {
-            font-weight:normal;
-            font-size: 0.6em;
-        }
-
-        p {
-            font-size: 1em;
-            line-height: 1.5;
-        }
-
-        p>strong {
-            font-size: 1.2em;
-        }
-
-        .projects {
-            margin-top: 20px;
-        }
-
-        .project {
-            background-color: #fff;
-            padding: 10px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            transition: background-color 0.3s ease;
-        }
-
-        .project:hover {
-            background-color: #e6e6e6; /* Change the color for hover effect */
-        }
-
-        .project img {
-            max-width: 100px; /* Adjust the width as needed */
-            height: auto;
-            border-radius: 8px;
-            margin-right: 20px; /* Added horizontal space between video and text */
-        }
-
-        .project div {
-            flex: 1;
-        }
-
-        .highlighted {
-            background-color: #ffeeba; /* Background color for important projects */
-        }
-
-        .highlighted:hover {
-            background-color: #ffcc80; /* Change the hover color for important projects */
-        }
-
-        ol.pub {
-            font-size: clamp(0.5em, 1.5vw, 1.1em);
-            line-height: 1.3em;
-        }
-        
-        /* 반응형: 작은 화면에서 이미지와 텍스트 비율 유지 */
-        @media (max-width: 1200px) {
-            ol.pub {
-                font-size: clamp(0.5em, 1.8vw, 1.1em);
-            }
-        }
-        
-        @media (max-width: 850px) {
-            ol.pub {
-                font-size: clamp(0.45em, 2.5vw, 1.1em);
-            }
-        }
-        
-        @media (max-width: 600px) {
-            ol.pub {
-                font-size: clamp(0.4em, 3vw, 1.1em);
-            }
-        }
-        
-        @media (max-width: 400px) {
-            ol.pub {
-                font-size: clamp(0.35em, 3.5vw, 1.1em);
-            }
-        }
-        ol.pub {
-            list-style: none;
-            counter-reset: item;
-            padding-left: 0;
-        }
-        ol.pub>li {
-            padding-left: 0;
-            padding-bottom: 1em;
-            counter-increment: item;
-        }
-        /* 마커 제거 - 이미지와 텍스트 비율 보존을 위해 */
-        ol.u>li::marker,
-        ol.m>li::marker,
-        ol.j>li::marker,
-        ol.c>li::marker,
-        ol.h>li::marker {
-            content: "";
+            color: #999;
+            font-size: 0.8em;
         }
     </style>
 </head>
 <body>
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>`
-        <img class="modal-content" id="img01">
-      </div>
+    {% include icon-sprite.html %}
 
-      <script>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <script>
         function openModal(src) {
             var modal = document.getElementById("myModal");
             var modalImg = document.getElementById("img01");
             modal.style.display = "block";
             modalImg.src = src;
             var span = document.getElementsByClassName("close")[0];
-            span.onclick = function() { 
+            span.onclick = function() {
                 modal.style.display = "none";
             }
         }
     </script>
 
-    <div id="top"></div>
-    <div class="navigation">
-        <p>
-            <a href="/">Home</a> |
-            <a href="/research_page">Research</a> |
-            <a href="/publications">Publications</a> 
-        </p>
+    <div class="page">
+        {{ content }}
     </div>
-    <header>
-        <div class="namecard">
-            <div class="namecard text">
-                <h1>Dongjae Lee </h1>
-                <p>
-                    Assistant Professor <br>
-                    <a href="https://me.khu.ac.kr/me/user/main/view.do">Mechanical Engineering, Kyung Hee University</a>
-                </p>
-                <!-- <p>
-                    Visiting Postdoctoral Researcher <br>
-                    <a href="https://lecar-lab.github.io/">LeCAR</a> (co-advisor: Prof. <a href="https://www.gshi.me/">Guanya Shi</a>) <br>
-                    <a href="https://theairlab.org/">AirLab</a> (co-advisor: Prof. <a href="https://scholar.google.com/citations?user=gxoPfIYAAAAJ&hl=de">Sebastian Scherer</a>) <br>
-                    <a href="https://www.ri.cmu.edu/">Robotics Institute, Carnegie Mellon University</a>
-                </p> -->
-                <p>
-                    <a href="mailto:ehdwo713@snu.ac.kr">Email</a> |
-                    <a href="/files/dongjae_cv.pdf">Curriculum Vitae</a> |
-                    <a href="https://www.linkedin.com/in/dongjae-lee-a25484224/">LinkedIn</a> |
-                    <a href="https://scholar.google.com/citations?user=bybQkQEAAAAJ">Google Scholar</a> |
-                    <a href="https://www.youtube.com/@DongjaeLee95">Youtube</a>
-                </p>
-            </div>
-            <!-- <img src="/img/dongjae.jpg" alt="Photo of Dongjae"> -->
-            <img src="/img/dongjae_kth.png" alt="Photo of Dongjae">
-        </div>
-    </header>
-
-    <section>
-      {{ content }}
-    </section>
 
     <footer>
-        <div class="footer">
-            <p>Last Updated : {{ site.last-updated }}</p>
-        </div>
+        <p>Last updated: {{ site.last-updated }}</p>
     </footer>
 </body>
 </html>

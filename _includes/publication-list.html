@@ -1,314 +1,37 @@
-{% assign selected_papers = include.selected_papers %}
-
-{% for publist in publications %}
-{% assign filtered_publications = "" | split: "," %}
-{% for pub in publist.publications %}
-{% if selected_papers.size == 0 %}
-    {% assign filtered_publications = filtered_publications | push: pub %}
-{% else %}
-    {% if selected_papers contains pub.title %}
-        {% assign filtered_publications = filtered_publications | push: pub %}
-    {% endif %}
-{% endif %}
-{% endfor %}
-
-{% if filtered_publications.size > 0 %}
-<h3>{{ publist.title }}</h3>
-<div class="publications-container" data-classname="{{ publist.classname }}">
-{% for pub in filtered_publications %}
-    <div class="publication-item" style="display: none;">
-        {% comment %} Data attributes for year extraction {% endcomment %}
-        {% assign pub_year = "" %}
-        {% if pub.journal.date %}
-            {% assign date_parts = pub.journal.date | split: " " %}
-            {% for part in date_parts %}
-                {% assign part_num = part | plus: 0 %}
-                {% if part_num > 1900 and part_num < 2100 %}
-                    {% assign pub_year = part %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-        {% elsif pub.conference.name %}
-            {% assign conf_parts = pub.conference.name | split: " " %}
-            {% assign first_part = conf_parts[0] %}
-            {% assign first_part_num = first_part | plus: 0 %}
-            {% if first_part_num > 1900 and first_part_num < 2100 %}
-                {% assign pub_year = first_part %}
-            {% endif %}
+<!-- publication-list.html : renders a single, chronologically-ordered list of
+     publications with no separation between journals and conference papers. -->
+{% assign pubs = site.data.publications | sort: "sort_key" | reverse %}
+<div class="pub-list">
+{% for pub in pubs %}
+    <div class="pub-item">
+        {% if pub.image %}
+        <div class="pub-thumb">
+            <img src="{{ pub.image }}" alt="{{ pub.title }}" onclick="openModal(this.src)">
+        </div>
         {% endif %}
-        <div data-year="{{ pub_year }}" data-title="{{ pub.title }}" style="overflow: visible;">
-            {% if pub.image %}
-                <div style="float: left; width: 55%; margin-right: 10px; min-width: 0; overflow: visible; display: block;">
-                    <img src="{{ pub.image }}" alt="{{ pub.title }}" style="width: 100%; height: auto; border-radius: 5px; display: block;" onclick="openModal(this.src)">
-                </div>
-            {% endif %}     
-            <div style="{% if pub.is_first_author %}background-color: #ffeeba;{% endif %}; width: 70%; overflow: visible;">
-                {% if pub.post %}
-                    <a href="{{ pub.post }}"><b>{{ pub.title }}</b></a>
-                {% else %}
-                    <b>{{ pub.title }}</b>
-                {% endif %}
-                <br>
+        <div class="pub-text{% if pub.featured %} pub-featured{% endif %}">
+            <p class="pub-title">{{ pub.title }}</p>
+            <p class="pub-authors">
                 {% for author in pub.authors %}
-                    {% if forloop.length == 1 %}
-                        {% if author contains "D. Lee" or author contains "Dongjae Lee" %}
-                            <b><ins>{{ author }}</ins></b>
-                        {% else %}
-                            {{ author }}
-                        {% endif %}
-                    {% else %}
-                        {% if forloop.last %}
-                            {% if author contains "D. Lee" or author contains "Dongjae Lee" %}
-                                and <b><ins>{{ author }}</ins></b>
-                            {% else %}
-                                and {{ author }}
-                            {% endif %}
-                        {% else %}
-                            {% if author contains "D. Lee" or author contains "Dongjae Lee" %}
-                                <b><ins>{{ author }}</ins></b>,
-                            {% else %}
-                                {{ author }},
-                            {% endif %}
-                        {% endif %}
-                    {% endif %}
+                    {% if author contains "D. Lee" or author contains "Dongjae Lee" %}<b><u>{{ author }}</u></b>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
-                {% if pub.info %}
-                    <br><i>{{ pub.info }}</i>
-                {% endif %}
-                {% if pub.conference %}
-                    <br><i>{{ pub.conference.name }} (<b>{{ pub.conference.abrv }}</b>)</i>
-                    {% if pub.conference.remark %}
-                        ({{ pub.conference.remark }})
-                    {% endif %}
-                {% endif %}
-                {% if pub.journal %}
-                    <br><i>{{ pub.journal.name }} (<b>{{ pub.journal.abrv }}</b>)</i>
-                    {% if pub.journal.vol %}
-                        vol. {{ pub.journal.vol }},
-                    {% endif %}
-                    {% if pub.journal.issue %}
-                        no. {{ pub.journal.issue }},
-                    {% endif %}
-                    {% if pub.journal.pages %}
-                        pp. {{ pub.journal.pages }},
-                    {% endif %}
-                    {% if pub.journal.date %}
-                        {{ pub.journal.date }}.
-                    {% endif %}
-                    {% if pub.journal.remark %}
-                        ({{ pub.journal.remark }})
-                    {% endif %}
-                {% endif %}
-                {% if pub.award %}
-                    <br><b>{{ pub.award }}</b>
-                {% endif %}
-                {% if pub.links %}
-                    <br>
-                    {% for link in pub.links %}
-                        <a href="{{ link.link }}">{{ link.name }}</a>{% unless forloop.last %} | {% endunless %}
-                    {% endfor %}
-                {% endif %}
-            </div>
+            </p>
+            {% if pub.venue.name %}
+            <p class="pub-venue">
+                <i>{{ pub.venue.name }} ({{ pub.venue.abrv }})</i>, {{ pub.sort_key | floor }}{% if pub.venue.remark %} ({{ pub.venue.remark }}){% endif %}
+            </p>
+            {% elsif pub.venue.remark %}
+            <p class="pub-venue"><i>{{ pub.venue.remark }}</i></p>
+            {% endif %}
+            {% if pub.award %}
+            <p class="pub-award"><b>{{ pub.award }}</b></p>
+            {% endif %}
+            {% if pub.links %}
+            <p class="pub-links">
+                {% for link in pub.links %}<a href="{{ link.link }}">{{ link.name }}</a>{% unless forloop.last %} &nbsp;|&nbsp; {% endunless %}{% endfor %}
+            </p>
+            {% endif %}
         </div>
     </div>
 {% endfor %}
 </div>
-{% endif %}
-{% endfor %}
-
-
-<script>
-(function() {
-    function processPublications() {
-        // Process all publications-container elements
-        document.querySelectorAll('.publications-container').forEach(function(container) {
-            var classname = container.getAttribute('data-classname');
-            var publications = [];
-            var publicationItems = container.querySelectorAll('.publication-item');
-            
-            // Collect all publications in original order
-            var allPublications = [];
-            publicationItems.forEach(function(item, index) {
-                var pubDiv = item.querySelector('[data-year]');
-                if (pubDiv) {
-                    var year = pubDiv.getAttribute('data-year') || '';
-                    var title = pubDiv.getAttribute('data-title') || '';
-                    allPublications.push({
-                        year: year,
-                        element: item,
-                        title: title,
-                        originalIndex: index
-                    });
-                }
-            });
-            
-            // Group publications by year
-            var publicationsByYear = {};
-            var noYearPublications = [];
-            
-            allPublications.forEach(function(pub) {
-                if (pub.year && pub.year !== '') {
-                    if (!publicationsByYear[pub.year]) {
-                        publicationsByYear[pub.year] = [];
-                    }
-                    publicationsByYear[pub.year].push(pub);
-                } else {
-                    noYearPublications.push(pub);
-                }
-            });
-            
-            // Sort years in descending order (newest first)
-            var sortedYears = Object.keys(publicationsByYear).sort(function(a, b) {
-                return parseInt(b) - parseInt(a);
-            });
-            
-            // Sort publications within each year by original index (maintain original order)
-            sortedYears.forEach(function(year) {
-                publicationsByYear[year].sort(function(a, b) {
-                    return a.originalIndex - b.originalIndex;
-                });
-            });
-            noYearPublications.sort(function(a, b) {
-                return a.originalIndex - b.originalIndex;
-            });
-            
-            // Build flat list of all publications in correct order (newest first, maintaining order within years)
-            var orderedPublications = [];
-            sortedYears.forEach(function(year) {
-                orderedPublications = orderedPublications.concat(publicationsByYear[year]);
-            });
-            orderedPublications = orderedPublications.concat(noYearPublications);
-            
-            // Calculate total publication count
-            var totalCount = orderedPublications.length;
-            var publicationNumber = totalCount;
-            
-            // Clear existing content
-            container.innerHTML = '';
-            
-            // Track current year to show year header
-            var currentYear = null;
-            var yearContainer = null;
-            var listContainer = null;
-            var ol = null;
-            var yearStartNumber = null;
-            
-            // Display publications maintaining order
-            orderedPublications.forEach(function(pub, index) {
-                // If year changed, create new year section
-                if (pub.year !== currentYear) {
-                    // Close previous year section if exists
-                    if (yearContainer && ol) {
-                        listContainer.appendChild(ol);
-                        yearContainer.appendChild(listContainer);
-                        container.appendChild(yearContainer);
-                    }
-                    
-                    currentYear = pub.year;
-                    // Start number for this year group (first publication in group gets this number)
-                    yearStartNumber = publicationNumber;
-                    
-                    if (pub.year && pub.year !== '') {
-                        // Create new year container
-                        yearContainer = document.createElement('div');
-                        yearContainer.style.marginTop = '20px';
-                        yearContainer.style.marginBottom = '10px';
-                        yearContainer.style.maxWidth = '850px';
-                        
-                        // Year header - displayed above publications
-                        var yearHeader = document.createElement('h4');
-                        yearHeader.textContent = pub.year;
-                        yearHeader.style.margin = '0 0 10px 0';
-                        yearHeader.style.fontSize = '1.2em';
-                        yearHeader.style.fontWeight = 'bold';
-                        yearHeader.style.color = '#333';
-                        
-                        // Publication list container
-                        listContainer = document.createElement('div');
-                        
-                        ol = document.createElement('ol');
-                        ol.className = 'pub ' + classname;
-                        ol.setAttribute('reversed', '');
-                        ol.setAttribute('start', yearStartNumber);
-                        
-                        yearContainer.appendChild(yearHeader);
-                    } else {
-                        // No year - create simple container
-                        yearContainer = document.createElement('div');
-                        yearContainer.style.maxWidth = '850px';
-                        listContainer = document.createElement('div');
-                        ol = document.createElement('ol');
-                        ol.className = 'pub ' + classname;
-                        ol.setAttribute('reversed', '');
-                        ol.setAttribute('start', yearStartNumber);
-                    }
-                }
-                
-                // Add publication to current list
-                var li = document.createElement('li');
-                var pubContent = pub.element.querySelector('[data-year]').cloneNode(true);
-                pubContent.removeAttribute('data-year');
-                pubContent.removeAttribute('data-title');
-                // Ensure publication content maintains proper width
-                if (!pubContent.style.maxWidth) {
-                    pubContent.style.maxWidth = '850px';
-                    pubContent.style.overflow = 'hidden';
-                    pubContent.style.display = 'flex';
-                }
-                li.appendChild(pubContent);
-                ol.appendChild(li);
-                
-                publicationNumber--;
-            });
-            
-            // Close last year section
-            if (yearContainer && ol) {
-                listContainer.appendChild(ol);
-                yearContainer.appendChild(listContainer);
-                container.appendChild(yearContainer);
-            }
-        });
-        
-        // 컨테이너 너비에 따라 폰트 크기 조정
-        adjustFontSizeByContainer(container);
-    }
-    
-    // 컨테이너 너비에 따라 폰트 크기 동적 조정
-    function adjustFontSizeByContainer(container) {
-        var containerWidth = container.offsetWidth;
-        var maxWidth = 850; // 기준 최대 너비
-        var baseFontSize = 1.3; // 기준 폰트 크기 (em)
-        
-        // 컨테이너 너비에 비례하여 폰트 크기 조정
-        // 컨테이너가 작아질수록 폰트도 작아지도록
-        var scaleFactor = Math.min(containerWidth / maxWidth, 1);
-        var adjustedFontSize = baseFontSize * scaleFactor;
-        
-        // 최소값과 최대값 제한
-        adjustedFontSize = Math.max(0.5, Math.min(adjustedFontSize, 1.3));
-        
-        var pubLists = container.querySelectorAll('ol.pub');
-        pubLists.forEach(function(ol) {
-            ol.style.fontSize = adjustedFontSize + 'em';
-        });
-    }
-    
-    // Execute after DOM is loaded
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', processPublications);
-    } else {
-        processPublications();
-    }
-    
-    // 리사이즈 이벤트 리스너 - 모든 컨테이너에 대해 폰트 크기 재조정
-    var resizeTimer;
-    window.addEventListener('resize', function() {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(function() {
-            document.querySelectorAll('.publications-container').forEach(function(container) {
-                adjustFontSizeByContainer(container);
-            });
-        }, 100);
-    });
-})();
-</script>

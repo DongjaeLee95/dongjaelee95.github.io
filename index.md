@@ -3,76 +3,35 @@ layout: default
 title: Home
 ---
 
-## Bio
-Dongjae Lee is an Assistant Professor in the School of Mechanical Engineering at Kyung Hee University. Before joining Kyung Hee University, he was a Visiting Postdoctoral Researcher at the Robotics Institute, Carnegie Mellon University, co-advised by Prof. Guanya Shi and Prof. Sebastian Scherer. He received the B.S. and M.S. degrees in Mechanical and Aerospace Engineering in 2018 and 2020, respectively, and the Ph.D. degree in Aerospace Engineering in 2025, all from Seoul National University, where he was advised by Prof. H. Jin Kim. In 2024, he was a visiting Ph.D. student in the Division of Decision and Control Systems at KTH Royal Institute of Technology, advised by Prof. Dimos V. Dimarogonas. His research interests include planning and control for robotic systems.
-
-<!-- ---
-## Research Interests
-- Aerial Manipulation
-- Robot-Environment Interaction
-- Robust/Adaptive Control
-- Trajectory Optimization
-- Cooperative Control -->
-
----
-## Research Highlight
-<div class="gif-container">
-    <div class="gif-item">
-        <img src="gif/2026icra_umionair_HL_8X.gif" onclick="window.location.href='https://umi-on-air.github.io';">
+<div class="profile">
+    <div class="profile-text">
+        <h1>Dongjae Lee</h1>
+        <p class="position">
+            Assistant Professor <br>
+            <a href="https://me.khu.ac.kr/me/user/main/view.do">Mechanical Engineering, Kyung Hee University</a> <br>
+            Contact: <a href="mailto:dongjaelee@khu.ac.kr">dongjaelee@khu.ac.kr</a>
+        </p>
+        <p class="profile-links">
+            <a href="https://arsl-khu.github.io/"><svg class="link-icon"><use href="#icon-lab"></use></svg>Lab</a>
+            <a href="/files/dongjae_cv.pdf"><svg class="link-icon"><use href="#icon-cv"></use></svg>Curriculum Vitae</a>
+            <a href="https://www.linkedin.com/in/dongjae-lee-a25484224/"><svg class="link-icon"><use href="#icon-linkedin"></use></svg>LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=bybQkQEAAAAJ"><svg class="link-icon"><use href="#icon-scholar"></use></svg>Google Scholar</a>
+            <a href="https://www.youtube.com/@DongjaeLee95"><svg class="link-icon"><use href="#icon-youtube"></use></svg>Youtube</a>
+        </p>
     </div>
-    <div class="gif-item">
-        <img src="gif/2024IJRR_omnimani_4X_cprsed.gif" onclick="window.location.href='https://youtu.be/ZKdBBr1UoJA';">
-    </div>
-    <div class="gif-item">
-        <img src="gif/2025KTH_switching.gif" onclick="window.location.href='https://youtu.be/V-vnKdy3tG0';">
-    </div>
-    <div class="gif-item">
-        <img src="gif/2024RAL_palletrone_4X_cprsed.gif" onclick="window.location.href='https://www.youtube.com/watch?v=9hvRhZIhFR4';">
-    </div>
-    <div class="gif-item">
-        <img src="gif/2023IROS_perching_2X_cprsed.gif" onclick="window.location.href='https://www.youtube.com/watch?v=hT7qpPF2z9w';">
-    </div>
-    <div class="gif-item">
-        <img src="gif/2024RAM_excavator_32X_cprsed.gif" onclick="window.location.href='https://www.youtube.com/watch?v=E4emCP-wNF4';">
-    </div>
-    <div class="gif-item">
-        <img src="gif/2021RAL_pushing_2X_cprsed.gif" onclick="window.location.href='https://www.youtube.com/watch?v=htWzBzq9BIs';">
+    <div class="profile-photo">
+        <img src="/img/dongjae_kth.png" alt="Photo of Dongjae Lee">
     </div>
 </div>
 
-<style>
-.gif-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; /* spacing adjustment */
-}
+<div class="bio">
+<p>I am an Assistant Professor in the School of Mechanical Engineering at Kyung Hee University, where I lead the <a href="https://arsl-khu.github.io/">Agile Robotics and Systems Lab</a>. Before joining Kyung Hee University, I was a Postdoctoral Researcher at the Robotics Institute, Carnegie Mellon University, co-advised by Prof. <a href="https://lecar-lab.github.io/">Guanya Shi</a> and Prof. <a href="https://theairlab.org/">Sebastian Scherer</a>. I received the B.S. and M.S. degrees in Mechanical and Aerospace Engineering in 2018 and 2020, respectively, and the Ph.D. degree in Aerospace Engineering in 2025, all from Seoul National University, where I was advised by Prof. <a href="https://larr.snu.ac.kr/">H. Jin Kim</a>. In 2024, I was a visiting Ph.D. student in the Division of Decision and Control Systems at KTH Royal Institute of Technology, advised by Prof. <a href="https://people.kth.se/~dimos/">Dimos V. Dimarogonas</a>. My research interests span robotics and control broadly, with a particular focus on learning-based robot control and decision-making, aerial/cooperative manipulation, and whole-body control.</p>
+</div>
 
-.gif-item {
-    flex: 1 1 calc(50% - 10px); /* 2 items per row by default */
-    max-width: calc(50% - 10px);
-    text-align: center;
-}
-
-.gif-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 600px) {
-    .gif-item {
-        flex: 1 1 100%; /* 1 item per row */
-        max-width: 100%;
-    }
-}
-</style>
-
-
----
-## Recent News
+<section class="block" id="news">
+<h2>News</h2>
 <ul id="news-container">
+<li> <u>[Jun. 2026]</u> Our <a href="files/2025IJRR.pdf">paper</a> was featured on the cover of <a href="https://journals.sagepub.com/home/ijr">IJRR</a>.</li>
 <li> <u>[Mar. 2026]</u> Appointed as Assistant Professor at <a href="https://me.khu.ac.kr/me/user/main/view.do">Mechanical Engineering, Kyung Hee University</a>.</li>
 <li> <u>[Feb. 2026]</u> One <a href="https://arxiv.org/abs/2511.22810">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87">IEEE TCST</a>.</li>
 <li> <u>[Jan. 2026]</u> Two papers (<a href="https://arxiv.org/abs/2510.01675">paper1</a>, <a href="https://arxiv.org/abs/2510.02614">paper2</a>) accepted to <a href="https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra">IEEE ICRA</a>.</li>
@@ -94,16 +53,17 @@ Dongjae Lee is an Assistant Professor in the School of Mechanical Engineering at
 <li class="news-hidden" style="display: none;"> <u>[Apr. 2024]</u> One <a href="https://ieeexplore.ieee.org/abstract/document/10697977">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=100">IEEE RAM</a>.</li>
 <li class="news-hidden" style="display: none;"> <u>[Mar. 2024]</u> Began research visit at <a href="https://people.kth.se/~dimos/">Distributed Hybrid Systems Group, KTH</a>.</li>
 </ul>
-<div id="news-toggle" style="cursor: pointer; margin-top: 10px; color: #0066cc; user-select: none;">
-    <span id="toggle-text">Show more ▼</span>
+<div id="news-toggle">
+    <span id="toggle-text">Show more &#9660;</span>
 </div>
+</section>
 
-<style>
-#news-toggle:hover {
-    color: #004499;
-    text-decoration: underline;
-}
-</style>
+<section class="block" id="publications">
+<h2>Publications</h2>
+<p class="subnote">* equal contribution &nbsp;/&nbsp; highlighted rows indicate representative papers</p>
+
+{% include publication-list.html %}
+</section>
 
 <script>
 (function() {
@@ -111,20 +71,20 @@ Dongjae Lee is an Assistant Professor in the School of Mechanical Engineering at
     var toggleButton = document.getElementById('news-toggle');
     var toggleText = document.getElementById('toggle-text');
     var isExpanded = false;
-    
+
     if (hiddenNewsItems.length > 0 && toggleButton) {
         toggleButton.addEventListener('click', function() {
             if (isExpanded) {
                 hiddenNewsItems.forEach(function(item) {
                     item.style.display = 'none';
                 });
-                toggleText.textContent = 'Show more ▼';
+                toggleText.innerHTML = 'Show more &#9660;';
                 isExpanded = false;
             } else {
                 hiddenNewsItems.forEach(function(item) {
                     item.style.display = 'list-item';
                 });
-                toggleText.textContent = 'Collapse ▲';
+                toggleText.innerHTML = 'Collapse &#9650;';
                 isExpanded = true;
             }
         });
