@@ -20,7 +20,7 @@ title: Home
         </p>
     </div>
     <div class="profile-photo">
-        <img src="/img/dongjae_kth.png" alt="Photo of Dongjae Lee">
+        <img src="/img/dongjae_2607.jpg" alt="Photo of Dongjae Lee">
     </div>
 </div>
 

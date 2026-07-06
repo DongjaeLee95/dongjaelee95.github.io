@@ -11,3 +11,5 @@ codekit-config.json
 node_modules
 npm-debug.log*
 .jekyll-cache
+.bundle/
+vendor/
