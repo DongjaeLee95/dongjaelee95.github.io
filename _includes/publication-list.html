@@ -13,7 +13,11 @@
             <p class="pub-title">{{ pub.title }}</p>
             <p class="pub-authors">
                 {% for author in pub.authors %}
-                    {% if author contains "D. Lee" or author contains "Dongjae Lee" %}<b><u>{{ author }}</u></b>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}
+                    {% assign author_key = author | replace: "*", "" %}
+                    {% assign author_url = site.data.authors[author_key] %}
+                    {% assign is_self = false %}
+                    {% if author contains "D. Lee" or author contains "Dongjae Lee" %}{% assign is_self = true %}{% endif %}
+                    {% if author_url %}<a class="author-link" href="{{ author_url }}"{% unless author_url == "/" %} target="_blank" rel="noopener"{% endunless %}>{% endif %}{% if is_self %}<b><u>{{ author }}</u></b>{% else %}{{ author }}{% endif %}{% if author_url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
             </p>
             {% if pub.venue.name %}
