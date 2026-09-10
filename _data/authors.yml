@@ -1,0 +1,24 @@
+# Homepage lookup for publication authors.
+# Keys must match names in publications.yml, without the equal-contribution "*".
+# Only include a link when a personal (or faculty/lab) page is known.
+
+"D. Lee": "/"
+"H. J. Kim": "https://larr.snu.ac.kr/"
+"D. V. Dimarogonas": "https://people.kth.se/~dimos/"
+"G. Shi": "https://www.gshi.me/"
+"S. Scherer": "https://theairlab.org/team/sebastian/"
+"J. Geng": "https://aerogjy.github.io/"
+"S. Song": "https://shurans.github.io/"
+"S. J. Lee": "https://mrl.seoultech.ac.kr/"
+"X. Guo": "https://xiaofeng-guo.github.io/"
+"M. Cao": "https://caomuqing.github.io/"
+"H. Ha": "https://huy-ha.github.io/"
+"C. Pan": "https://chuerpan.com/"
+"J. Byun": "https://jh-byun.github.io/"
+"I. Jang": "https://janginkyu.github.io/"
+"D. D. Oh": "https://donggeondavidoh.github.io/"
+"C. Kim": "https://chkim.net/"
+"H. Gupta": "https://hgupt3.github.io/"
+"D. Kim": "https://dabinkim-lgom.github.io/"
+"Y. Jiang": "https://jiang-yufei.github.io/"
+"J. Xie": "https://jia-xie.com/"

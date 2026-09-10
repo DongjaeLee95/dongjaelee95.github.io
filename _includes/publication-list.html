@@ -1,0 +1,41 @@
+<!-- publication-list.html : renders a single, chronologically-ordered list of
+     publications with no separation between journals and conference papers. -->
+{% assign pubs = site.data.publications | sort: "sort_key" | reverse %}
+<div class="pub-list">
+{% for pub in pubs %}
+    <div class="pub-item">
+        {% if pub.image %}
+        <div class="pub-thumb">
+            <img src="{{ pub.image }}" alt="{{ pub.title }}" onclick="openModal(this.src)">
+        </div>
+        {% endif %}
+        <div class="pub-text{% if pub.featured %} pub-featured{% endif %}">
+            <p class="pub-title">{{ pub.title }}</p>
+            <p class="pub-authors">
+                {% for author in pub.authors %}
+                    {% assign author_key = author | replace: "*", "" %}
+                    {% assign author_url = site.data.authors[author_key] %}
+                    {% assign is_self = false %}
+                    {% if author contains "D. Lee" or author contains "Dongjae Lee" %}{% assign is_self = true %}{% endif %}
+                    {% if author_url %}<a class="author-link" href="{{ author_url }}"{% unless author_url == "/" %} target="_blank" rel="noopener"{% endunless %}>{% endif %}{% if is_self %}<b><u>{{ author }}</u></b>{% else %}{{ author }}{% endif %}{% if author_url %}</a>{% endif %}{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+            </p>
+            {% if pub.venue.name %}
+            <p class="pub-venue">
+                <i>{{ pub.venue.name }} ({{ pub.venue.abrv }})</i>, {{ pub.sort_key | floor }}{% if pub.venue.remark %} ({{ pub.venue.remark }}){% endif %}
+            </p>
+            {% elsif pub.venue.remark %}
+            <p class="pub-venue"><i>{{ pub.venue.remark }}</i></p>
+            {% endif %}
+            {% if pub.award %}
+            <p class="pub-award"><b>{{ pub.award }}</b></p>
+            {% endif %}
+            {% if pub.links %}
+            <p class="pub-links">
+                {% for link in pub.links %}<a href="{{ link.link }}">{{ link.name }}</a>{% unless forloop.last %} &nbsp;|&nbsp; {% endunless %}{% endfor %}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}
+</div>
