@@ -17,3 +17,7 @@ bundle install
 
 # local PC에 있는 repository에서 다음과 같이 실행하면 localhost 실행
 bundle exec jekyll serve
+
+# Windows: Smart App Control이 Windows용 Ruby를 차단하므로 WSL(Ubuntu-24.04)에서 실행
+# 프로젝트 폴더의 PowerShell에서 실행 후 http://127.0.0.1:4000 접속
+wsl -d Ubuntu-24.04 -u root -- bundle exec jekyll serve --force_polling

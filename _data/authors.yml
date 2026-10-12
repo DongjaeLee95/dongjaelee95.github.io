@@ -1,6 +1,9 @@
 # Homepage lookup for publication authors.
-# Keys must match names in publications.yml, without the equal-contribution "*".
+# Keys must match names in publications.yml, without the "*" and "†" markers.
 # Only include a link when a personal (or faculty/lab) page is known.
+# When two different people share an abbreviated name (e.g. "J. Lee"), write the
+# author in publications.yml as `{ name: "J. Lee*", key: "Jaewoo Lee" }` and use
+# the full name as the key here.
 
 "D. Lee": "/"
 "H. J. Kim": "https://larr.snu.ac.kr/"
@@ -22,3 +25,12 @@
 "D. Kim": "https://dabinkim-lgom.github.io/"
 "Y. Jiang": "https://jiang-yufei.github.io/"
 "J. Xie": "https://jia-xie.com/"
+"Jaewoo Lee": "https://jwleesnu.github.io/"
+"J. Seo": "https://jeong-yeon-seo.github.io/"
+"S. Cho": "https://cstrinng.github.io/"
+"G. Choe": "https://gyeong-rak.github.io/"
+"Y. Wang": "https://ywang760.github.io/"
+"B. Saravanan": "https://bavin-hub.github.io/"
+"J.-B. Huang": "https://jbhuang0604.github.io/"
+"F. Huang": "https://furong-huang.com/"
+"S. Lee": "https://sjlee.cc/"
