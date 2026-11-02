@@ -128,16 +128,27 @@
         }
 
         #news-container li { margin-bottom: 8px; }
+        #news-container li:nth-child(n+6) { display: none; }
 
-        #news-toggle {
-            cursor: pointer;
+        #news-controls {
             margin-top: 12px;
-            color: #1772d0;
-            user-select: none;
             font-size: 0.95em;
+            display: flex;
+            gap: 16px;
         }
 
-        #news-toggle:hover { color: #f09228; text-decoration: underline; }
+        #news-more,
+        #news-less {
+            cursor: pointer;
+            color: #1772d0;
+            user-select: none;
+        }
+
+        #news-more:hover,
+        #news-less:hover { color: #f09228; text-decoration: underline; }
+
+        #news-more[hidden],
+        #news-less[hidden] { display: none; }
 
         /* ---------- Publications ---------- */
         .pub-list { margin-top: 4px; }

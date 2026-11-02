@@ -42,7 +42,9 @@
     - S. Lee†
     - D. Lee†
   venue:
-    remark: arXiv preprint
+    name: 2026 Conference on Robot Learning
+    abrv: CoRL
+    remark: Late-Breaking Results
   links:
     - name: Paper
       link: https://arxiv.org/abs/2610.12549
