@@ -31,10 +31,12 @@ title: Home
 <section class="block" id="news">
 <h2>News</h2>
 <ul id="news-container">
+<li> <u>[Nov. 2026]</u> Gave an invited talk at <a href="https://naira.mechse.illinois.edu/">Naira Hovakimyan's lab</a>, UIUC.</li>
 <li> <u>[Nov. 2026]</u> One <a href="https://arxiv.org/abs/2610.12549">paper</a> (<a href="https://fly-by-code.github.io/">Fly-by-Code</a>) accepted to <a href="https://www.corl.org/contributions/call-for-late-breaking-results">CoRL Late-Breaking Results</a>.</li>
 <li> <u>[Oct. 2026]</u> Gave a keynote at the <a href="https://www.dragon.t.u-tokyo.ac.jp/all-events/workshop-aar-2026/">2nd Workshop on Advanced Aerial Robotics</a>, University of Tokyo.</li>
 <li> <u>[Oct. 2026]</u> New <a href="https://arxiv.org/abs/2610.12549">preprint</a> on embodied coding agents for aerial manipulation (<a href="https://fly-by-code.github.io/">Fly-by-Code</a>).</li>
 <li> <u>[Sep. 2026]</u> One <a href="https://arxiv.org/abs/2609.00641">paper</a> accepted to <a href="https://www.corl.org/">CoRL</a>.</li>
+<li> <u>[Aug. 2026]</u> Lectured at the <a href="https://www.irobotnews.com/news/articleView.html?idxno=48199">Physical AI professional training program</a>, Seoul AI Hub.</li>
 <li> <u>[Jun. 2026]</u> Our <a href="files/2025IJRR.pdf">paper</a> was featured on the cover of <a href="https://journals.sagepub.com/home/ijr">IJRR</a>.</li>
 <li> <u>[Mar. 2026]</u> Appointed as Assistant Professor at <a href="https://me.khu.ac.kr/me/user/main/view.do">Mechanical Engineering, Kyung Hee University</a>.</li>
 <li> <u>[Feb. 2026]</u> One <a href="https://arxiv.org/abs/2511.22810">paper</a> accepted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=87">IEEE TCST</a>.</li>
